@@ -1,3 +1,1 @@
 import whisper
-
-print('poop')
