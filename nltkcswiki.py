@@ -19,9 +19,21 @@ filteredSentence = []
 for index,word in enumerate(wordsInSentence):  # iaterate through tokenized sentence
     if word.casefold() not in stoplist or taggedSentence[index][1][0] != "P":
         filteredSentence.append(word)  
-        print(taggedSentence[index])  # detect non-filler words
-
+        # print(taggedSentence[index])  # detect non-filler words
 
 print(
- f"\nOriginal Sentence: {sentence}\n\nTokenized Sentence:\n {wordsInSentence}\n\nTagged Sentence: (look at the tagging slide to get this)\n{taggedSentence}\n\nFiltered Sentence:\n {filteredSentence}\n\n"
+ f"Filtered Sentence:\n {filteredSentence}\n"
 )
+
+with open("cswords.txt", "r") as f:
+    for line in f:
+        line = line.rstrip()
+
+        # if csword matches word in query
+        # TODO: make this work with spaces lol
+        # making this work with spaces will become O(n^2) where n is word count
+
+        if line in filteredSentence:
+            print("associated topic found: ", line)
+
+
