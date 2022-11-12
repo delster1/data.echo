@@ -11,6 +11,7 @@ nltk.download("wordnet")
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
 lemmatizer = WordNetLemmatizer()
 
+auxVerbs = ["be","can","could","do","have","would","will","shall","must","might","may"]
 def strToLemmatized(inp):
     out = []
     temp = word_tokenize(inp)
@@ -29,30 +30,30 @@ def fixInput(inp):
             out.append(word)
     return out
 
+def tagWords(inp): #tag words according to aux verb or part of speech for parse
+    inp = inp.split(" ")
+    for index, word in enumerate(inp):
+        out = []
+        auxIndexes = []
+        tag = ""
+        if word in auxVerbs:
+            out.append([word,"VAX"])
+        else:
+            out.append(nltk.pos_tag([word]))
+    return out
+            
 
-sentence = input("enter a question\n")  #	sentence to be processed
+def findType(inp):
+    out = ""
+    for ind,obj in enumerate(inp):
+        if ind == 0 and obj[1] == "VAX":
+            out = "y/n"
 
-wordsInSentence = word_tokenize(sentence)  # tokenizing sentence by
-wordsInSentence = [lemmatizer.lemmatize(word) for word in wordsInSentence]
-taggedSentence = nltk.pos_tag(wordsInSentence)  # tagging sentence by POS
-print(taggedSentence)
-cswords = open('cswords.txt', 'r')
-cswordslines = cswords.readlines()
-
-toResearch = []
-
-filteredSentence = []
-for line in cswordslines:
-    for word in wordsInSentence:
-        if word in stoplist:
-            wordsInSentence.remove(word)
-        elif word in line:
-            toResearch.append([word,line])
-
-
-# print(cswords)
 def main():
-    print("toResearch: ", toResearch)
+    sentence = input("enter a question\n")  #	sentence to be processed
+    taggedQuestion = tagWords(sentence)
+    findType(taggedQuestion)
+
 
 if __name__ == '__main__':
     main() 
