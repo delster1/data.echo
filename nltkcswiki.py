@@ -1,25 +1,11 @@
-import nltk
-from nltk.corpus import stopwords  # stop words from nltk
-from nltk.tokenize import word_tokenize  # tokenizer function
+# import nltkquestionlab
+from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 
-nltk.download("punkt")  #	downloads
-nltk.download("stopwords")  #	downloads
-nltk.download("averaged_perceptron_tagger")  #	downloads
+import requests  # this is so i can use a link to get html output
+import re  # python regex library (used ln 11)
 
-stoplist = set(
- stopwords.words("english"))  #	initalized stopwords in english from nltk
-
-sentence = input("enter a question\n")  #	sentence to be processed
-
-wordsInSentence = word_tokenize(sentence)  # tokenizing sentence by
-
-taggedSentence = nltk.pos_tag(wordsInSentence)  # tagging sentence by POS
-
-filteredSentence = []
-for index,word in enumerate(wordsInSentence):  # iaterate through tokenized sentence
-    if word.casefold() not in stoplist or taggedSentence[index][1][0] != "P":
-        filteredSentence.append(word)  
-        # print(taggedSentence[index])  # detect non-filler words
+filteredSentence = ['what', 'is', 'string']
+glossaryURL = "https://en.wikipedia.org/wiki/Glossary_of_computer_science"
 
 print(
  f"Filtered Sentence:\n {filteredSentence}\n"
@@ -27,13 +13,27 @@ print(
 
 with open("cswords.txt", "r") as f:
     for line in f:
-        line = line.rstrip()
+        line = line.rstrip().split(" ")
 
         # if csword matches word in query
         # TODO: make this work with spaces lol
         # making this work with spaces will become O(n^2) where n is word count
 
-        if line in filteredSentence:
-            print("associated topic found: ", line)
+        for set_size in range(len(filteredSentence), 0, -1):
+            for i in range(0, len(filteredSentence)):
+                term = filteredSentence[i:set_size]
 
+                # simple powerset of filteredSentence
+                # if term makes sure the term isnt empty
+                if term:
+                    if term in line or term == line:
+                        topic = "_".join(term)
+                        print("associated topic: ", topic)
+                        
+                        response = requests.get(glossaryURL) # turn url into html
+                        soup = bs(response.content, 'html.parser')  # turn html into soup
+
+                        paragraphs = soup.find_all('p')
+
+                        print(paragraphs[1].text)
 
