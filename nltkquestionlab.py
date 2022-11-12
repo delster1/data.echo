@@ -6,9 +6,29 @@ from nltk.stem import WordNetLemmatizer
 nltk.download("punkt")  #	downloads
 nltk.download("stopwords")  #	downloads
 nltk.download("averaged_perceptron_tagger")  #	downloads
-lemmatizer = WordNetLemmatizer()
+nltk.download("wordnet")
 
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
+lemmatizer = WordNetLemmatizer()
+
+def strToLemmatized(inp):
+    out = []
+    temp = word_tokenize(inp)
+    temp = [lemmatizer.lemmatize(word) for word in temp]
+    for word in temp:
+        if word not in stoplist:
+            out.append(word)
+    return out
+
+def fixInput(inp):
+    out = []
+    temp = word_tokenize(inp)
+    temp = [lemmatizer.lemmatize(word) for word in temp]
+    for word in temp:
+        if word not in stoplist:
+            out.append(word)
+    return out
+
 
 sentence = input("enter a question\n")  #	sentence to be processed
 
@@ -22,21 +42,17 @@ cswordslines = cswords.readlines()
 toResearch = []
 
 filteredSentence = []
-<<<<<<< HEAD
 for line in cswordslines:
     for word in wordsInSentence:
         if word in stoplist:
             wordsInSentence.remove(word)
         elif word in line:
             toResearch.append([word,line])
-=======
-for index,word in enumerate(wordsInSentence):  # iaterate through tokenized sentence
-    if word.casefold() not in stoplist or taggedSentence[index][1][0] != "P":
-        filteredSentence.append(word)  
-        print(taggedSentence[index])  # detect non-filler words
->>>>>>> 0ad88099105343e1438aa287605ab2a4c4aef018
 
 
 # print(cswords)
+def main():
+    print("toResearch: ", toResearch)
 
-print("toResearch: ", toResearch)
+if __name__ == '__main__':
+    main() 
