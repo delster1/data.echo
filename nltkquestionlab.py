@@ -6,9 +6,29 @@ from nltk.stem import WordNetLemmatizer
 nltk.download("punkt")  #	downloads
 nltk.download("stopwords")  #	downloads
 nltk.download("averaged_perceptron_tagger")  #	downloads
-lemmatizer = WordNetLemmatizer()
+nltk.download("wordnet")
 
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
+lemmatizer = WordNetLemmatizer()
+
+def strToLemmatized(inp):
+    out = []
+    temp = word_tokenize(inp)
+    temp = [lemmatizer.lemmatize(word) for word in temp]
+    for word in temp:
+        if word not in stoplist:
+            out.append(word)
+    return out
+
+def fixInput(inp):
+    out = []
+    temp = word_tokenize(inp)
+    temp = [lemmatizer.lemmatize(word) for word in temp]
+    for word in temp:
+        if word not in stoplist:
+            out.append(word)
+    return out
+
 
 sentence = input("enter a question\n")  #	sentence to be processed
 
@@ -31,5 +51,8 @@ for line in cswordslines:
 
 
 # print(cswords)
+def main():
+    print("toResearch: ", toResearch)
 
-print("toResearch: ", toResearch)
+if __name__ == '__main__':
+    main() 
