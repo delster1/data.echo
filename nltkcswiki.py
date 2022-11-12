@@ -1,39 +1,38 @@
-import nltk
-from nltk.corpus import stopwords  # stop words from nltk
-from nltk.tokenize import word_tokenize  # tokenizer function
+import nltkquestionlab as nql
+from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 
-nltk.download("punkt")  #	downloads
-nltk.download("stopwords")  #	downloads
-nltk.download("averaged_perceptron_tagger")  #	downloads
+import requests  # this is so i can use a link to get html output
+import re  # python regex library (used ln 11)
 
-stoplist = set(
- stopwords.words("english"))  #	initalized stopwords in english from nltk
+sentence = "what is a web crawler"
 
-sentence = input("enter a question\n")  #	sentence to be processed
+filteredSentence = nql.strToLemmatized(sentence)
 
-wordsInSentence = word_tokenize(sentence)  # tokenizing sentence by
+print(f"Filtered Sentence:\n {filteredSentence}\n")
 
-taggedSentence = nltk.pos_tag(wordsInSentence)  # tagging sentence by POS
+glossaryURL = "https://en.wikipedia.org/wiki/Glossary_of_computer_science"
 
-filteredSentence = []
-for index,word in enumerate(wordsInSentence):  # iaterate through tokenized sentence
-    if word.casefold() not in stoplist or taggedSentence[index][1][0] != "P":
-        filteredSentence.append(word)  
-        # print(taggedSentence[index])  # detect non-filler words
+response = requests.get(glossaryURL) # turn url into html
+soup = bs(response.content, 'html.parser')  # turn html into soup
 
-print(
- f"Filtered Sentence:\n {filteredSentence}\n"
-)
+for topic in soup.find_all(re.compile('^dt')):
+    topic = topic.contents[0].contents[0].get_text().rstrip().split(" ")
 
-with open("cswords.txt", "r") as f:
-    for line in f:
-        line = line.rstrip()
+    # if csword matches term in query
+    # making this work with spaces is O(n^2) where n is word count
+    for set_size in range(len(filteredSentence), 0, -1):
+        for i in range(0, len(filteredSentence)):
+            term = filteredSentence[i:set_size]
 
-        # if csword matches word in query
-        # TODO: make this work with spaces lol
-        # making this work with spaces will become O(n^2) where n is word count
+            # simple powerset of filteredSentence
+            # if term makes sure the term isnt empty
 
-        if line in filteredSentence:
-            print("associated topic found: ", line)
+            if term:
+                if term == topic:
+                    topic = "_".join(term)
+                    print("associated topic: ", topic)
 
+                    ptags = soup.find_all(id=topic)
 
+                    for i in ptags:
+                        print(i.text)

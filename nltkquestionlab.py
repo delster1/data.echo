@@ -7,6 +7,7 @@ nltk.download("punkt")  #	downloads
 nltk.download("stopwords")  #	downloads
 nltk.download("averaged_perceptron_tagger")  #	downloads
 nltk.download("wordnet")
+nltk.download('omw-1.4')
 
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
 lemmatizer = WordNetLemmatizer()
