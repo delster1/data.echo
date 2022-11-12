@@ -22,12 +22,19 @@ cswordslines = cswords.readlines()
 toResearch = []
 
 filteredSentence = []
+<<<<<<< HEAD
 for line in cswordslines:
     for word in wordsInSentence:
         if word in stoplist:
             wordsInSentence.remove(word)
         elif word in line:
             toResearch.append([word,line])
+=======
+for index,word in enumerate(wordsInSentence):  # iaterate through tokenized sentence
+    if word.casefold() not in stoplist or taggedSentence[index][1][0] != "P":
+        filteredSentence.append(word)  
+        print(taggedSentence[index])  # detect non-filler words
+>>>>>>> 0ad88099105343e1438aa287605ab2a4c4aef018
 
 
 # print(cswords)
