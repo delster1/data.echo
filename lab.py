@@ -1,9 +1,13 @@
+import warnings
 import whisper
 import recordaudio as ra
 
-print("test")
+# ignore warning caused by model.transcribe()
+warnings.filterwarnings('ignore')
+
 ra.record_audio()
 
-model = whisper.load_model("base")
-result = model.transcribe("output.wav")
+model = whisper.load_model("base.en")
+ 
+result = model.transcribe("input.wav")
 print(result['text'])
