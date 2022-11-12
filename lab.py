@@ -2,8 +2,8 @@ import warnings
 import whisper
 import recordaudio as ra
 
-# ignore warning caused by model.transcribe()
-warnings.filterwarnings('ignore')
+# ignore warnings caused by model.transcribe()
+warnings.filterwarnings(action='ignore', category=UserWarning)
 
 ra.record_audio()
 
