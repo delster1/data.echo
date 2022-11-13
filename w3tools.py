@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
-from anytree import Node, RenderTree
 import requests  # this is so i can use a link to get html output
 import random
 
@@ -76,6 +75,3 @@ def main():
 
 	print(out)
 	return out
-
-for item in data:
-	print(item.name)
