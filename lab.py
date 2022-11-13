@@ -1,7 +1,7 @@
 import warnings
 import whisper
 import recordaudio as ra
-import nltkcswiki as ncwiki
+import cswiki
 
 # ignore warnings caused by model.transcribe()
 warnings.filterwarnings(action='ignore', category=UserWarning)
@@ -14,7 +14,7 @@ result = str(model.transcribe("input.wav")['text'])
 
 print(result)
 
-markup = ncwiki.search_cswiki(result)
+markup = cswiki.search_cswiki(result)
 
 if markup is not None:
-    print(ncwiki.clean_markup(markup, True, 'wiki').prettify())
+    print(cswiki.clean_markup(markup, True, 'wiki').prettify())

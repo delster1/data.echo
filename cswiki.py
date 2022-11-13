@@ -1,4 +1,4 @@
-import nltkquestionlab as nql
+import nltktools as nql
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 from bs4 import SoupStrainer as strainer # import for soupstrainer
 import bs4
