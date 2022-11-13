@@ -5,11 +5,11 @@ from nltk.tokenize import word_tokenize  # tokenizer function
 from nltk.stem import WordNetLemmatizer
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 
-nltk.download("punkt")  #	downloads
-nltk.download("stopwords")  #	downloads
-nltk.download("averaged_perceptron_tagger")  #	downloads
-nltk.download("wordnet")
-nltk.download('omw-1.4')
+nltk.download("punkt", quiet=True)  #	downloads
+nltk.download("stopwords", quiet=True)  #	downloads
+nltk.download("averaged_perceptron_tagger", quiet=True)  #	downloads
+nltk.download("wordnet", quiet=True)
+nltk.download('omw-1.4', quiet=True)
 
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
 lemmatizer = WordNetLemmatizer()
@@ -109,10 +109,10 @@ def findType(inp: list): #function to sort tagged input by question type (yes or
         print(f'ind: {ind}, obj: {obj}\n\n')
 
 
-        firstWord = obj[0][-1]
-        print(firstWord)
+        currentObj = obj[0][1]
+        print(currentObj)
 
-        match firstWord:
+        match currentObj:
             case 'QW':
                 print("101: ",inp[1][0][1])
                 if(ind == 0 and inp[1][0][1] == "VBZ" and inp[2][0][1] == "DT"):
@@ -160,13 +160,13 @@ def findArgs(arr,qType,ct):
 
 # https://www.englishclub.com/vocabulary/wh-question-words.htm USE THIS FOR AUX VERBS
 def main():
-    sentence = "What is a boolean expression"  #	sentence to be processed
+    sentence = "what is a boolean expression"  #	sentence to be processed
 
     tutorials = tutorialGlossary()
     # print(tutorialsArr,"\n\n")
     tagged = tagWords(sentence)
     taggedQuestion = tagged[0]
-    count =tagged[1]
+    count = tagged[1]
 
     # topicsGlossary(tutorialsLinksArr) 
     questionType = findType(taggedQuestion)
