@@ -46,31 +46,24 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
 
 # search website for info to answer question
 def search_cswiki(sentence: str) -> str:
-    sentence = sentence.casefold()
-    tutorials = tutorialGlossary()
-    # print(tutorialsArr,"\n\n")
-    tagged = tagWords(sentence)
+    tagged = tagWords(sentence.casefold())
     taggedQuestion = tagged[0]
     count = tagged[1]
-
-    # topicsGlossary(tutorialsLinksArr) 
+    
     qtype = findType(taggedQuestion)
-    args = findArgs(taggedQuestion,qtype,count)
+    args = findArgs(taggedQuestion, qtype, count)
+    print(args)
 
     qtype = findType(tagWords(sentence))
 
-    url = ''
-    match qtype:
-        case 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
-        case 'EXAMPLE': url = 'https://www.w3schools.com'
-        case _:
-            print(f'Invalid Question Type: {qtype}')
-            url = 'https://www.w3schools.com'
-
-
+    if qtype == 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
+    
     response = requests.get(url)
 
     match qtype:
+        case 'EXAMPLE': # w3
+            pass
+
         case 'WHAT':
             only_glossary = strainer(attrs={'class': 'glossary'})
             soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
@@ -86,9 +79,6 @@ def search_cswiki(sentence: str) -> str:
                         return tag.find_next('dd')
 
             # TODO: search w3schools
-
-        case 'EXAMPLE': # w3
-            pass
 
         case _:
             print('More question types haven\'t been implemented yet!')
