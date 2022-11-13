@@ -18,4 +18,6 @@ data = w3.find_all(attrs={'class': 'w3-col l3 m6 w3-hide-medium'})
 data += w3.find_all(attrs={'class': 'w3-col l3 m6'})
 
 for item in data:
-	print(item.name)
+	for i in item.children:
+		if i.name == 'a':
+			print(i.attrs['href'])

@@ -46,17 +46,20 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
 
 # search website for info to answer question
 def search_cswiki(sentence: str) -> str:
-    url = ''
-    tagged = tagWords(sentence.casefold())
+    sentence = sentence.casefold()
+    tutorials = tutorialGlossary()
+    # print(tutorialsArr,"\n\n")
+    tagged = tagWords()
     taggedQuestion = tagged[0]
     count = tagged[1]
-    
+
+    # topicsGlossary(tutorialsLinksArr) 
     qtype = findType(taggedQuestion)
-    args = findArgs(taggedQuestion, qtype, count)
-    print(args)
+    args = findArgs(taggedQuestion,qtype,count)
 
     qtype = findType(tagWords(sentence))
 
+    url = ''
     match qtype:
         case 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
         case 'EXAMPLE': url = 'https://www.w3schools.com'
