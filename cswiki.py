@@ -49,7 +49,7 @@ def search_cswiki(sentence: str) -> str:
     sentence = sentence.casefold()
     tutorials = tutorialGlossary()
     # print(tutorialsArr,"\n\n")
-    tagged = tagWords()
+    tagged = tagWords(sentence)
     taggedQuestion = tagged[0]
     count = tagged[1]
 
