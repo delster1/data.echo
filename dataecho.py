@@ -35,7 +35,7 @@ def main():
     # test sentence
     sentence = 'what is a boolean expression'
 
-    print(f'\n----------------\n\nTranscribed audio: {sentence}\n\n')
+    print(f'\n----------------\n\nTranscribed audio: {sentence}\n')
 
     #to create output file
     outfile = open('out.html', 'w')
@@ -59,11 +59,7 @@ def main():
             case "WHAT":
                 cleanHTML = cswiki.clean_markup(markup, True, 'wiki').prettify()
                 
-                
-
                 outfile.write(cleanHTML)
-
-                
 
                 soup = bs(cleanHTML, 'html.parser')
 
