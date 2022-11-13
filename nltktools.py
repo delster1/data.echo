@@ -15,7 +15,7 @@ lemmatizer = WordNetLemmatizer()
 #arrays for terms that determine sentence
 questionWords = ["what"]
 exWords = ["how","why"]
-auxVerbs = ["be","can","could","do","have","would","will","shall","must","might","may"]
+# auxVerbs = ["be","can","could","do","have","would","will","shall","must","might","may"]
 
 def strToLemmatized(inp): # IGNORE
     out = []
@@ -26,21 +26,14 @@ def strToLemmatized(inp): # IGNORE
             out.append(word)
     return out
 
-def fixInput(inp): # TOKENIZE AND LEMMAITZE INPUT
-    out = []
-    temp = word_tokenize(inp)
-    temp = [lemmatizer.lemmatize(word) for word in temp]
-    temp = out
-    return out
-
-def tagWords(inp): #tag words according to aux verb or part of speech for parse
+def tagWords(inp: str): #tag words according to aux verb or part of speech for parse
     inp = inp.split(" ")
     out = []
 
     for index, word in enumerate(inp):
-        if word in auxVerbs:
-            out.append([word,"VAX"]) # Word is an auxillary verb
-        elif word in questionWords:
+        # if word in auxVerbs:
+        #     out.append([word,"VAX"]) # Word is an auxillary verb
+        if word in questionWords:
             out.append([word,"QW"]) # word is a question word
         elif word in exWords:
             out.append([word,"EW"]) # word is an example word
@@ -50,13 +43,13 @@ def tagWords(inp): #tag words according to aux verb or part of speech for parse
     return out
             
 
-def findType(inp): #function to sort tagged input by question type (yes or no/what/example)
+def findType(inp: list): #function to sort tagged input by question type (yes or no/what/example)
     out = ""
     for ind,obj in enumerate(inp):
-        if ind == 0 and obj[1] == "VAX":
-            return "Y/N"
-            print("y/n")
-        elif obj[1] == "QW":
+        # if ind == 0 and obj[1] == "VAX":
+        #     return "Y/N"
+        #     print("y/n")
+        if obj[1] == "QW":
             return "WHAT"
         elif obj[1] == "EW":
             return "EXAMPLE"

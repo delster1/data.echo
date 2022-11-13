@@ -1,9 +1,8 @@
 import nltktools as nql
-from bs4 import BeautifulSoup as bs  # import for beautifulsoup
-from bs4 import SoupStrainer as strainer # import for soupstrainer
+from bs4 import BeautifulSoup as bs  # import for beautifulsoup\
+from bs4 import SoupStrainer as strainer
 import bs4
 import requests  # this is so i can use a link to get html output
-import re  # python regex library (used ln 11)
 
 # takes glossary html and fixes hrefs inside to link correctly
 # also offers option to clean styles
@@ -32,9 +31,11 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
                     case _:
                         pass
             case _:
-                if clean_style:
-                    if 'style' in markup.attrs:
-                        markup.attrs.pop('style', None)
+                pass
+        
+        if clean_style:
+            if 'style' in markup.attrs:
+                markup.attrs.pop('style', None)
 
         if markup.children is not None:
             for i in range(len(markup.contents)):
@@ -42,35 +43,37 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
     
     return markup
 
-# search cs glossary for terms in sentence
-def search_cswiki(sentence: str) -> str:
-    filteredSentence = nql.strToLemmatized(sentence)
+# search website for info to answer question
+def search_cswiki(sentence: str, args: list) -> str:
+    taggedQuestion = nql.tagWords(sentence)
+    print(taggedQuestion)
 
-    glossaryURL = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
+    # hopefully returns tuple of (qtype: str, args: num)
+    qtype = nql.findType(taggedQuestion)
 
-    response = requests.get(glossaryURL) # turn url into html
+    if qtype == 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
+    
+    response = requests.get(url)
 
-    only_glossary = strainer(attrs={'class': 'glossary'})
-    soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
+    match qtype:
+        case 'EXAMPLE': # w3
+            pass
 
-    for topic in soup.find_all(re.compile('^dt')):
-        topic = topic.contents[0].contents[0].get_text().rstrip().split(' ')
+        case 'WHAT': # wiki
+            only_glossary = strainer(attrs={'class': 'glossary'})
+            soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
 
-        # if glossary matches term in query
-        # since powerset, search is O(n^2) where n is word count
-        for set_size in range(len(filteredSentence), 0, -1):
-            for i in range(0, len(filteredSentence)):
-                term = filteredSentence[i:set_size]
+            # search for argument in wikipedia
+            for topic in soup.find_all('dt'):
+                if args[0] == topic.contents[0].contents[0].get_text().rstrip():
+                    args[0] = args[0].replace(' ', '_')
+                    print('found associated topic: ', args[0])
+                    
+                    # finding glossary entry from url for topic
+                    for tag in soup.find_all(id=args[0]):
+                        return tag.find_next('dd')
 
-                if term:
-                    if term == topic:
-                        topic = '_'.join(term)
-                        print('Associated CS Wikipedia Topic: ', topic)
-                        
-                        # finding glossary entry from url for topic
-                        contents = soup.find_all(id=topic)
-
-                        for tag in contents:
-                            return tag.find_next('dd')
+        case _:
+            print('More question types haven\'t been implemented yet!')
 
     return None
