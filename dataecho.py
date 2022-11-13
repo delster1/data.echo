@@ -9,8 +9,14 @@ import cswiki
 import nltktools as nql
 
 def main():
+    seconds = 4
     cmd_argc = len(sys.argv)
     match cmd_argc:
+        case 2:
+            try:
+                seconds = int(sys.argv[1])
+            except:
+                print('Usage: py dataecho.py <recording_seconds>')
         case _:
             print(cmd_argc)
 
@@ -18,18 +24,17 @@ def main():
     # warnings.filterwarnings(action='ignore', category=UserWarning)
 
     # # record audio
-    # ra.record_audio()
+    # ra.record_audio(seconds=seconds)
 
     # model = whisper.load_model('base.en')
 
     # # transcribe audio
     # sentence = str(model.transcribe('input.wav')['text'])
+    # os.remove('input.wav')
 
     sentence = 'what is a boolean expression'
 
     print(f'\n----------------\nTranscribed audio: {sentence}')
-
-    os.remove('input.wav')
 
     qtype, args = nql.findType(nql.tagWords(sentence))
     print(qtype, args)
