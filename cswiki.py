@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 from bs4 import SoupStrainer as strainer # import for soupstrainer
 import bs4
 import requests  # this is so i can use a link to get html output
-import re  # python regex library (used ln 11)
 
 # takes glossary html and fixes hrefs inside to link correctly
 # also offers option to clean styles
@@ -44,43 +43,43 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
     
     return markup
 
-# search cs glossary for terms in sentence
-def search_cswiki(sentence: str) -> str:
-    filteredSentence = nql.strToLemmatized(sentence)
+# search website for 
+def search_cswiki(sentence: str, qtype: str, operands=1, url='https://en.wikipedia.org/wiki/Glossary_of_computer_science') -> str:
+    taggedQuestion = nql.tagWords(sentence)
+    print(taggedQuestion)
+    qtype = nql.findType(taggedQuestion)
 
-    glossaryURL = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
-
-    response = requests.get(glossaryURL) # turn url into html
-
-    only_glossary = strainer(attrs={'class': 'glossary'})
-    soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
-
-    for topic in soup.find_all(re.compile('^dt')):
-        topic = topic.contents[0].contents[0].get_text().rstrip().split(' ')
-
-        # if glossary matches term in query
-        # since powerset, search is O(n^2) where n is word count
-        for set_size in range(len(filteredSentence), 0, -1):
-            for i in range(0, len(filteredSentence)):
-                term = filteredSentence[i:set_size]
-
-                if term:
-                    if term == topic:
-                        topic = '_'.join(term)
-                        
-                        # finding glossary entry from url for topic
-                        contents = soup.find_all(id=topic)
-
-                        for tag in contents:
-                            return tag.find_next('dd')
-
-    return None
-
-# takes w3schools URL and returns chunk of info about the page
-def search_w3(sentence: str, url: str) -> str:
     filteredSentence = nql.strToLemmatized(sentence)
 
     response = requests.get(url) # turn url into html
 
-    bstrainer = strainer(attrs={'class': 'glossary'})
-    soup = bs(response.content, 'html.parser', parse_only=bstrainer)  # turn html into soup
+    match qtype:
+        case "":
+            pass
+        case _:
+            pass
+
+    if url == 'https://en.wikipedia.org/wiki/Glossary_of_computer_science':
+        only_glossary = strainer(attrs={'class': 'glossary'})
+        soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
+
+        for topic in soup.find_all('dt'):
+            topic = topic.contents[0].contents[0].get_text().rstrip().split(' ')
+
+            # if glossary matches term in query
+            # since powerset, search is O(n^2) where n is word count
+            for set_size in range(len(filteredSentence), 0, -1):
+                for i in range(0, len(filteredSentence)):
+                    term = filteredSentence[i:set_size]
+
+                    if term:
+                        if term == topic:
+                            topic = '_'.join(term)
+                            
+                            # finding glossary entry from url for topic
+                            contents = soup.find_all(id=topic)
+
+                            for tag in contents:
+                                return tag.find_next('dd')
+
+    return None
