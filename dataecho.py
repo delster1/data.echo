@@ -4,6 +4,7 @@ import whisper
 import recordaudio as ra
 from bs4 import BeautifulSoup as bs
 
+import w3tools as w3
 # Local modules
 import cswiki
 from nltktools import *
@@ -61,6 +62,8 @@ def main():
                 myfile.close()
 
                 outfile.write(cleanHTML)
+
+                outfile.write(w3.main())
 
                 myfile = open("whathalftwo.txt", "r")
                 outfile.writelines(myfile.readlines())
