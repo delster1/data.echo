@@ -15,15 +15,17 @@ def main():
             print(cmd_argc)
 
     # ignore warnings caused by model.transcribe()
-    warnings.filterwarnings(action='ignore', category=UserWarning)
+    # warnings.filterwarnings(action='ignore', category=UserWarning)
 
-    # record audio
-    ra.record_audio()
+    # # record audio
+    # ra.record_audio()
 
-    model = whisper.load_model('base.en')
+    # model = whisper.load_model('base.en')
 
-    # transcribe audio
-    sentence = str(model.transcribe('input.wav')['text'])
+    # # transcribe audio
+    # sentence = str(model.transcribe('input.wav')['text'])
+
+    sentence = 'what is a boolean expression'
 
     print(f'\n----------------\nTranscribed audio: {sentence}')
 
