@@ -1,5 +1,6 @@
 import nltktools as nql
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup\
+from bs4 import SoupStrainer as strainer
 import bs4
 import requests  # this is so i can use a link to get html output
 
@@ -43,24 +44,30 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
     return markup
 
 # search website for info to answer question
-def search_cswiki(sentence: str, qtype: str, operands=1, url='') -> str:
+def search_cswiki(sentence: str) -> str:
     taggedQuestion = nql.tagWords(sentence)
     print(taggedQuestion)
+
+    # hopefully returns tuple of (qtype: str, args: num)
     qtype = nql.findType(taggedQuestion)
+    # default operand count for now
+    args = 1
+
+    if qtype == 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
 
     filteredSentence = nql.strToLemmatized(sentence)
 
-    response = requests.get(url) # turn url into html
+    response = requests.get(url)
 
     match qtype:
         case 'EXAMPLE': # w3
-            if operands == 1:
+            if args == 1:
                 print('dylan scrape')
             else:
                 print('dellie scrape')
 
         case 'WHAT': # wiki
-            only_glossary = bs.SoupStrainer(attrs={'class': 'glossary'})
+            only_glossary = strainer(attrs={'class': 'glossary'})
             soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
 
             for topic in soup.find_all('dt'):
