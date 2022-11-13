@@ -5,6 +5,7 @@ import recordaudio as ra
 from w3tools import main as w3main
 from bs4 import BeautifulSoup as bs
 
+import w3tools as w3
 # Local modules
 import cswiki
 from nltktools import *
