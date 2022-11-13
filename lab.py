@@ -17,7 +17,7 @@ result = 'what is a web crawler'
 
 print(result)
 
-markup = cswiki.search_cswiki(result) # search wikipedia w/ result
+markup = cswiki.search_cswiki(result, ['web crawler']) # search wikipedia w/ result
 
 if markup is not None:
     print(cswiki.clean_markup(markup, True, 'wiki').prettify())
