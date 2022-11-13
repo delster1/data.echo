@@ -9,7 +9,7 @@ warnings.filterwarnings(action='ignore', category=UserWarning)
 ra.record_audio()
 
 model = whisper.load_model("base.en")
- 
+
 result = str(model.transcribe("input.wav")['text'])
 
 print(result)
