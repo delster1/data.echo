@@ -77,5 +77,5 @@ def main():
 	print(out)
 	return out
 
-for item in data:
-	print(item.name)
+if __name__ == "__main__":
+	main()
