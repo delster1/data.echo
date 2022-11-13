@@ -3,14 +3,17 @@ import whisper
 import recordaudio as ra
 import cswiki
 
+# Transcribing Audio
+
 # ignore warnings caused by model.transcribe()
-warnings.filterwarnings(action='ignore', category=UserWarning)
+# warnings.filterwarnings(action='ignore', category=UserWarning)
 
-ra.record_audio()
+# ra.record_audio()
 
-model = whisper.load_model("base.en")
+# model = whisper.load_model("base.en")
 
-result = str(model.transcribe("input.wav")['text'])
+# result = str(model.transcribe("input.wav")['text'])
+result = 'what is a web crawler'
 
 print(result)
 
