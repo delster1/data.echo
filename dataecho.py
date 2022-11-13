@@ -28,7 +28,7 @@ def main():
     # record audio
     ra.record_audio(seconds=seconds)
 
-    model = whisper.load_model('base.en')
+    model = whisper.load_model('small.en')
 
     # transcribe audio
     sentence = str(model.transcribe('input.wav')['text']).casefold()
