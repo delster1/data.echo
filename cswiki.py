@@ -44,50 +44,35 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
     return markup
 
 # search website for info to answer question
-def search_cswiki(sentence: str) -> str:
+def search_cswiki(sentence: str, args: list) -> str:
     taggedQuestion = nql.tagWords(sentence)
     print(taggedQuestion)
 
     # hopefully returns tuple of (qtype: str, args: num)
     qtype = nql.findType(taggedQuestion)
-    # default operand count for now
-    args = 1
 
     if qtype == 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
-
-    filteredSentence = nql.strToLemmatized(sentence)
-
+    
     response = requests.get(url)
 
     match qtype:
         case 'EXAMPLE': # w3
-            if args == 1:
-                print('dylan scrape')
-            else:
-                print('dellie scrape')
+            pass
 
         case 'WHAT': # wiki
             only_glossary = strainer(attrs={'class': 'glossary'})
             soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
 
+            # search for argument in wikipedia
             for topic in soup.find_all('dt'):
-                topic = topic.contents[0].contents[0].get_text().rstrip().split(' ')
+                if args[0] == topic.contents[0].contents[0].get_text().rstrip():
+                    args[0] = args[0].replace(' ', '_')
+                    print('found associated topic: ', args[0])
+                    
+                    # finding glossary entry from url for topic
+                    for tag in soup.find_all(id=args[0]):
+                        return tag.find_next('dd')
 
-                # if glossary matches term in query
-                # since powerset, search is O(n^2) where n is word count
-                for set_size in range(len(filteredSentence), 0, -1):
-                    for i in range(0, len(filteredSentence)):
-                        term = filteredSentence[i:set_size]
-
-                        if term:
-                            if term == topic:
-                                topic = '_'.join(term)
-                                
-                                # finding glossary entry from url for topic
-                                contents = soup.find_all(id=topic)
-
-                                for tag in contents:
-                                    return tag.find_next('dd')
         case _:
             print('More question types haven\'t been implemented yet!')
 
