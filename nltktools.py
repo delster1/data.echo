@@ -108,7 +108,10 @@ def findType(inp: list): #function to sort tagged input by question type (yes or
         # if ind == 0 and obj[1] == "VAX":
         #     return "Y/N"
         #     print("y/n")
-        if obj[0][1] == "QW":
+        if obj[0][1] == "QW" :
+            print("101: ",inp[1][0][1])
+            if(ind == 0 and inp[1][0][1] == "VBZ" and inp[2][0][1] == "DT"):
+                return "WHAT"
             
             return "WHAT"
         elif obj[0][1] == "EW":
@@ -121,18 +124,24 @@ def findArgs(arr,qType,ct):
     print(arr)
     if ct > 1:
         if qType == "WHAT":
-            for ind,obj in enumerate(tagsArr):
-                if obj == "TUT" or obj == "TPC":
-                    args.append(arr[ind])
+            if(arr[1][0][1] == "VBZ" and arr[2][0][1] == "DT"):
+                args.append(arr[3:len(arr)])
+            else:
+                for ind,obj in enumerate(tagsArr):
+                    if obj == "TUT" or obj == "TPC":
+                        args.append(arr[ind])
         elif qType == "EXAMPLE":
             for ind,obj in enumerate(tagsArr):
                 if obj == "TUT" or obj == "TPC":
                     args.append(arr[ind])
     else:
         if qType == "WHAT":
-            for ind,obj in enumerate(tagsArr):
-                if obj == "TUT" or obj == "TPC":
-                    args.append(arr[ind])            
+            if(len(arr)-1>3 and arr[1][0][1] == "VBZ" and arr[2][0][1] == "DT"):
+                args.append(arr[3:len(arr)])
+            else:
+                for ind,obj in enumerate(tagsArr):
+                    if obj == "TUT" or obj == "TPC":
+                        args.append(arr[ind])            
         elif qType == "WHAT":
             for ind,obj in enumerate(tagsArr):
                 if obj == "TUT" or obj == "TPC":
@@ -143,7 +152,7 @@ def findArgs(arr,qType,ct):
 
 # https://www.englishclub.com/vocabulary/wh-question-words.htm USE THIS FOR AUX VERBS
 def main():
-    sentence = "what is a c++ for loop"  #	sentence to be processed
+    sentence = "what is a web crawler"  #	sentence to be processed
     
 
     tutorials = tutorialGlossary()
