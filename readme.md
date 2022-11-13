@@ -4,7 +4,7 @@
 
 ### Usage
 ```bash
-py dataecho.py
+py dataecho.py  <recording_seconds>
 ```
 
 ### Dependencies

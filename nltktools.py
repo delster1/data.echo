@@ -3,15 +3,13 @@ import nltk
 from nltk.corpus import stopwords  # stop words from nltk
 from nltk.tokenize import word_tokenize  # tokenizer function
 from nltk.stem import WordNetLemmatizer
-
-import re
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 
-nltk.download("punkt")  #	downloads
-nltk.download("stopwords")  #	downloads
-nltk.download("averaged_perceptron_tagger")  #	downloads
-nltk.download("wordnet")
-nltk.download('omw-1.4')
+nltk.download("punkt", quiet=True)  #	downloads
+nltk.download("stopwords", quiet=True)  #	downloads
+nltk.download("averaged_perceptron_tagger", quiet=True)  #	downloads
+nltk.download("wordnet", quiet=True)
+nltk.download('omw-1.4', quiet=True)
 
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
 lemmatizer = WordNetLemmatizer()
@@ -102,20 +100,31 @@ def tagWords(inp: str): #tag words according to aux verb or part of speech for p
 
 def findType(inp: list): #function to sort tagged input by question type (yes or no/what/example)
     out = ""
-    # print(inp)
-    for ind,obj in enumerate(inp):
-        # print(obj)
+    
+    for ind, obj in enumerate(inp[0]):
         # if ind == 0 and obj[1] == "VAX":
         #     return "Y/N"
         #     print("y/n")
-        if obj[0][1] == "QW" :
-            print("101: ",inp[1][0][1])
-            if(ind == 0 and inp[1][0][1] == "VBZ" and inp[2][0][1] == "DT"):
+        print(f'\n\nind: {ind}, obj: {obj}\n\n')
+
+        currentObj = obj[0]
+        # currentObj = obj[0][1]
+        currentObj = currentObj[1]
+
+        print(currentObj)
+
+        match currentObj:
+            case 'QW':
+                print(f'inp[021] = {inp[0][2][0][1]}')
+                if(ind == 0 and inp[0][1][0][1] == "VBZ" and inp[0][2][0][1] == "DT"):
+                    return "WHAT"
+                
                 return "WHAT"
-            
-            return "WHAT"
-        elif obj[0][1] == "EW":
-            return "EXAMPLE"
+            case 'EW':
+                return "EXAMPLE"
+            case _:
+                print('Unknown first word!')
+
     return out        
 
 def findArgs(arr,qType,ct):
@@ -158,7 +167,7 @@ def main():
     # print(tutorialsArr,"\n\n")
     tagged = tagWords(sentence)
     taggedQuestion = tagged[0]
-    count =tagged[1]
+    count = tagged[1]
 
     # topicsGlossary(tutorialsLinksArr) 
     questionType = findType(taggedQuestion)

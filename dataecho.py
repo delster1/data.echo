@@ -18,7 +18,7 @@ def main():
             except:
                 print('Usage: py dataecho.py <recording_seconds>')
         case _:
-            print(cmd_argc)
+            pass
 
     # ignore warnings caused by model.transcribe()
     # warnings.filterwarnings(action='ignore', category=UserWarning)
@@ -32,13 +32,14 @@ def main():
     # sentence = str(model.transcribe('input.wav')['text']).casefold()
     # os.remove('input.wav')
 
-    sentence = 'What is a boolean expression?'.casefold()
+    sentence = 'what is a boolean expression'
 
     print(f'\n----------------\n\nTranscribed audio: {sentence}')
 
     #to create output file
     outfile = open('out.html', 'w')
 
+    sentence = sentence.casefold()
     # (sentence: str, args: list)
     markup = cswiki.search_cswiki(sentence) # search wikipedia w/ result
 
@@ -65,8 +66,6 @@ def main():
                 soup = bs(cleanHTML, 'html.parser')
 
                 print(soup.contents)
-
-
             case _:
                 print('default case')
 
