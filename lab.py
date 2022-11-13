@@ -14,7 +14,7 @@ result = str(model.transcribe("input.wav")['text'])
 
 print(result)
 
-markup = cswiki.search_cswiki(result)
+markup = cswiki.search_cswiki(result) # search wikipedia w/ result
 
 if markup is not None:
     print(cswiki.clean_markup(markup, True, 'wiki').prettify())
