@@ -101,36 +101,32 @@ def tagWords(inp: str): #tag words according to aux verb or part of speech for p
 def findType(inp: list): #function to sort tagged input by question type (yes or no/what/example)
     out = ""
     
-    for ind, obj in enumerate(inp[0]):
+    for ind, obj in enumerate(inp):
         # if ind == 0 and obj[1] == "VAX":
         #     return "Y/N"
         #     print("y/n")
-        print(f'\n\nind: {ind}, obj: {obj}\n\n')
+        next_a = inp[1][0][1]
+        next_b = inp[2][0][1]
 
-        currentObj = obj[0]
-        # currentObj = obj[0][1]
-        currentObj = currentObj[1]
-
-        print(currentObj)
-
-        match currentObj:
+        match obj[0][1]:
             case 'QW':
-                print(f'inp[021] = {inp[0][2][0][1]}')
-                if(ind == 0 and inp[0][1][0][1] == "VBZ" and inp[0][2][0][1] == "DT"):
-                    return "WHAT"
+                if ind == 0 and next_a == 'VBZ'and next_b == 'DT':
+                    return 'WHAT'
+                # if(ind == 0 and inp[1][0][1] == "VBZ" and inp[2][0][1] == "DT"):
+                #     return "WHAT"
                 
                 return "WHAT"
             case 'EW':
                 return "EXAMPLE"
             case _:
-                print('Unknown first word!')
+                return ''
 
     return out        
 
 def findArgs(arr,qType,ct):
     args = []
     tagsArr = [i[0][1] for i in arr]
-    print(arr)
+    # print(arr)
     if ct > 1:
         if qType == "WHAT":
             if(arr[1][0][1] == "VBZ" and arr[2][0][1] == "DT"):

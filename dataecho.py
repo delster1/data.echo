@@ -40,15 +40,19 @@ def main():
     outfile = open('out.html', 'w')
 
     sentence = sentence.casefold()
+    tagged = tagWords(sentence)
+    taggedQuestion = tagged[0]
+    count = tagged[1]
+    
+    qtype = findType(taggedQuestion)
+
+    args = findArgs(taggedQuestion, qtype, count)
     # (sentence: str, args: list)
-    markup = cswiki.search_cswiki(sentence) # search wikipedia w/ result
+    markup = cswiki.search_cswiki(sentence, qtype, args) # search wikipedia w/ result
+
+    print('markup: ', markup)
 
     if markup is not None:
-        tagged = tagWords(sentence)
-        taggedQuestion = tagged[0]
-        count = tagged[1]
-        
-        qtype = findType(taggedQuestion)
         match qtype:
             case "WHAT":
                 cleanHTML = cswiki.clean_markup(markup, True, 'wiki').prettify()

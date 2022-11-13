@@ -45,20 +45,7 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
     return markup
 
 # search website for info to answer question
-def search_cswiki(sentence: str) -> str:
-    sentence = sentence.casefold()
-    tutorials = tutorialGlossary()
-    # print(tutorialsArr,"\n\n")
-    tagged = tagWords(sentence)
-    taggedQuestion = tagged[0]
-    count = tagged[1]
-
-    # topicsGlossary(tutorialsLinksArr) 
-    qtype = findType(taggedQuestion)
-    args = findArgs(taggedQuestion,qtype,count)
-
-    qtype = findType(tagWords(sentence))
-
+def search_cswiki(sentence: str, qtype: str, args: list) -> str:
     url = ''
     match qtype:
         case 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
@@ -67,22 +54,24 @@ def search_cswiki(sentence: str) -> str:
             print(f'Invalid Question Type: {qtype}')
             url = 'https://www.w3schools.com'
 
-
     response = requests.get(url)
 
     match qtype:
         case 'WHAT':
+            sentence = strToLemmatized(sentence.casefold())
+            print(sentence)
             only_glossary = strainer(attrs={'class': 'glossary'})
             soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
 
             # search for argument in wikipedia
             for topic in soup.find_all('dt'):
-                if args[0] == topic.contents[0].contents[0].get_text().rstrip():
-                    args[0] = args[0].replace(' ', '_')
-                    print('found associated topic: ', args[0])
+                content = topic.contents[0].contents[0].get_text().rstrip().casefold().split(' ')
+                # print(f'{type(sentence)} | {content}')
+                if sentence == content:
+                    topic = '_'.join(sentence)
                     
                     # finding glossary entry from url for topic
-                    for tag in soup.find_all(id=args[0]):
+                    for tag in soup.find_all(id=topic):
                         return tag.find_next('dd')
 
             # TODO: search w3schools
