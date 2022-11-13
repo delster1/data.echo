@@ -45,5 +45,5 @@ for obj in topicSoup.find_all('a', href=True): # create list
 	name = obj.get_text().casefold()
 	topicLink = urlToSearch +obj['href'] 
 	if topic in name:
-		# print(topicLink)
+		print(topicLink)
 		pass
