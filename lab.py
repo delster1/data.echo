@@ -1,3 +1,4 @@
+import os
 import warnings
 import whisper
 import recordaudio as ra
@@ -10,6 +11,11 @@ import cswiki
 
 # ra.record_audio()
 
-# model = whisper.load_model("base.en")
+# model = whisper.load_model('base.en')
 
-# result = str(model.transcribe("input.wav")['text'])
+# result = str(model.transcribe('input.wav')['text'])
+
+#### PROCESS AUDIO ####
+
+#### END PROCESS ####
+# os.remove('input.wav')

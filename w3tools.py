@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
-from anytree import Node, RenderTree
 import requests  # this is so i can use a link to get html output
 
 url = "https://www.w3schools.com"  # url to search
@@ -18,5 +17,5 @@ w3 = bs(response.content, 'html.parser')  # turn html into soup
 data = w3.find_all(attrs={'class': 'w3-col l3 m6 w3-hide-medium'})
 data += w3.find_all(attrs={'class': 'w3-col l3 m6'})
 
-for div in data:
-	
+for item in data:
+	print(item.name)
