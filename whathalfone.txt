@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+    <html lang = eng>
+        <h>
+            <t>
+                (name pending)
+            </t>
+        </h>
+<body>
+
+    <h1>
+        possible explanation of how the database works
+    </h1>

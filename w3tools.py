@@ -1,12 +1,14 @@
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
+from anytree import Node, RenderTree
 import requests  # this is so i can use a link to get html output
 
 url = "https://www.w3schools.com"  # url to search
 
 tutorialsDict = {}
 tutUpperNodes = {}
-
 response = requests.get(url) # turn url into html
+w3HomeSoup = bs(response.content, 'html.parser')  # turn html into soup
+# print(soup.prettify())
 
 tutorial = "python"
 topic = "arrays"
