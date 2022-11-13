@@ -1,0 +1,7884 @@
+html home
+html introduction
+html editors
+html basic
+html elements
+html attributes
+html headings
+html paragraphs
+html styles
+html formatting
+html quotations
+html comments
+html colors
+colors
+rgb
+hex
+hsl
+html css
+html links
+links
+link colors
+link bookmarks
+html images
+images
+image map
+background images
+the picture element
+html favicon
+html tables
+html tables
+table borders
+table sizes
+table headers
+padding & spacing
+colspan & rowspan
+table styling
+table colgroup
+html lists
+lists
+unordered lists
+ordered lists
+other lists
+html block & inline
+html classes
+html id
+html iframes
+html javascript
+html file paths
+html head
+html layout
+html responsive
+html computercode
+html semantics
+html style guide
+html entities
+html symbols
+html emojis
+html charset
+html url encode
+html vs. xhtml
+html forms
+html form attributes
+html form elements
+html input types
+html input attributes
+html input form attributes
+html canvas
+html svg
+html media
+html video
+html audio
+html plug-ins
+html youtube
+html geolocation
+html drag/drop
+html web storage
+html web workers
+html sse
+html examples
+html quiz
+html exercises
+html certificate
+html summary
+html accessibility
+html tag list
+html attributes
+html global attributes
+html browser support
+html events
+html colors
+html canvas
+html audio/video
+html doctypes
+html character sets
+html url encode
+html lang codes
+http messages
+http methods
+px to em converter
+keyboard shortcuts
+css home
+css introduction
+css syntax
+css selectors
+css how to
+css comments
+css colors
+colors
+rgb
+hex
+hsl
+css backgrounds
+background color
+background image
+background repeat
+background attachment
+background shorthand
+css borders
+borders
+border width
+border color
+border sides
+border shorthand
+rounded borders
+css margins
+margins
+margin collapse
+css padding
+css height/width
+css box model
+css outline
+outline
+outline width
+outline color
+outline shorthand
+outline offset
+css text
+text color
+text alignment
+text decoration
+text transformation
+text spacing
+text shadow
+css fonts
+font family
+font web safe
+font fallbacks
+font style
+font size
+font google
+font pairings
+font shorthand
+css icons
+css links
+css lists
+css tables
+table borders
+table size
+table alignment
+table style
+table responsive
+css display
+css max-width
+css position
+css z-index
+css overflow
+css float
+float
+clear
+float examples
+css inline-block
+css align
+css combinators
+css pseudo-class
+css pseudo-element
+css opacity
+css navigation bar
+navbar
+vertical navbar
+horizontal navbar
+css dropdowns
+css image gallery
+css image sprites
+css attr selectors
+css forms
+css counters
+css website layout
+css units
+css specificity
+css !important
+css math functions
+css rounded corners
+css border images
+css backgrounds
+css colors
+css color keywords
+css gradients
+linear gradients
+radial gradients
+conic gradients
+css shadows
+shadow effects
+box shadow
+css text effects
+css web fonts
+css 2d transforms
+css 3d transforms
+css transitions
+css animations
+css tooltips
+css style images
+css image reflection
+css object-fit
+css object-position
+css masking
+css buttons
+css pagination
+css multiple columns
+css user interface
+css variables
+the var() function
+overriding variables
+variables and javascript
+variables in media queries
+css box sizing
+css media queries
+css mq examples
+css flexbox
+css flexbox
+css flex container
+css flex items
+css flex responsive
+rwd intro
+rwd viewport
+rwd grid view
+rwd media queries
+rwd images
+rwd videos
+rwd frameworks
+rwd templates
+grid intro
+grid container
+grid item
+sass tutorial
+css templates
+css examples
+css snippets
+css quiz
+css exercises
+css certificate
+css reference
+css selectors
+css functions
+css reference aural
+css web safe fonts
+css animatable
+css units
+css px-em converter
+css colors
+css color values
+css default values
+css browser support
+css home
+css introduction
+css syntax
+css selectors
+css how to
+css comments
+css colors
+colors
+rgb
+hex
+hsl
+css backgrounds
+background color
+background image
+background repeat
+background attachment
+background shorthand
+css borders
+borders
+border width
+border color
+border sides
+border shorthand
+rounded borders
+css margins
+margins
+margin collapse
+css padding
+css height/width
+css box model
+css outline
+outline
+outline width
+outline color
+outline shorthand
+outline offset
+css text
+text color
+text alignment
+text decoration
+text transformation
+text spacing
+text shadow
+css fonts
+font family
+font web safe
+font fallbacks
+font style
+font size
+font google
+font pairings
+font shorthand
+css icons
+css links
+css lists
+css tables
+table borders
+table size
+table alignment
+table style
+table responsive
+css display
+css max-width
+css position
+css z-index
+css overflow
+css float
+float
+clear
+float examples
+css inline-block
+css align
+css combinators
+css pseudo-class
+css pseudo-element
+css opacity
+css navigation bar
+navbar
+vertical navbar
+horizontal navbar
+css dropdowns
+css image gallery
+css image sprites
+css attr selectors
+css forms
+css counters
+css website layout
+css units
+css specificity
+css !important
+css math functions
+css rounded corners
+css border images
+css backgrounds
+css colors
+css color keywords
+css gradients
+linear gradients
+radial gradients
+conic gradients
+css shadows
+shadow effects
+box shadow
+css text effects
+css web fonts
+css 2d transforms
+css 3d transforms
+css transitions
+css animations
+css tooltips
+css style images
+css image reflection
+css object-fit
+css object-position
+css masking
+css buttons
+css pagination
+css multiple columns
+css user interface
+css variables
+the var() function
+overriding variables
+variables and javascript
+variables in media queries
+css box sizing
+css media queries
+css mq examples
+css flexbox
+css flexbox
+css flex container
+css flex items
+css flex responsive
+rwd intro
+rwd viewport
+rwd grid view
+rwd media queries
+rwd images
+rwd videos
+rwd frameworks
+rwd templates
+grid intro
+grid container
+grid item
+sass tutorial
+css templates
+css examples
+css snippets
+css quiz
+css exercises
+css certificate
+css reference
+css selectors
+css functions
+css reference aural
+css web safe fonts
+css animatable
+css units
+css px-em converter
+css colors
+css color values
+css default values
+css browser support
+w3.css home
+w3.css intro
+w3.css colors
+w3.css containers
+w3.css panels
+w3.css borders
+w3.css cards
+w3.css defaults
+w3.css fonts
+w3.css google
+w3.css text
+w3.css round
+w3.css padding
+w3.css margins
+w3.css display
+w3.css buttons
+w3.css notes
+w3.css quotes
+w3.css alerts
+w3.css tables
+w3.css lists
+w3.css images
+w3.css inputs
+w3.css badges
+w3.css tags
+w3.css icons
+w3.css responsive
+w3.css layout
+w3.css animations
+w3.css effects
+w3.css bars
+w3.css dropdowns
+w3.css accordions
+w3.css navigation
+w3.css sidebar
+w3.css tabs
+w3.css pagination
+w3.css progress bars
+w3.css slideshow
+w3.css modal
+w3.css tooltips
+w3.css grid
+w3.css code
+w3.css filters
+w3.css trends
+w3.css case
+w3.css material
+w3.css validation
+w3.css versions
+w3.css mobile
+w3.css color classes
+w3.css color material
+w3.css color flat ui
+w3.css color metro ui
+w3.css color win8
+w3.css color ios
+w3.css color fashion
+w3.css color libraries
+w3.css color schemes
+w3.css color themes
+w3.css color generator
+web intro
+web html
+web css
+web javascript
+web layout
+web band
+web catering
+web restaurant
+web architect
+w3.css examples
+w3.css demos
+w3.css templates
+w3.css reference
+w3.css downloads
+colors home
+color names
+color values
+color groups
+color shades
+color picker
+color mixer
+color converter
+color rgb
+color hex
+color hsl
+color hwb
+color cmyk
+color ncol
+color gradient
+color theory
+color wheels
+color currentcolor
+color hues
+color schemes
+color palettes
+color brands
+color w3.css
+color metro ui
+color win8
+color flat ui
+color psychology
+colors monochromatic
+colors analogous
+colors complementary
+colors triadic
+colors compound
+colors of the year
+colors 2021
+colors 2020
+colors 2019
+colors 2018
+colors 2017
+colors 2016
+colors usa
+colors uk
+colors australia
+colors ral
+colors nbs
+colors ncs
+colors x11
+colors crayola
+colors resene
+colors xkcd
+icons home
+icons reference
+font awesome 5 intro
+icons accessibility
+icons alert
+icons animals
+icons arrows
+icons audio & video
+icons automotive
+icons autumn
+icons beverage
+icons brands
+icons buildings
+icons business
+icons camping
+icons charity
+icons chat
+icons chess
+icons childhood
+icons clothing
+icons code
+icons communication
+icons computers
+icons construction
+icons currency
+icons date & time
+icons design
+icons editors
+icons education
+icons emoji
+icons energy
+icons files
+icons finance
+icons fitness
+icons food
+icons fruits & vegetables
+icons games
+icons genders
+icons halloween
+icons hands
+icons health
+icons holiday
+icons hotel
+icons household
+icons images
+icons interfaces
+icons logistics
+icons maps
+icons maritime
+icons marketing
+icons mathematics
+icons medical
+icons moving
+icons music
+icons objects
+icons payment & shopping
+icons pharmacy
+icons political
+icons religion
+icons science
+icons science fiction
+icons security
+icons shapes
+icons shopping
+icons social
+icons spinners
+icons sports
+icons spring
+icons status
+icons summer
+icons tabletop gaming
+icons toggle
+icons travel
+icons users & people
+icons vehicles
+icons weather
+icons winter
+icons writing
+font awesome intro
+icons brand
+icons chart
+icons currency
+icons directional
+icons file type
+icons form
+icons gender
+icons hand
+icons medical
+icons payment
+icons spinner
+icons text
+icons transportation
+icons video
+icons web application
+icons bs glyphicons
+google icons intro
+icons action
+icons alert
+icons av
+icons communication
+icons content
+icons device
+icons editor
+icons file
+icons hardware
+icons image
+icons maps
+icons navigation
+icons notification
+icons places
+icons social
+icons toggle
+graphics home
+maps intro
+maps basic
+maps overlays
+maps events
+maps controls
+maps types
+maps reference
+svg intro
+svg in html
+svg rectangle
+svg circle
+svg ellipse
+svg line
+svg polygon
+svg polyline
+svg path
+svg text
+svg stroking
+svg filters intro
+svg blur effects
+svg drop shadows
+svg linear
+svg radial
+svg examples
+svg reference
+canvas intro
+canvas drawing
+canvas coordinates
+canvas gradients
+canvas text
+canvas images
+canvas reference
+clock intro
+clock face
+clock numbers
+clock hands
+clock start
+game intro
+game canvas
+game components
+game controllers
+game obstacles
+game score
+game images
+game sound
+game gravity
+game bouncing
+game rotation
+game movement
+graphics home
+maps intro
+maps basic
+maps overlays
+maps events
+maps controls
+maps types
+maps reference
+svg intro
+svg in html
+svg rectangle
+svg circle
+svg ellipse
+svg line
+svg polygon
+svg polyline
+svg path
+svg text
+svg stroking
+svg filters intro
+svg blur effects
+svg drop shadows
+svg linear
+svg radial
+svg examples
+svg reference
+canvas intro
+canvas drawing
+canvas coordinates
+canvas gradients
+canvas text
+canvas images
+canvas reference
+clock intro
+clock face
+clock numbers
+clock hands
+clock start
+game intro
+game canvas
+game components
+game controllers
+game obstacles
+game score
+game images
+game sound
+game gravity
+game bouncing
+game rotation
+game movement
+graphics home
+maps intro
+maps basic
+maps overlays
+maps events
+maps controls
+maps types
+maps reference
+svg intro
+svg in html
+svg rectangle
+svg circle
+svg ellipse
+svg line
+svg polygon
+svg polyline
+svg path
+svg text
+svg stroking
+svg filters intro
+svg blur effects
+svg drop shadows
+svg linear
+svg radial
+svg examples
+svg reference
+canvas intro
+canvas drawing
+canvas coordinates
+canvas gradients
+canvas text
+canvas images
+canvas reference
+clock intro
+clock face
+clock numbers
+clock hands
+clock start
+game intro
+game canvas
+game components
+game controllers
+game obstacles
+game score
+game images
+game sound
+game gravity
+game bouncing
+game rotation
+game movement
+howto home
+icon bar
+menu icon
+accordion
+tabs
+vertical tabs
+tab headers
+full page tabs
+hover tabs
+top navigation
+responsive topnav
+split navigation
+navbar with icons
+search menu
+search bar
+fixed sidebar
+side navigation
+responsive sidebar
+fullscreen navigation
+off-canvas menu
+hover sidenav buttons
+sidebar with icons
+horizontal scroll menu
+vertical menu
+bottom navigation
+responsive bottom nav
+bottom border nav links
+right aligned menu links
+centered menu link
+equal width menu links
+fixed menu
+slide down bar on scroll
+hide navbar on scroll
+shrink navbar on scroll
+sticky navbar
+navbar on image
+hover dropdowns
+click dropdowns
+cascading dropdown
+dropdown in topnav
+dropdown in sidenav
+resp navbar dropdown
+subnavigation menu
+dropup
+mega menu
+mobile menu
+curtain menu
+collapsed sidebar
+collapsed sidepanel
+pagination
+breadcrumbs
+button group
+vertical button group
+sticky social bar
+pill navigation
+responsive header
+slideshow
+slideshow gallery
+modal images
+lightbox
+responsive image grid
+image grid
+tab gallery
+image overlay fade
+image overlay slide
+image overlay zoom
+image overlay title
+image overlay icon
+image effects
+black and white image
+image text
+image text blocks
+transparent image text
+full page image
+form on image
+hero image
+blur background image
+change bg on scroll
+side-by-side images
+rounded images
+avatar images
+responsive images
+center images
+thumbnails
+border around image
+meet the team
+sticky image
+flip an image
+shake an image
+portfolio gallery
+portfolio with filtering
+image zoom
+image magnifier glass
+image comparison slider
+favicon
+alert buttons
+outline buttons
+split buttons
+animated buttons
+fading buttons
+button on image
+social media buttons
+read more read less
+loading buttons
+download buttons
+pill buttons
+notification button
+icon buttons
+next/prev buttons
+more button in nav
+block buttons
+text buttons
+round buttons
+scroll to top button
+login form
+signup form
+checkout form
+contact form
+social login form
+register form
+form with icons
+newsletter
+stacked form
+responsive form
+popup form
+inline form
+clear input field
+hide number arrows
+copy text to clipboard
+animated search
+search button
+fullscreen search
+input field in navbar
+login form in navbar
+custom checkbox/radio
+custom select
+toggle switch
+check checkbox
+detect caps lock
+trigger button on enter
+password validation
+toggle password visibility
+multiple step form
+autocomplete
+turn off autocomplete
+turn off spellcheck
+file upload button
+empty input validation
+filter list
+filter table
+filter elements
+filter dropdown
+sort list
+sort table
+zebra striped table
+center tables
+full-width table
+side-by-side tables
+responsive tables
+comparison table
+fullscreen video
+modal boxes
+delete modal
+timeline
+scroll indicator
+progress bars
+skill bar
+range sliders
+tooltips
+display element hover
+popups
+collapsible
+calendar
+html includes
+to do list
+loaders
+badges
+star rating
+user rating
+overlay effect
+contact chips
+cards
+flip card
+profile card
+product card
+alerts
+callout
+notes
+labels
+circles
+style hr
+coupon
+list group
+list group with badges
+list without bullets
+responsive text
+cutout text
+glowing text
+fixed footer
+sticky element
+equal height
+clearfix
+responsive floats
+snackbar
+fullscreen window
+scroll drawing
+smooth scroll
+gradient bg scroll
+sticky header
+shrink header on scroll
+pricing table
+parallax
+aspect ratio
+responsive iframes
+toggle like/dislike
+toggle hide/show
+toggle dark mode
+toggle text
+toggle class
+add class
+remove class
+active class
+tree view
+remove property
+offline detection
+find hidden element
+redirect webpage
+zoom hover
+flip box
+center vertically
+center button in div
+center a list
+transition on hover
+arrows
+shapes
+download link
+full height element
+browser window
+custom scrollbar
+hide scrollbar
+show/force scrollbar
+device look
+contenteditable border
+placeholder color
+disable resizing of textarea
+disable text selection
+text selection color
+bullet color
+vertical line
+dividers
+animate icons
+countdown timer
+typewriter
+coming soon page
+chat messages
+popup chat window
+split screen
+testimonials
+section counter
+quotes slideshow
+closable list items
+typical device breakpoints
+draggable html element
+js media queries
+syntax highlighter
+js animations
+js string length
+js exponentiation
+js default parameters
+get current url
+get current screen size
+get iframe elements
+create a free website
+make a website
+make a static website
+host a static website
+make a website (w3.css)
+make a website (bs3)
+make a website (bs4)
+make a website (bs5)
+create and view a website
+create a link tree website
+create a portfolio
+create a resume
+make a restaurant website
+make a business website
+make a webbook
+center website
+contact section
+about page
+big header
+example website
+2 column layout
+3 column layout
+4 column layout
+expanding grid
+list grid view
+mixed column layout
+column cards
+zig zag layout
+blog layout
+google charts
+google fonts
+google font pairings
+google set up analytics
+convert weight
+convert temperature
+convert length
+convert speed
+get a developer job
+become a front-end dev.
+sass home
+sass intro
+sass installation
+sass variables
+sass nesting
+sass @import
+sass @mixin
+sass @extend
+sass string
+sass numeric
+sass list
+sass map
+sass selector
+sass introspection
+sass color
+ml intro
+ml and ai
+ml examples
+ml languages
+ml in javascript
+ml in the browser
+mathematics
+linear functions
+linear algebra
+vectors
+matrices
+tensors
+statistics
+descriptive
+variability
+distribution
+probability
+ai plotter
+ai linear graphs
+ai scatter plots
+data science
+collecting data
+clustering
+regressions
+machine learning
+neural networks
+perceptrons
+recognition
+training
+testing
+learning
+terminology
+brain.js
+tfjs tutorial
+tfjs operations
+tfjs models
+tfjs visor
+ex1 intro
+ex1 data
+ex1 model
+ex1 training
+ex2 intro
+ex2 data
+ex2 model
+ex2 training
+graph intro
+graph canvas
+graph plotly.js
+graph chart.js
+graph google
+graph d3.js
+history of intelligence
+history of languages
+history of numbers
+history of computing
+history of robots
+history of ai
+job replacements
+theory of mind
+python home
+python intro
+python get started
+python syntax
+python comments
+python variables
+python variables
+variable names
+assign multiple values
+output variables
+global variables
+variable exercises
+python data types
+python numbers
+python casting
+python strings
+python strings
+slicing strings
+modify strings
+concatenate strings
+format strings
+escape characters
+string methods
+string exercises
+python booleans
+python operators
+python lists
+python lists
+access list items
+change list items
+add list items
+remove list items
+loop lists
+list comprehension
+sort lists
+copy lists
+join lists
+list methods
+list exercises
+python tuples
+python tuples
+access tuples
+update tuples
+unpack tuples
+loop tuples
+join tuples
+tuple methods
+tuple exercises
+python sets
+python sets
+access set items
+add set items
+remove set items
+loop sets
+join sets
+set methods
+set exercises
+python dictionaries
+python dictionaries
+access items
+change items
+add items
+remove items
+loop dictionaries
+copy dictionaries
+nested dictionaries
+dictionary methods
+dictionary exercise
+python if...else
+python while loops
+python for loops
+python functions
+python lambda
+python arrays
+python classes/objects
+python inheritance
+python iterators
+python scope
+python modules
+python dates
+python math
+python json
+python regex
+python pip
+python try...except
+python user input
+python string formatting
+python file handling
+python read files
+python write/create files
+python delete files
+numpy tutorial
+pandas tutorial
+scipy tutorial
+django tutorial
+matplotlib intro
+matplotlib get started
+matplotlib pyplot
+matplotlib plotting
+matplotlib markers
+matplotlib line
+matplotlib labels
+matplotlib grid
+matplotlib subplot
+matplotlib scatter
+matplotlib bars
+matplotlib histograms
+matplotlib pie charts
+getting started
+mean median mode
+standard deviation
+percentile
+data distribution
+normal data distribution
+scatter plot
+linear regression
+polynomial regression
+multiple regression
+scale
+train/test
+decision tree
+confusion matrix
+hierarchical clustering
+logistic regression
+grid search
+categorical data
+k-means
+bootstrap aggregation
+cross validation
+auc - roc curve
+k-nearest neighbors
+mysql get started
+mysql create database
+mysql create table
+mysql insert
+mysql select
+mysql where
+mysql order by
+mysql delete
+mysql drop table
+mysql update
+mysql limit
+mysql join
+mongodb get started
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb query
+mongodb sort
+mongodb delete
+mongodb drop collection
+mongodb update
+mongodb limit
+python overview
+python built-in functions
+python string methods
+python list methods
+python dictionary methods
+python tuple methods
+python set methods
+python file methods
+python keywords
+python exceptions
+python glossary
+random module
+requests module
+statistics module
+math module
+cmath module
+remove list duplicates
+reverse a string
+add two numbers
+python examples
+python compiler
+python exercises
+python quiz
+python certificate
+ds home
+ds introduction
+ds what is data
+ds database table
+ds python
+ds dataframe
+ds functions
+ds data preparation
+ds linear functions
+ds plotting functions
+ds slope and intercept
+stat introduction
+stat percentiles
+stat standard deviation
+stat variance
+stat correlation
+stat correlation matrix
+stat correlation vs causality
+ds linear regression
+ds regression table
+ds regression info
+ds regression coefficients
+ds regression p-value
+ds regression r-squared
+ds linear regression case
+numpy home
+numpy intro
+numpy getting started
+numpy creating arrays
+numpy array indexing
+numpy array slicing
+numpy data types
+numpy copy vs view
+numpy array shape
+numpy array reshape
+numpy array iterating
+numpy array join
+numpy array split
+numpy array search
+numpy array sort
+numpy array filter
+random intro
+data distribution
+random permutation
+seaborn module
+normal distribution
+binomial distribution
+poisson distribution
+uniform distribution
+logistic distribution
+multinomial distribution
+exponential distribution
+chi square distribution
+rayleigh distribution
+pareto distribution
+zipf distribution
+ufunc intro
+ufunc create function
+ufunc simple arithmetic
+ufunc rounding decimals
+ufunc logs
+ufunc summations
+ufunc products
+ufunc differences
+ufunc finding lcm
+ufunc finding gcd
+ufunc trigonometric
+ufunc hyperbolic
+ufunc set operations
+numpy quiz
+numpy exercises
+numpy certificate
+pandas home
+pandas intro
+pandas getting started
+pandas series
+pandas dataframes
+pandas read csv
+pandas read json
+pandas analyzing data
+cleaning data
+cleaning empty cells
+cleaning wrong format
+cleaning wrong data
+removing duplicates
+pandas correlations
+pandas plotting
+pandas quiz
+pandas exercises
+pandas certificate
+dataframes reference
+scipy home
+scipy intro
+scipy getting started
+scipy constants
+scipy optimizers
+scipy sparse data
+scipy graphs
+scipy spatial data
+scipy matlab arrays
+scipy interpolation
+scipy significance tests
+scipy quiz
+scipy exercises
+python home
+python intro
+python get started
+python syntax
+python comments
+python variables
+python variables
+variable names
+assign multiple values
+output variables
+global variables
+variable exercises
+python data types
+python numbers
+python casting
+python strings
+python strings
+slicing strings
+modify strings
+concatenate strings
+format strings
+escape characters
+string methods
+string exercises
+python booleans
+python operators
+python lists
+python lists
+access list items
+change list items
+add list items
+remove list items
+loop lists
+list comprehension
+sort lists
+copy lists
+join lists
+list methods
+list exercises
+python tuples
+python tuples
+access tuples
+update tuples
+unpack tuples
+loop tuples
+join tuples
+tuple methods
+tuple exercises
+python sets
+python sets
+access set items
+add set items
+remove set items
+loop sets
+join sets
+set methods
+set exercises
+python dictionaries
+python dictionaries
+access items
+change items
+add items
+remove items
+loop dictionaries
+copy dictionaries
+nested dictionaries
+dictionary methods
+dictionary exercise
+python if...else
+python while loops
+python for loops
+python functions
+python lambda
+python arrays
+python classes/objects
+python inheritance
+python iterators
+python scope
+python modules
+python dates
+python math
+python json
+python regex
+python pip
+python try...except
+python user input
+python string formatting
+python file handling
+python read files
+python write/create files
+python delete files
+numpy tutorial
+pandas tutorial
+scipy tutorial
+django tutorial
+matplotlib intro
+matplotlib get started
+matplotlib pyplot
+matplotlib plotting
+matplotlib markers
+matplotlib line
+matplotlib labels
+matplotlib grid
+matplotlib subplot
+matplotlib scatter
+matplotlib bars
+matplotlib histograms
+matplotlib pie charts
+getting started
+mean median mode
+standard deviation
+percentile
+data distribution
+normal data distribution
+scatter plot
+linear regression
+polynomial regression
+multiple regression
+scale
+train/test
+decision tree
+confusion matrix
+hierarchical clustering
+logistic regression
+grid search
+categorical data
+k-means
+bootstrap aggregation
+cross validation
+auc - roc curve
+k-nearest neighbors
+mysql get started
+mysql create database
+mysql create table
+mysql insert
+mysql select
+mysql where
+mysql order by
+mysql delete
+mysql drop table
+mysql update
+mysql limit
+mysql join
+mongodb get started
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb query
+mongodb sort
+mongodb delete
+mongodb drop collection
+mongodb update
+mongodb limit
+python overview
+python built-in functions
+python string methods
+python list methods
+python dictionary methods
+python tuple methods
+python set methods
+python file methods
+python keywords
+python exceptions
+python glossary
+random module
+requests module
+statistics module
+math module
+cmath module
+remove list duplicates
+reverse a string
+add two numbers
+python examples
+python compiler
+python exercises
+python quiz
+python certificate
+stat home
+stat introduction
+stat gathering data
+stat describing data
+stat making conclusions
+stat prediction & explanation
+stat populations & samples
+stat parameters & statistics
+stat study types
+stat sample types
+stat data types
+stat measurement levels
+stat descriptive statistics
+stat frequency tables
+stat histograms
+stat bar graphs
+stat pie charts
+stat box plots
+stat average
+stat mean
+stat median
+stat mode
+stat variation
+stat range
+stat quartiles and percentiles
+stat interquartile range
+stat standard deviation
+stat statistical inference
+stat normal distribution
+stat standard normal distribution
+stat students t-distribution
+stat estimation
+stat population proportion estimation
+stat population mean estimation
+stat hypothesis testing
+stat hypothesis testing proportion
+stat hypothesis testing mean
+stat z-table
+stat t-table
+stat hypothesis testing proportion (left tailed)
+stat hypothesis testing proportion (two tailed)
+stat hypothesis testing mean (left tailed)
+stat hypothesis testing mean (two tailed)
+excel home
+excel introduction
+excel get started
+excel overview
+excel syntax
+excel ranges
+excel fill
+filling
+double click to fill
+excel move cells
+excel add cells
+excel delete cells
+excel undo redo
+excel formulas
+excel relative reference
+excel absolute reference
+excel arithmetic operators
+excel addition
+excel subtraction
+excel multiplication
+excel division
+excel parentheses
+excel functions
+excel formatting
+excel format painter
+excel format colors
+excel format fonts
+excel format borders
+excel format numbers
+excel format grids
+excel format settings
+excel sort
+excel filter
+excel tables
+tables
+table design
+table resizing
+remove duplicates
+convert table to range
+table style
+excel conditional format
+excel highlight cell rules
+highlight cell rules
+hcr - greater than
+hcr - less than
+hcr - between
+hcr - equal to
+hcr - text that contains
+hcr - date occurring
+hcr - unique values
+excel top bottom rules
+top bottom rules
+above below average
+excel data bars
+excel color scales
+excel icon sets
+excel manage rules (cf)
+excel charts
+charts
+bar charts
+stacked bar charts
+column charts
+stacked column charts
+pie charts
+line charts
+stacked line charts
+100% stacked line charts
+radar charts
+excel charts customization
+table pivot intro
+case: poke mart
+case: poke mart, styling
+and
+average
+averageif
+averageifs
+concat
+count
+counta
+countblank
+countif
+countifs
+if
+ifs
+left
+lower
+max
+median
+min
+mode
+npv
+or
+rand
+right
+stdev.p
+stdev.s
+sum
+sumif
+sumifs
+trim
+vlookup
+xor
+convert time to seconds
+difference between times
+npv (net present value)
+remove duplicates
+introduction to excel
+data calculations
+data visualization
+to create a budget
+to create a timeline
+to style in excel
+excel exercises
+excel certificate
+excel keyboard shortcuts
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+js home
+js introduction
+js where to
+js output
+js statements
+js syntax
+js comments
+js variables
+js let
+js const
+js operators
+js arithmetic
+js assignment
+js data types
+js functions
+js objects
+js events
+js strings
+js string methods
+js string search
+js string templates
+js numbers
+js bigint
+js number methods
+js number properties
+js arrays
+js array methods
+js array sort
+js array iteration
+js array const
+js dates
+js date formats
+js date get methods
+js date set methods
+js math
+js random
+js booleans
+js comparisons
+js if else
+js switch
+js loop for
+js loop for in
+js loop for of
+js loop while
+js break
+js iterables
+js sets
+js maps
+js typeof
+js type conversion
+js bitwise
+js regexp
+js precedence
+js errors
+js scope
+js hoisting
+js strict mode
+js this keyword
+js arrow function
+js classes
+js modules
+js json
+js debugging
+js style guide
+js best practices
+js mistakes
+js performance
+js reserved words
+js versions
+js 2009 (es5)
+js 2015 (es6)
+js 2016
+js 2017
+js 2018
+js 2019
+js 2020
+js 2021
+js ie / edge
+js history
+object definitions
+object properties
+object methods
+object display
+object accessors
+object constructors
+object prototypes
+object iterables
+object sets
+object maps
+object reference
+function definitions
+function parameters
+function invocation
+function call
+function apply
+function bind
+function closures
+class intro
+class inheritance
+class static
+js callbacks
+js asynchronous
+js promises
+js async/await
+dom intro
+dom methods
+dom document
+dom elements
+dom html
+dom forms
+dom css
+dom animations
+dom events
+dom event listener
+dom navigation
+dom nodes
+dom collections
+dom node lists
+js window
+js screen
+js location
+js history
+js navigator
+js popup alert
+js timing
+js cookies
+web api intro
+web forms api
+web history api
+web storage api
+web worker api
+web fetch api
+web geolocation api
+ajax intro
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+json intro
+json syntax
+json vs xml
+json data types
+json parse
+json stringify
+json objects
+json arrays
+json server
+json php
+json html
+json jsonp
+jquery selectors
+jquery html
+jquery css
+jquery dom
+js graphics
+js canvas
+js plotly
+js chart.js
+js google chart
+js d3.js
+js examples
+js html dom
+js html input
+js html objects
+js html events
+js browser
+js editor
+js exercises
+js quiz
+js certificate
+javascript objects
+html dom objects
+jquery home
+jquery intro
+jquery get started
+jquery syntax
+jquery selectors
+jquery events
+jquery hide/show
+jquery fade
+jquery slide
+jquery animate
+jquery stop()
+jquery callback
+jquery chaining
+jquery get
+jquery set
+jquery add
+jquery remove
+jquery css classes
+jquery css()
+jquery dimensions
+jquery traversing
+jquery ancestors
+jquery descendants
+jquery siblings
+jquery filtering
+jquery ajax intro
+jquery load
+jquery get/post
+jquery noconflict()
+jquery filters
+jquery examples
+jquery quiz
+jquery exercises
+jquery certificate
+jquery overview
+jquery selectors
+jquery events
+jquery effects
+jquery html/css
+jquery traversing
+jquery ajax
+jquery misc
+jquery properties
+react home
+react intro
+react get started
+react es6
+react es6
+es6 classes
+es6 arrow functions
+es6 variables
+es6 array methods
+es6 destructuring
+es6 spread operator
+es6 modules
+es6 ternary operator
+react render html
+react jsx
+react components
+react class
+react props
+react events
+react conditionals
+react lists
+react forms
+react router
+react memo
+react css styling
+react sass styling
+what is a hook?
+usestate
+useeffect
+usecontext
+useref
+usereducer
+usecallback
+usememo
+custom hooks
+react quiz
+react exercises
+react certificate
+angularjs home
+angularjs intro
+angularjs expressions
+angularjs modules
+angularjs directives
+angularjs model
+angularjs data binding
+angularjs controllers
+angularjs scopes
+angularjs filters
+angularjs services
+angularjs http
+angularjs tables
+angularjs select
+angularjs sql
+angularjs dom
+angularjs events
+angularjs forms
+angularjs validation
+angularjs api
+angularjs w3.css
+angularjs includes
+angularjs animations
+angularjs routing
+angularjs application
+angularjs examples
+angularjs reference
+js home
+js introduction
+js where to
+js output
+js statements
+js syntax
+js comments
+js variables
+js let
+js const
+js operators
+js arithmetic
+js assignment
+js data types
+js functions
+js objects
+js events
+js strings
+js string methods
+js string search
+js string templates
+js numbers
+js bigint
+js number methods
+js number properties
+js arrays
+js array methods
+js array sort
+js array iteration
+js array const
+js dates
+js date formats
+js date get methods
+js date set methods
+js math
+js random
+js booleans
+js comparisons
+js if else
+js switch
+js loop for
+js loop for in
+js loop for of
+js loop while
+js break
+js iterables
+js sets
+js maps
+js typeof
+js type conversion
+js bitwise
+js regexp
+js precedence
+js errors
+js scope
+js hoisting
+js strict mode
+js this keyword
+js arrow function
+js classes
+js modules
+js json
+js debugging
+js style guide
+js best practices
+js mistakes
+js performance
+js reserved words
+js versions
+js 2009 (es5)
+js 2015 (es6)
+js 2016
+js 2017
+js 2018
+js 2019
+js 2020
+js 2021
+js ie / edge
+js history
+object definitions
+object properties
+object methods
+object display
+object accessors
+object constructors
+object prototypes
+object iterables
+object sets
+object maps
+object reference
+function definitions
+function parameters
+function invocation
+function call
+function apply
+function bind
+function closures
+class intro
+class inheritance
+class static
+js callbacks
+js asynchronous
+js promises
+js async/await
+dom intro
+dom methods
+dom document
+dom elements
+dom html
+dom forms
+dom css
+dom animations
+dom events
+dom event listener
+dom navigation
+dom nodes
+dom collections
+dom node lists
+js window
+js screen
+js location
+js history
+js navigator
+js popup alert
+js timing
+js cookies
+web api intro
+web forms api
+web history api
+web storage api
+web worker api
+web fetch api
+web geolocation api
+ajax intro
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+json intro
+json syntax
+json vs xml
+json data types
+json parse
+json stringify
+json objects
+json arrays
+json server
+json php
+json html
+json jsonp
+jquery selectors
+jquery html
+jquery css
+jquery dom
+js graphics
+js canvas
+js plotly
+js chart.js
+js google chart
+js d3.js
+js examples
+js html dom
+js html input
+js html objects
+js html events
+js browser
+js editor
+js exercises
+js quiz
+js certificate
+javascript objects
+html dom objects
+js home
+js introduction
+js where to
+js output
+js statements
+js syntax
+js comments
+js variables
+js let
+js const
+js operators
+js arithmetic
+js assignment
+js data types
+js functions
+js objects
+js events
+js strings
+js string methods
+js string search
+js string templates
+js numbers
+js bigint
+js number methods
+js number properties
+js arrays
+js array methods
+js array sort
+js array iteration
+js array const
+js dates
+js date formats
+js date get methods
+js date set methods
+js math
+js random
+js booleans
+js comparisons
+js if else
+js switch
+js loop for
+js loop for in
+js loop for of
+js loop while
+js break
+js iterables
+js sets
+js maps
+js typeof
+js type conversion
+js bitwise
+js regexp
+js precedence
+js errors
+js scope
+js hoisting
+js strict mode
+js this keyword
+js arrow function
+js classes
+js modules
+js json
+js debugging
+js style guide
+js best practices
+js mistakes
+js performance
+js reserved words
+js versions
+js 2009 (es5)
+js 2015 (es6)
+js 2016
+js 2017
+js 2018
+js 2019
+js 2020
+js 2021
+js ie / edge
+js history
+object definitions
+object properties
+object methods
+object display
+object accessors
+object constructors
+object prototypes
+object iterables
+object sets
+object maps
+object reference
+function definitions
+function parameters
+function invocation
+function call
+function apply
+function bind
+function closures
+class intro
+class inheritance
+class static
+js callbacks
+js asynchronous
+js promises
+js async/await
+dom intro
+dom methods
+dom document
+dom elements
+dom html
+dom forms
+dom css
+dom animations
+dom events
+dom event listener
+dom navigation
+dom nodes
+dom collections
+dom node lists
+js window
+js screen
+js location
+js history
+js navigator
+js popup alert
+js timing
+js cookies
+web api intro
+web forms api
+web history api
+web storage api
+web worker api
+web fetch api
+web geolocation api
+ajax intro
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+json intro
+json syntax
+json vs xml
+json data types
+json parse
+json stringify
+json objects
+json arrays
+json server
+json php
+json html
+json jsonp
+jquery selectors
+jquery html
+jquery css
+jquery dom
+js graphics
+js canvas
+js plotly
+js chart.js
+js google chart
+js d3.js
+js examples
+js html dom
+js html input
+js html objects
+js html events
+js browser
+js editor
+js exercises
+js quiz
+js certificate
+javascript objects
+html dom objects
+appml home
+appml how to
+appml data
+appml includes
+appml controllers
+appml messages
+appml models
+appml api
+case intro
+case text file
+case xml file
+case json file
+case customers
+case products
+case suppliers
+case shippers
+case categories
+case employees
+appml client
+appml prototype
+appml lists
+appml forms
+appml websql
+appml php
+appml asp
+google cloud sql
+amazon rds sql
+appml reference
+appml datafiles
+appml databases
+appml api
+appml architecture
+appml history
+w3.js home
+w3.js intro
+w3.js selectors
+w3.js hide/show
+w3.js add style
+w3.js add class
+w3.js filters
+w3.js sort
+w3.js slideshow
+w3.js includes
+w3.js display
+w3.js http
+w3.js controllers
+w3.js servers
+w3.js w3data
+w3.js examples
+w3.js references
+w3.js downloads
+python home
+python intro
+python get started
+python syntax
+python comments
+python variables
+python variables
+variable names
+assign multiple values
+output variables
+global variables
+variable exercises
+python data types
+python numbers
+python casting
+python strings
+python strings
+slicing strings
+modify strings
+concatenate strings
+format strings
+escape characters
+string methods
+string exercises
+python booleans
+python operators
+python lists
+python lists
+access list items
+change list items
+add list items
+remove list items
+loop lists
+list comprehension
+sort lists
+copy lists
+join lists
+list methods
+list exercises
+python tuples
+python tuples
+access tuples
+update tuples
+unpack tuples
+loop tuples
+join tuples
+tuple methods
+tuple exercises
+python sets
+python sets
+access set items
+add set items
+remove set items
+loop sets
+join sets
+set methods
+set exercises
+python dictionaries
+python dictionaries
+access items
+change items
+add items
+remove items
+loop dictionaries
+copy dictionaries
+nested dictionaries
+dictionary methods
+dictionary exercise
+python if...else
+python while loops
+python for loops
+python functions
+python lambda
+python arrays
+python classes/objects
+python inheritance
+python iterators
+python scope
+python modules
+python dates
+python math
+python json
+python regex
+python pip
+python try...except
+python user input
+python string formatting
+python file handling
+python read files
+python write/create files
+python delete files
+numpy tutorial
+pandas tutorial
+scipy tutorial
+django tutorial
+matplotlib intro
+matplotlib get started
+matplotlib pyplot
+matplotlib plotting
+matplotlib markers
+matplotlib line
+matplotlib labels
+matplotlib grid
+matplotlib subplot
+matplotlib scatter
+matplotlib bars
+matplotlib histograms
+matplotlib pie charts
+getting started
+mean median mode
+standard deviation
+percentile
+data distribution
+normal data distribution
+scatter plot
+linear regression
+polynomial regression
+multiple regression
+scale
+train/test
+decision tree
+confusion matrix
+hierarchical clustering
+logistic regression
+grid search
+categorical data
+k-means
+bootstrap aggregation
+cross validation
+auc - roc curve
+k-nearest neighbors
+mysql get started
+mysql create database
+mysql create table
+mysql insert
+mysql select
+mysql where
+mysql order by
+mysql delete
+mysql drop table
+mysql update
+mysql limit
+mysql join
+mongodb get started
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb query
+mongodb sort
+mongodb delete
+mongodb drop collection
+mongodb update
+mongodb limit
+python overview
+python built-in functions
+python string methods
+python list methods
+python dictionary methods
+python tuple methods
+python set methods
+python file methods
+python keywords
+python exceptions
+python glossary
+random module
+requests module
+statistics module
+math module
+cmath module
+remove list duplicates
+reverse a string
+add two numbers
+python examples
+python compiler
+python exercises
+python quiz
+python certificate
+java home
+java intro
+java get started
+java syntax
+java output
+print text
+print numbers
+java comments
+java variables
+variables
+print variables
+declare multiple variables
+identifiers
+java data types
+data types
+numbers
+booleans
+characters
+non-primitive types
+java type casting
+java operators
+java strings
+strings
+concatenation
+numbers and strings
+special characters
+java math
+java booleans
+java if...else
+if...else
+short hand if...else
+java switch
+java while loop
+java for loop
+for loop
+for-each loop
+java break/continue
+java arrays
+arrays
+loop through an array
+multidimensional arrays
+java methods
+java method parameters
+java method overloading
+java scope
+java recursion
+java oop
+java classes/objects
+java class attributes
+java class methods
+java constructors
+java modifiers
+java encapsulation
+java packages / api
+java inheritance
+java polymorphism
+java inner classes
+java abstraction
+java interface
+java enums
+java user input
+java date
+java arraylist
+java linkedlist
+java hashmap
+java hashset
+java iterator
+java wrapper classes
+java exceptions
+java regex
+java threads
+java lambda
+java files
+java create/write files
+java read files
+java delete files
+add two numbers
+count words
+reverse a string
+java keywords
+abstract
+boolean
+break
+byte
+case
+catch
+char
+class
+continue
+default
+do
+double
+else
+enum
+extends
+final
+finally
+float
+for
+if
+implements
+import
+instanceof
+int
+interface
+long
+new
+package
+private
+protected
+public
+return
+short
+static
+super
+switch
+this
+throw
+throws
+try
+void
+while
+java string methods
+java math methods
+java examples
+java compiler
+java exercises
+java quiz
+java certificate
+c home
+c intro
+c get started
+c syntax
+c output
+print text
+new lines
+c comments
+c variables
+c data types
+c constants
+c operators
+c if...else
+c if...else
+c short hand if
+c switch
+c while loop
+c for loop
+c break/continue
+c arrays
+arrays
+multidimensional arrays
+c strings
+strings
+special characters
+c user input
+c memory address
+c pointers
+c functions
+c function parameters
+c function declaration
+c recursion
+c math functions
+c structures
+c examples
+c exercises
+c quiz
+c compiler
+c++ home
+c++ intro
+c++ get started
+c++ syntax
+c++ output
+print text
+new lines
+c++ comments
+c++ variables
+declare variables
+declare multiple variables
+identifiers
+constants
+c++ user input
+c++ data types
+basic data types
+numbers
+booleans
+characters
+strings
+c++ operators
+arithmetic
+assignment
+comparison
+logical
+c++ strings
+strings
+concatenation
+numbers and strings
+string length
+access strings
+special characters
+user input strings
+omitting namespace
+c++ math
+c++ booleans
+boolean values
+boolean expressions
+c++ conditions
+if
+else
+else if
+short hand if..else
+c++ switch
+c++ while loop
+while loop
+do/while loop
+c++ for loop
+c++ break/continue
+c++ arrays
+arrays
+arrays and loops
+omit array size
+get array size
+multidimensional arrays
+c++ structures
+c++ references
+create references
+memory address
+c++ pointers
+create pointers
+dereferencing
+modify pointers
+c++ functions
+c++ function parameters
+parameters/arguments
+default parameter
+multiple parameters
+return values
+pass by reference
+pass arrays
+c++ function overloading
+c++ recursion
+c++ oop
+c++ classes/objects
+c++ class methods
+c++ constructors
+c++ access specifiers
+c++ encapsulation
+c++ inheritance
+inheritance
+multilevel inheritance
+multiple inheritance
+access specifiers
+c++ polymorphism
+c++ files
+c++ exceptions
+add two numbers
+c++ examples
+c++ compiler
+c++ exercises
+c++ quiz
+c++ certificate
+c# home
+c# intro
+c# get started
+c# syntax
+c# output
+c# comments
+c# variables
+variables
+constants
+display variables
+multiple variables
+identifiers
+c# data types
+c# type casting
+c# user input
+c# operators
+arithmetic
+assignment
+comparison
+logical
+c# math
+c# strings
+strings
+concatenation
+interpolation
+access strings
+special characters
+c# booleans
+c# if...else
+if
+else
+else if
+short hand if..else
+c# switch
+c# while loop
+c# for loop
+for loop
+foreach loop
+c# break/continue
+c# arrays
+arrays
+loop through an array
+sort arrays
+multidimensional arrays
+c# methods
+c# method parameters
+parameters & arguments
+default parameter
+return values
+named arguments
+c# method overloading
+c# oop
+c# classes/objects
+classes and objects
+multiple objects
+c# class members
+c# constructors
+c# access modifiers
+c# properties
+c# inheritance
+c# polymorphism
+c# abstraction
+c# interface
+interface
+multiple interfaces
+c# enums
+c# files
+c# exceptions
+add two numbers
+c# examples
+c# compiler
+c# exercises
+c# quiz
+c# certificate
+r home
+r intro
+r get started
+r syntax
+syntax
+print
+r comments
+r variables
+r data types
+r numbers
+r math
+r strings
+r booleans
+r operators
+r if...else
+r while loop
+r for loop
+r functions
+functions
+global variables
+r vectors
+r lists
+r matrices
+r arrays
+r data frames
+r factors
+r plot
+r line
+r scatterplot
+r pie charts
+r bars
+r statistics intro
+r data set
+r max and min
+r mean median mode
+r mean
+r median
+r mode
+r percentiles
+r examples
+r compiler
+r exercises
+r quiz
+r certificate
+kotlin home
+kotlin intro
+kotlin get started
+kotlin syntax
+kotlin output
+kotlin comments
+kotlin variables
+kotlin data types
+kotlin operators
+kotlin strings
+kotlin booleans
+kotlin if...else
+kotlin when
+kotlin while loop
+kotlin break/continue
+kotlin arrays
+kotlin for loop
+kotlin ranges
+kotlin functions
+kotlin oop
+kotlin classes/objects
+kotlin constructors
+kotlin class functions
+kotlin inheritance
+kotlin examples
+kotlin exercises
+kotlin quiz
+kotlin compiler
+go home
+go introduction
+go get started
+go syntax
+go comments
+go variables
+declare variables
+declare multiple variables
+naming rules
+go constants
+go output
+output functions
+formatting verbs
+go data types
+basic data types
+boolean
+integer
+float
+string
+go arrays
+go slices
+create slice
+modify slice
+go operators
+operators
+arithmetic
+assignment
+comparison
+logical
+bitwise
+go conditions
+conditions
+if statement
+if else statement
+else if statement
+nested if
+go switch
+single-case
+multi-case
+go loops
+go functions
+create/call function
+parameters/arguments
+function returns
+recursion
+go struct
+go maps
+go exercises
+go compiler
+django home
+django intro
+django get started
+django create project
+django create app
+django views
+django templates
+django models
+django add members
+django add template
+django add record
+django delete record
+django update record
+django variables
+django tags
+django if else
+django for loop
+django comment
+django cycle
+django extends
+django include
+django filter
+django 404 template
+add css file
+add js file
+add image
+queryset introduction
+queryset get
+queryset filter
+queryset order by
+template tag reference
+filter reference
+field lookups reference
+ts home
+ts introduction
+ts get started
+ts simple types
+ts special types
+ts arrays
+ts tuples
+ts object types
+ts enums
+ts aliases & interfaces
+ts union types
+ts functions
+ts casting
+ts classes
+ts basic generics
+ts utility types
+ts keyof
+ts null
+ts definitely typed
+ts exercises
+ts quiz
+ts certificate
+sql home
+sql intro
+sql syntax
+sql select
+sql select distinct
+sql where
+sql and, or, not
+sql order by
+sql insert into
+sql null values
+sql update
+sql delete
+sql select top
+sql min and max
+sql count, avg, sum
+sql like
+sql wildcards
+sql in
+sql between
+sql aliases
+sql joins
+sql inner join
+sql left join
+sql right join
+sql full join
+sql self join
+sql union
+sql group by
+sql having
+sql exists
+sql any, all
+sql select into
+sql insert into select
+sql case
+sql null functions
+sql stored procedures
+sql comments
+sql operators
+sql create db
+sql drop db
+sql backup db
+sql create table
+sql drop table
+sql alter table
+sql constraints
+sql not null
+sql unique
+sql primary key
+sql foreign key
+sql check
+sql default
+sql index
+sql auto increment
+sql dates
+sql views
+sql injection
+sql hosting
+sql data types
+sql keywords
+add
+add constraint
+all
+alter
+alter column
+alter table
+and
+any
+as
+asc
+backup database
+between
+case
+check
+column
+constraint
+create
+create database
+create index
+create or replace view
+create table
+create procedure
+create unique index
+create view
+database
+default
+delete
+desc
+distinct
+drop
+drop column
+drop constraint
+drop database
+drop default
+drop index
+drop table
+drop view
+exec
+exists
+foreign key
+from
+full outer join
+group by
+having
+in
+index
+inner join
+insert into
+insert into select
+is null
+is not null
+join
+left join
+like
+limit
+not
+not null
+or
+order by
+outer join
+primary key
+procedure
+right join
+rownum
+select
+select distinct
+select into
+select top
+set
+table
+top
+truncate table
+union
+union all
+unique
+update
+values
+view
+where
+mysql functions
+ascii
+char_length
+character_length
+concat
+concat_ws
+field
+find_in_set
+format
+insert
+instr
+lcase
+left
+length
+locate
+lower
+lpad
+ltrim
+mid
+position
+repeat
+replace
+reverse
+right
+rpad
+rtrim
+space
+strcmp
+substr
+substring
+substring_index
+trim
+ucase
+upper
+abs
+acos
+asin
+atan
+atan2
+avg
+ceil
+ceiling
+cos
+cot
+count
+degrees
+div
+exp
+floor
+greatest
+least
+ln
+log
+log10
+log2
+max
+min
+mod
+pi
+pow
+power
+radians
+rand
+round
+sign
+sin
+sqrt
+sum
+tan
+truncate
+adddate
+addtime
+curdate
+current_date
+current_time
+current_timestamp
+curtime
+date
+datediff
+date_add
+date_format
+date_sub
+day
+dayname
+dayofmonth
+dayofweek
+dayofyear
+extract
+from_days
+hour
+last_day
+localtime
+localtimestamp
+makedate
+maketime
+microsecond
+minute
+month
+monthname
+now
+period_add
+period_diff
+quarter
+second
+sec_to_time
+str_to_date
+subdate
+subtime
+sysdate
+time
+time_format
+time_to_sec
+timediff
+timestamp
+to_days
+week
+weekday
+weekofyear
+year
+yearweek
+bin
+binary
+case
+cast
+coalesce
+connection_id
+conv
+convert
+current_user
+database
+if
+ifnull
+isnull
+last_insert_id
+nullif
+session_user
+system_user
+user
+version
+sql server functions
+ascii
+char
+charindex
+concat
+concat with +
+concat_ws
+datalength
+difference
+format
+left
+len
+lower
+ltrim
+nchar
+patindex
+quotename
+replace
+replicate
+reverse
+right
+rtrim
+soundex
+space
+str
+stuff
+substring
+translate
+trim
+unicode
+upper
+abs
+acos
+asin
+atan
+atn2
+avg
+ceiling
+count
+cos
+cot
+degrees
+exp
+floor
+log
+log10
+max
+min
+pi
+power
+radians
+rand
+round
+sign
+sin
+sqrt
+square
+sum
+tan
+current_timestamp
+dateadd
+datediff
+datefromparts
+datename
+datepart
+day
+getdate
+getutcdate
+isdate
+month
+sysdatetime
+year
+cast
+coalesce
+convert
+current_user
+iif
+isnull
+isnumeric
+nullif
+session_user
+sessionproperty
+system_user
+user_name
+ms access functions
+asc
+chr
+concat with &
+curdir
+format
+instr
+instrrev
+lcase
+left
+len
+ltrim
+mid
+replace
+right
+rtrim
+space
+split
+str
+strcomp
+strconv
+strreverse
+trim
+ucase
+abs
+atn
+avg
+cos
+count
+exp
+fix
+format
+int
+max
+min
+randomize
+rnd
+round
+sgn
+sqr
+sum
+val
+date
+dateadd
+datediff
+datepart
+dateserial
+datevalue
+day
+format
+hour
+minute
+month
+monthname
+now
+second
+time
+timeserial
+timevalue
+weekday
+weekdayname
+year
+currentuser
+environ
+isdate
+isnull
+isnumeric
+sql quick ref
+sql examples
+sql quiz
+sql exercises
+sql certificate
+mysql home
+mysql intro
+mysql rdbms
+mysql sql
+mysql select
+mysql where
+mysql and, or, not
+mysql order by
+mysql insert into
+mysql null values
+mysql update
+mysql delete
+mysql limit
+mysql min and max
+mysql count, avg, sum
+mysql like
+mysql wildcards
+mysql in
+mysql between
+mysql aliases
+mysql joins
+mysql inner join
+mysql left join
+mysql right join
+mysql cross join
+mysql self join
+mysql union
+mysql group by
+mysql having
+mysql exists
+mysql any, all
+mysql insert select
+mysql case
+mysql null functions
+mysql comments
+mysql operators
+mysql create db
+mysql drop db
+mysql create table
+mysql drop table
+mysql alter table
+mysql constraints
+mysql not null
+mysql unique
+mysql primary key
+mysql foreign key
+mysql check
+mysql default
+mysql create index
+mysql auto increment
+mysql dates
+mysql views
+mysql data types
+mysql functions
+ascii
+char_length
+character_length
+concat
+concat_ws
+field
+find_in_set
+format
+insert
+instr
+lcase
+left
+length
+locate
+lower
+lpad
+ltrim
+mid
+position
+repeat
+replace
+reverse
+right
+rpad
+rtrim
+space
+strcmp
+substr
+substring
+substring_index
+trim
+ucase
+upper
+abs
+acos
+asin
+atan
+atan2
+avg
+ceil
+ceiling
+cos
+cot
+count
+degrees
+div
+exp
+floor
+greatest
+least
+ln
+log
+log10
+log2
+max
+min
+mod
+pi
+pow
+power
+radians
+rand
+round
+sign
+sin
+sqrt
+sum
+tan
+truncate
+adddate
+addtime
+curdate
+current_date
+current_time
+current_timestamp
+curtime
+date
+datediff
+date_add
+date_format
+date_sub
+day
+dayname
+dayofmonth
+dayofweek
+dayofyear
+extract
+from_days
+hour
+last_day
+localtime
+localtimestamp
+makedate
+maketime
+microsecond
+minute
+month
+monthname
+now
+period_add
+period_diff
+quarter
+second
+sec_to_time
+str_to_date
+subdate
+subtime
+sysdate
+time
+time_format
+time_to_sec
+timediff
+timestamp
+to_days
+week
+weekday
+weekofyear
+year
+yearweek
+bin
+binary
+case
+cast
+coalesce
+connection_id
+conv
+convert
+current_user
+database
+if
+ifnull
+isnull
+last_insert_id
+nullif
+session_user
+system_user
+user
+version
+mysql examples
+mysql quiz
+mysql exercises
+mysql certificate
+php home
+php intro
+php install
+php syntax
+php comments
+php variables
+variables
+variables scope
+php echo / print
+php data types
+php strings
+php numbers
+php math
+php constants
+php operators
+php if...else...elseif
+php switch
+php loops
+loops
+while loop
+do while loop
+for loop
+foreach loop
+break/continue
+php functions
+php arrays
+arrays
+indexed arrays
+associative arrays
+multidimensional arrays
+sorting arrays
+php superglobals
+superglobals
+$globals
+$_server
+$_request
+$_post
+$_get
+php regex
+php form handling
+php form validation
+php form required
+php form url/e-mail
+php form complete
+php date and time
+php include
+php file handling
+php file open/read
+php file create/write
+php file upload
+php cookies
+php sessions
+php filters
+php filters advanced
+php callback functions
+php json
+php exceptions
+php what is oop
+php classes/objects
+php constructor
+php destructor
+php access modifiers
+php inheritance
+php constants
+php abstract classes
+php interfaces
+php traits
+php static methods
+php static properties
+php namespaces
+php iterables
+mysql database
+mysql connect
+mysql create db
+mysql create table
+mysql insert data
+mysql get last id
+mysql insert multiple
+mysql prepared
+mysql select data
+mysql where
+mysql order by
+mysql delete data
+mysql update data
+mysql limit data
+php xml parsers
+php simplexml parser
+php simplexml - get
+php xml expat
+php xml dom
+ajax intro
+ajax php
+ajax database
+ajax xml
+ajax live search
+ajax poll
+php examples
+php compiler
+php quiz
+php exercises
+php certificate
+php overview
+php array
+array()
+array_change_key_case()
+array_chunk()
+array_column()
+array_combine()
+array_count_values()
+array_diff()
+array_diff_assoc()
+array_diff_key()
+array_diff_uassoc()
+array_diff_ukey()
+array_fill()
+array_fill_keys()
+array_filter()
+array_flip()
+array_intersect()
+array_intersect_assoc()
+array_intersect_key()
+array_intersect_uassoc()
+array_intersect_ukey()
+array_key_exists()
+array_keys()
+array_map()
+array_merge()
+array_merge_recursive()
+array_multisort()
+array_pad()
+array_pop()
+array_product()
+array_push()
+array_rand()
+array_reduce()
+array_replace()
+array_replace_recursive()
+array_reverse()
+array_search()
+array_shift()
+array_slice()
+array_splice()
+array_sum()
+array_udiff()
+array_udiff_assoc()
+    array_udiff_uassoc()
+array_uintersect()
+array_uintersect_assoc()
+array_uintersect_uassoc()
+array_unique()
+array_unshift()
+array_values()
+array_walk()
+array_walk_recursive()
+arsort()
+asort()
+compact()
+count()
+current()
+each()
+end()
+extract()
+in_array()
+key()
+krsort()
+ksort()
+list()
+natcasesort()
+natsort()
+next()
+pos()
+prev()
+range()
+reset()
+rsort()
+shuffle()
+sizeof()
+sort()
+uasort()
+uksort()
+usort()
+
+array_udiff_uassoc()
+array_uintersect()
+array_uintersect_assoc()
+array_uintersect_uassoc()
+array_unique()
+array_unshift()
+array_values()
+array_walk()
+array_walk_recursive()
+arsort()
+asort()
+compact()
+count()
+current()
+each()
+end()
+extract()
+in_array()
+key()
+krsort()
+ksort()
+list()
+natcasesort()
+natsort()
+next()
+pos()
+prev()
+range()
+reset()
+rsort()
+shuffle()
+sizeof()
+sort()
+uasort()
+uksort()
+usort()
+php calendar
+cal_days_in_month()
+cal_from_jd()
+cal_info()
+cal_to_jd()
+easter_date()
+easter_days()
+frenchtojd()
+gregoriantojd()
+jddayofweek()
+jdmonthname()
+jdtofrench()
+jdtogregorian()
+jdtojewish()
+jdtojulian()
+jdtounix()
+jewishtojd()
+juliantojd()
+unixtojd()
+php date
+checkdate()
+date_add()
+date_create_from_format()
+date_create()
+date_date_set()
+date_default_timezone_get()
+date_default_timezone_set()
+date_diff()
+date_format()
+date_get_last_errors()
+date_interval_create_from_date_string()
+date_interval_format()
+date_isodate_set()
+date_modify()
+date_offset_get()
+date_parse_from_format()
+date_parse()
+date_sub()
+date_sun_info()
+date_sunrise()
+date_sunset()
+date_time_set()
+date_timestamp_get()
+date_timestamp_set()
+date_timezone_get()
+date_timezone_set()
+date()
+getdate()
+gettimeofday()
+gmdate()
+gmmktime()
+gmstrftime()
+idate()
+localtime()
+microtime()
+mktime()
+strftime()
+strptime()
+strtotime()
+time()
+timezone_abbreviations_list()
+timezone_identifiers_list()
+timezone_location_get()
+timezone_name_from_abbr()
+timezone_name_get()
+timezone_offset_get()
+timezone_open()
+timezone_transitions_get()
+timezone_version_get()
+php directory
+chdir()
+chroot()
+closedir()
+dir()
+getcwd()
+opendir()
+readdir()
+rewinddir()
+scandir()
+php error
+debug_backtrace()
+debug_print_backtrace()
+error_get_last()
+error_log()
+error_reporting()
+restore_error_handler()
+restore_exception_handler()
+set_error_handler()
+set_exception_handler()
+trigger_error()
+php exception
+exception()
+getcode()
+getfile()
+getmessage()
+getline()
+getprevious()
+gettrace()
+gettraceasstring()
+php filesystem
+basename()
+chgrp()
+chmod()
+chown()
+clearstatcache()
+copy()
+delete()
+dirname()
+disk_free_space()
+disk_total_space()
+diskfreespace()
+fclose()
+feof()
+fflush()
+fgetc()
+fgetcsv()
+fgets()
+fgetss()
+file()
+file_exists()
+file_get_contents()
+file_put_contents()
+fileatime()
+filectime()
+filegroup()
+fileinode()
+filemtime()
+fileowner()
+fileperms()
+filesize()
+filetype()
+flock()
+fnmatch()
+fopen()
+fpassthru()
+fputcsv()
+fputs()
+fread()
+fscanf()
+fseek()
+fstat()
+ftell()
+ftruncate()
+fwrite()
+glob()
+is_dir()
+is_executable()
+is_file()
+is_link()
+is_readable()
+is_uploaded_file()
+is_writable()
+is_writeable()
+lchgrp()
+lchown()
+link()
+linkinfo()
+lstat()
+mkdir()
+move_uploaded_file()
+parse_ini_file()
+parse_ini_string()
+pathinfo()
+pclose()
+popen()
+readfile()
+readlink()
+realpath()
+realpath_cache_get()
+realpath_cache_size()
+rename()
+rewind()
+rmdir()
+set_file_buffer()
+stat()
+symlink()
+tempnam()
+tmpfile()
+touch()
+umask()
+unlink()
+php filter
+filter_has_var()
+filter_id()
+filter_input()
+filter_input_array()
+filter_list()
+filter_var()
+filter_var_array()
+php ftp
+ftp_alloc()
+ftp_cdup()
+ftp_chdir()
+ftp_chmod()
+ftp_close()
+ftp_connect()
+ftp_delete()
+ftp_exec()
+ftp_fget()
+ftp_fput()
+ftp_get()
+ftp_get_option()
+ftp_login()
+ftp_mdtm()
+ftp_mkdir()
+ftp_mlsd()
+ftp_nb_continue()
+ftp_nb_fget()
+ftp_nb_fput()
+ftp_nb_get()
+ftp_nb_put()
+ftp_nlist()
+ftp_pasv()
+ftp_put()
+ftp_pwd()
+ftp_quit()
+ftp_raw()
+ftp_rawlist()
+ftp_rename()
+ftp_rmdir()
+ftp_set_option()
+ftp_site()
+ftp_size()
+ftp_ssl_connect()
+ftp_systype()
+php json
+json_decode()
+json_encode()
+php keywords
+abstract
+and
+as
+break
+callable
+case
+catch
+class
+clone
+const
+continue
+declare
+default
+do
+echo
+else
+elseif
+empty
+enddeclare
+endfor
+endforeach
+endif
+endswitch
+extends
+final
+finally
+fn
+for
+foreach
+function
+global
+if
+implements
+include
+include_once
+instanceof
+insteadof
+interface
+isset
+list
+namespace
+new
+or
+print
+private
+protected
+public
+require
+require_once
+return
+static
+switch
+throw
+trait
+try
+use
+var
+while
+xor
+yield
+yield from
+php libxml
+libxml_clear_errors()
+libxml_disable_entity_loader()
+libxml_get_errors()
+libxml_get_last_error()
+libxml_set_external_entity_loader()
+libxml_set_streams_context()
+libxml_use_internal_errors()
+php mail
+ezmlm_hash()
+mail()
+php math
+abs()
+acos()
+acosh()
+asin()
+asinh()
+atan()
+atan2()
+atanh()
+base_convert()
+bindec()
+ceil()
+cos()
+cosh()
+decbin()
+dechex()
+decoct()
+deg2rad()
+exp()
+expm1()
+floor()
+fmod()
+getrandmax()
+hexdec()
+hypot()
+intdiv()
+is_finite()
+is_infinite()
+is_nan()
+lcg_value()
+log()
+log10()
+log1p()
+max()
+min()
+mt_getrandmax()
+mt_rand()
+mt_srand()
+octdec()
+pi()
+pow()
+rad2deg()
+rand()
+round()
+sin()
+sinh()
+sqrt()
+srand()
+tan()
+tanh()
+php misc
+connection_aborted()
+connection_status()
+connection_timeout()
+constant()
+define()
+defined()
+die()
+eval()
+exit()
+get_browser()
+__halt_compiler()
+highlight_file()
+highlight_string()
+hrtime()
+ignore_user_abort()
+pack()
+php_strip_whitespace()
+show_source()
+sleep()
+sys_getloadavg()
+time_nanosleep()
+time_sleep_until()
+uniqid()
+unpack()
+usleep()
+php mysqli
+affected_rows
+autocommit
+change_user
+character_set_name
+close
+commit
+connect
+connect_errno
+connect_error
+data_seek
+debug
+dump_debug_info
+errno
+error
+error_list
+fetch_all
+fetch_array
+fetch_assoc
+fetch_field
+fetch_field_direct
+fetch_fields
+fetch_lengths
+fetch_object
+fetch_row
+field_count
+field_seek
+get_charset
+get_client_info
+get_client_stats
+get_client_version
+get_connection_stats
+get_host_info
+get_proto_info
+get_server_info
+get_server_version
+info
+init
+insert_id
+kill
+more_results
+multi_query
+next_result
+options
+ping
+poll
+prepare
+query
+real_connect
+real_escape_string
+real_query
+reap_async_query
+refresh
+rollback
+select_db
+set_charset
+set_local_infile_handler
+sqlstate
+ssl_set
+stat
+stmt_init
+thread_id
+thread_safe
+use_result
+warning_count
+php network
+checkdnsrr()
+closelog()
+dns_check_record()
+dns_get_mx()
+dns_get_record()
+fsockopen()
+gethostbyaddr()
+gethostbyname()
+gethostbynamel()
+gethostname()
+getmxrr()
+getprotobyname()
+getprotobynumber()
+getservbyname()
+getservbyport()
+header_register_callback()
+header_remove()
+header()
+headers_list()
+headers_sent()
+http_response_code()
+inet_ntop()
+inet_pton()
+ip2long()
+long2ip()
+openlog()
+pfsockopen()
+setcookie()
+setrawcookie()
+socket_get_status()
+socket_set_blocking()
+socket_set_timeout()
+syslog()
+php output control
+flush()
+ob_clean()
+ob_end_clean()
+ob_end_flush()
+ob_flush()
+ob_get_clean()
+ob_get_contents()
+ob_get_flush()
+ob_get_length()
+ob_get_level()
+ob_gzhandler()
+ob_implicit_flush()
+ob_list_handlers()
+ob_start()
+output_add_rewrite_var()
+output_reset_rewrite_vars()
+php regex
+preg_filter()
+preg_grep()
+preg_last_error()
+preg_match()
+preg_match_all()
+preg_replace
+preg_replace_callback
+preg_replace_callback_array
+preg_split
+preg_quote
+php simplexml
+__construct()
+__tostring()
+addattribute()
+addchild()
+asxml()
+attributes()
+children()
+count()
+getdocnamespaces()
+getname()
+getnamespaces()
+registerxpathnamespace()
+savexml()
+simplexml_import_dom()
+simplexml_load_file()
+simplexml_load_string()
+xpath()
+current()
+getchildren()
+haschildren()
+key()
+next()
+rewind()
+valid()
+php stream
+php string
+addcslashes()
+addslashes()
+bin2hex()
+chop()
+chr()
+chunk_split()
+convert_cyr_string()
+convert_uudecode()
+convert_uuencode()
+count_chars()
+crc32()
+crypt()
+echo()
+explode()
+fprint()
+get_html_translation_table()
+hebrev()
+hebrevc()
+hex2bin()
+html_entity_decode()
+htmlentities()
+htmlspecialchars_decode()
+htmlspecialchars()
+implode()
+join()
+lcfirst()
+levenshtein()
+localeconv()
+ltrim()
+md5()
+md5_file()
+metaphone()
+money_format()
+nl_langinfo()
+nl2br()
+number_format()
+ord()
+parse_str()
+print()
+printf()
+quoted_printable_decode()
+quoted_printable_encode()
+quotemeta()
+rtrim()
+setlocale()
+sha1()
+sha1_file()
+similar_text()
+soundex()
+sprintf()
+sscanf()
+str_getcsv()
+str_ireplace()
+str_pad()
+str_repeat()
+str_replace()
+str_rot13()
+str_shuffle()
+str_split()
+str_word_count()
+strcasecmp()
+strchr()
+strcmp()
+strcoll()
+strcspn()
+strip_tags()
+stripcslashes()
+stripslashes()
+stripos()
+stristr()
+strlen()
+strnatcasecmp()
+strnatcmp()
+strncasecmp()
+strncmp()
+strpbrk()
+strpos()
+strrchr()
+strrev()
+strripos()
+strrpos()
+strspn()
+strstr()
+strtok()
+strtolower()
+strtoupper()
+strtr()
+substr()
+substr_compare()
+substr_count()
+substr_replace()
+trim()
+ucfirst()
+ucwords()
+vfprintf()
+vprintf()
+vsprintf()
+wordwrap()
+php variable handling
+
+boolval()
+debug_zval_dump()
+doubleval()
+is_countable()
+empty()
+floatval()
+get_defined_vars()
+get_resource_type()
+gettype()
+intval()
+is_array()
+is_bool()
+is_callable()
+is_double()
+is_float()
+is_int()
+is_integer()
+is_iterable()
+is_long()
+is_null()
+is_numeric()
+is_object()
+is_real()
+is_resource()
+is_scalar()
+is_string()
+isset()
+print_r()
+serialize()
+settype()
+strval()
+unserialize()
+unset()
+var_dump()
+var_export()
+
+php xml parser
+
+utf8_decode()
+utf8_encode()
+xml_error_string()
+xml_get_current_byte_index()
+xml_get_current_column_number()
+xml_get_current_line_number()
+xml_get_error_code()
+xml_parse()
+xml_parse_into_struct()
+xml_parser_create_ns()
+xml_parser_create()
+xml_parser_free()
+xml_parser_get_option()
+xml_parser_set_option()
+xml_set_character_data_handler()
+xml_set_default_handler()
+xml_set_element_handler()
+xml_set_end_namespace_decl_handler()
+xml_set_external_entity_ref_handler()
+xml_set_notation_decl_handler()
+xml_set_object()
+xml_set_processing_instruction_handler()
+xml_set_start_namespace_decl_handler()
+xml_set_unparsed_entity_decl_handler()
+
+php zip
+
+zip_close()
+zip_entry_close()
+zip_entry_compressedsize()
+zip_entry_compressionmethod()
+zip_entry_filesize()
+zip_entry_name()
+zip_entry_open()
+zip_entry_read()
+zip_open()
+zip_read()
+
+php timezones
+
+
+boolval()
+debug_zval_dump()
+doubleval()
+is_countable()
+empty()
+floatval()
+get_defined_vars()
+get_resource_type()
+gettype()
+intval()
+is_array()
+is_bool()
+is_callable()
+is_double()
+is_float()
+is_int()
+is_integer()
+is_iterable()
+is_long()
+is_null()
+is_numeric()
+is_object()
+is_real()
+is_resource()
+is_scalar()
+is_string()
+isset()
+print_r()
+serialize()
+settype()
+strval()
+unserialize()
+unset()
+var_dump()
+var_export()
+php xml parser
+utf8_decode()
+utf8_encode()
+xml_error_string()
+xml_get_current_byte_index()
+xml_get_current_column_number()
+xml_get_current_line_number()
+xml_get_error_code()
+xml_parse()
+xml_parse_into_struct()
+xml_parser_create_ns()
+xml_parser_create()
+xml_parser_free()
+xml_parser_get_option()
+xml_parser_set_option()
+xml_set_character_data_handler()
+xml_set_default_handler()
+xml_set_element_handler()
+xml_set_end_namespace_decl_handler()
+xml_set_external_entity_ref_handler()
+xml_set_notation_decl_handler()
+xml_set_object()
+xml_set_processing_instruction_handler()
+xml_set_start_namespace_decl_handler()
+xml_set_unparsed_entity_decl_handler()
+php zip
+zip_close()
+zip_entry_close()
+zip_entry_compressedsize()
+zip_entry_compressionmethod()
+zip_entry_filesize()
+zip_entry_name()
+zip_entry_open()
+zip_entry_read()
+zip_open()
+zip_read()
+php timezones
+asp home
+webpages intro
+webpages razor
+webpages layout
+webpages folders
+webpages global
+webpages forms
+webpages objects
+webpages files
+webpages databases
+webpages helpers
+webpages webgrid
+webpages charts
+webpages email
+webpages security
+webpages publish
+webpages examples
+webpages classes
+razor intro
+razor syntax
+razor c# variables
+razor c# loops
+razor c# logic
+razor vb variables
+razor vb loops
+razor vb logic
+asp intro
+asp syntax
+asp variables
+asp procedures
+asp conditionals
+asp looping
+asp forms
+asp cookies
+asp session
+asp application
+asp #include
+asp global.asa
+asp ajax
+asp e-mail
+asp examples
+asp vb functions
+asp vb keywords
+asp response
+asp request
+asp application
+asp session
+asp server
+asp error
+asp filesystem
+asp textstream
+asp drive
+asp file
+asp folder
+asp dictionary
+asp adrotator
+asp browsercap
+asp content linking
+asp content rotator
+asp quick ref
+ado intro
+ado connect
+ado recordset
+ado display
+ado query
+ado sort
+ado add
+ado update
+ado delete
+ado demo
+ado speed up
+ado command
+ado connection
+ado error
+ado field
+ado parameter
+ado property
+ado record
+ado recordset
+ado stream
+ado datatypes
+node.js home
+node.js intro
+node.js get started
+node.js modules
+node.js http module
+node.js file system
+node.js url module
+node.js npm
+node.js events
+node.js upload files
+node.js email
+mysql get started
+mysql create database
+mysql create table
+mysql insert into
+mysql select from
+mysql where
+mysql order by
+mysql delete
+mysql drop table
+mysql update
+mysql limit
+mysql join
+mongodb get started
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb query
+mongodb sort
+mongodb delete
+mongodb drop collection
+mongodb update
+mongodb limit
+mongodb join
+raspi get started
+raspi gpio introduction
+raspi blinking led
+raspi led & pushbutton
+raspi flowing leds
+raspi websocket
+raspi rgb led websocket
+raspi components
+built-in modules
+node.js home
+node.js intro
+node.js get started
+node.js modules
+node.js http module
+node.js file system
+node.js url module
+node.js npm
+node.js events
+node.js upload files
+node.js email
+mysql get started
+mysql create database
+mysql create table
+mysql insert into
+mysql select from
+mysql where
+mysql order by
+mysql delete
+mysql drop table
+mysql update
+mysql limit
+mysql join
+mongodb get started
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb query
+mongodb sort
+mongodb delete
+mongodb drop collection
+mongodb update
+mongodb limit
+mongodb join
+raspi get started
+raspi gpio introduction
+raspi blinking led
+raspi led & pushbutton
+raspi flowing leds
+raspi websocket
+raspi rgb led websocket
+raspi components
+built-in modules
+git home
+git intro
+git get started
+git new files
+git staging environment
+git commit
+git help
+git branch
+git branch merge
+{{title}} get started
+{{title}} edit code
+pull from {{title}}
+push to {{title}}
+{{title}} branch
+pull branch from {{title}}
+push branch to {{title}}
+github flow
+{{title}} pages
+{{title}} fork
+git clone from {{title}}
+{{title}} send pull request
+git .gitignore
+git security ssh
+{{title}} add ssh
+git revert
+git reset
+git amend
+git exercises
+git quiz
+mongodb home
+mongodb get started
+mongodb query api
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb update
+mongodb delete
+mongodb query operators
+mongodb update operators
+mongodb aggregations
+mongodb aggregations
+$group
+$limit
+$project
+$sort
+$match
+$addfields
+$count
+$lookup
+$out
+mongodb indexing/search
+mongodb validation
+mongodb data api
+mongodb drivers
+mongodb node.js driver
+mongodb charts
+mongodb exercises
+aws home
+aws intro
+aws cloud certification
+aws get started
+aws cloud computing
+aws cloud benefits
+aws ec2 intro
+aws ec2 instance types
+aws ec2 pricing
+aws ec2 scaling
+aws ec2 auto scaling
+aws elastic load balancing
+aws messaging
+aws sns
+aws sqs
+aws serverless
+aws lambda
+aws containers
+aws ecs
+aws eks
+aws fargate
+aws first recap
+aws infrastructure
+aws regions
+aws availability zones
+aws edge locations
+aws provision
+aws provision services
+aws elastic beanstalk
+aws cloudformation
+aws second recap
+aws networking
+aws connectivity
+aws subnet and access
+aws global networking
+aws third recap
+aws storage and dbs
+aws instance stores
+aws ebs
+aws s3
+aws ebs vs s3
+aws elastic file system
+aws rds
+aws dynamodb
+aws dynamodb vs rds
+aws redshift
+aws dms
+aws additional db services
+aws fourth recap
+aws cloud security
+aws shared responsibility
+aws user access
+aws organizations
+aws cloud compliance
+aws ddos
+aws other services
+aws fifth recap
+aws monitoring and analytics
+aws cloudwatch
+aws cloudtrail
+aws trustedadvisor
+aws sixth recap
+aws pricing and support
+aws free tier
+aws pricing models
+aws billing dashboard
+aws consolidated billing
+aws budgets
+aws cost explorer
+aws support plans
+aws marketplace
+aws seventh recap
+aws migration and innovation
+aws cloud adoption framework
+aws migration strategies
+aws snow family
+aws innovation
+aws eight recap
+aws cloud journey
+aws well-architected framework
+aws cloud benefits
+aws ninth recap
+aws exam preparation
+aws cloud exercises
+aws cloud quiz
+aws fundamentals
+java app on aws
+node.js app on aws
+python app on aws
+create vm ec2
+wordpress site ec2
+s3 basics
+hosting in aws s3
+nodejs website
+
+  js variables and operators
+
+mysql db with aws rds
+
+  web hosting and replication
+
+amazon aurora db
+dynamodb with python and boto3
+aws ecr
+
+  object detection with aws sagemaker
+
+aws event bridge and lambda
+aws machine learning
+aws serverless
+ml intro
+ml and ai
+ml examples
+ml languages
+ml in javascript
+ml in the browser
+mathematics
+linear functions
+linear algebra
+vectors
+matrices
+tensors
+statistics
+descriptive
+variability
+distribution
+probability
+ai plotter
+ai linear graphs
+ai scatter plots
+data science
+collecting data
+clustering
+regressions
+machine learning
+neural networks
+perceptrons
+recognition
+training
+testing
+learning
+terminology
+brain.js
+tfjs tutorial
+tfjs operations
+tfjs models
+tfjs visor
+ex1 intro
+ex1 data
+ex1 model
+ex1 training
+ex2 intro
+ex2 data
+ex2 model
+ex2 training
+graph intro
+graph canvas
+graph plotly.js
+graph chart.js
+graph google
+graph d3.js
+history of intelligence
+history of languages
+history of numbers
+history of computing
+history of robots
+history of ai
+job replacements
+theory of mind
+python home
+python intro
+python get started
+python syntax
+python comments
+python variables
+python variables
+variable names
+assign multiple values
+output variables
+global variables
+variable exercises
+python data types
+python numbers
+python casting
+python strings
+python strings
+slicing strings
+modify strings
+concatenate strings
+format strings
+escape characters
+string methods
+string exercises
+python booleans
+python operators
+python lists
+python lists
+access list items
+change list items
+add list items
+remove list items
+loop lists
+list comprehension
+sort lists
+copy lists
+join lists
+list methods
+list exercises
+python tuples
+python tuples
+access tuples
+update tuples
+unpack tuples
+loop tuples
+join tuples
+tuple methods
+tuple exercises
+python sets
+python sets
+access set items
+add set items
+remove set items
+loop sets
+join sets
+set methods
+set exercises
+python dictionaries
+python dictionaries
+access items
+change items
+add items
+remove items
+loop dictionaries
+copy dictionaries
+nested dictionaries
+dictionary methods
+dictionary exercise
+python if...else
+python while loops
+python for loops
+python functions
+python lambda
+python arrays
+python classes/objects
+python inheritance
+python iterators
+python scope
+python modules
+python dates
+python math
+python json
+python regex
+python pip
+python try...except
+python user input
+python string formatting
+python file handling
+python read files
+python write/create files
+python delete files
+numpy tutorial
+pandas tutorial
+scipy tutorial
+django tutorial
+matplotlib intro
+matplotlib get started
+matplotlib pyplot
+matplotlib plotting
+matplotlib markers
+matplotlib line
+matplotlib labels
+matplotlib grid
+matplotlib subplot
+matplotlib scatter
+matplotlib bars
+matplotlib histograms
+matplotlib pie charts
+getting started
+mean median mode
+standard deviation
+percentile
+data distribution
+normal data distribution
+scatter plot
+linear regression
+polynomial regression
+multiple regression
+scale
+train/test
+decision tree
+confusion matrix
+hierarchical clustering
+logistic regression
+grid search
+categorical data
+k-means
+bootstrap aggregation
+cross validation
+auc - roc curve
+k-nearest neighbors
+mysql get started
+mysql create database
+mysql create table
+mysql insert
+mysql select
+mysql where
+mysql order by
+mysql delete
+mysql drop table
+mysql update
+mysql limit
+mysql join
+mongodb get started
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb query
+mongodb sort
+mongodb delete
+mongodb drop collection
+mongodb update
+mongodb limit
+python overview
+python built-in functions
+python string methods
+python list methods
+python dictionary methods
+python tuple methods
+python set methods
+python file methods
+python keywords
+python exceptions
+python glossary
+random module
+requests module
+statistics module
+math module
+cmath module
+remove list duplicates
+reverse a string
+add two numbers
+python examples
+python compiler
+python exercises
+python quiz
+python certificate
+ds home
+ds introduction
+ds what is data
+ds database table
+ds python
+ds dataframe
+ds functions
+ds data preparation
+ds linear functions
+ds plotting functions
+ds slope and intercept
+stat introduction
+stat percentiles
+stat standard deviation
+stat variance
+stat correlation
+stat correlation matrix
+stat correlation vs causality
+ds linear regression
+ds regression table
+ds regression info
+ds regression coefficients
+ds regression p-value
+ds regression r-squared
+ds linear regression case
+numpy home
+numpy intro
+numpy getting started
+numpy creating arrays
+numpy array indexing
+numpy array slicing
+numpy data types
+numpy copy vs view
+numpy array shape
+numpy array reshape
+numpy array iterating
+numpy array join
+numpy array split
+numpy array search
+numpy array sort
+numpy array filter
+random intro
+data distribution
+random permutation
+seaborn module
+normal distribution
+binomial distribution
+poisson distribution
+uniform distribution
+logistic distribution
+multinomial distribution
+exponential distribution
+chi square distribution
+rayleigh distribution
+pareto distribution
+zipf distribution
+ufunc intro
+ufunc create function
+ufunc simple arithmetic
+ufunc rounding decimals
+ufunc logs
+ufunc summations
+ufunc products
+ufunc differences
+ufunc finding lcm
+ufunc finding gcd
+ufunc trigonometric
+ufunc hyperbolic
+ufunc set operations
+numpy quiz
+numpy exercises
+numpy certificate
+pandas home
+pandas intro
+pandas getting started
+pandas series
+pandas dataframes
+pandas read csv
+pandas read json
+pandas analyzing data
+cleaning data
+cleaning empty cells
+cleaning wrong format
+cleaning wrong data
+removing duplicates
+pandas correlations
+pandas plotting
+pandas quiz
+pandas exercises
+pandas certificate
+dataframes reference
+scipy home
+scipy intro
+scipy getting started
+scipy constants
+scipy optimizers
+scipy sparse data
+scipy graphs
+scipy spatial data
+scipy matlab arrays
+scipy interpolation
+scipy significance tests
+scipy quiz
+scipy exercises
+python home
+python intro
+python get started
+python syntax
+python comments
+python variables
+python variables
+variable names
+assign multiple values
+output variables
+global variables
+variable exercises
+python data types
+python numbers
+python casting
+python strings
+python strings
+slicing strings
+modify strings
+concatenate strings
+format strings
+escape characters
+string methods
+string exercises
+python booleans
+python operators
+python lists
+python lists
+access list items
+change list items
+add list items
+remove list items
+loop lists
+list comprehension
+sort lists
+copy lists
+join lists
+list methods
+list exercises
+python tuples
+python tuples
+access tuples
+update tuples
+unpack tuples
+loop tuples
+join tuples
+tuple methods
+tuple exercises
+python sets
+python sets
+access set items
+add set items
+remove set items
+loop sets
+join sets
+set methods
+set exercises
+python dictionaries
+python dictionaries
+access items
+change items
+add items
+remove items
+loop dictionaries
+copy dictionaries
+nested dictionaries
+dictionary methods
+dictionary exercise
+python if...else
+python while loops
+python for loops
+python functions
+python lambda
+python arrays
+python classes/objects
+python inheritance
+python iterators
+python scope
+python modules
+python dates
+python math
+python json
+python regex
+python pip
+python try...except
+python user input
+python string formatting
+python file handling
+python read files
+python write/create files
+python delete files
+numpy tutorial
+pandas tutorial
+scipy tutorial
+django tutorial
+matplotlib intro
+matplotlib get started
+matplotlib pyplot
+matplotlib plotting
+matplotlib markers
+matplotlib line
+matplotlib labels
+matplotlib grid
+matplotlib subplot
+matplotlib scatter
+matplotlib bars
+matplotlib histograms
+matplotlib pie charts
+getting started
+mean median mode
+standard deviation
+percentile
+data distribution
+normal data distribution
+scatter plot
+linear regression
+polynomial regression
+multiple regression
+scale
+train/test
+decision tree
+confusion matrix
+hierarchical clustering
+logistic regression
+grid search
+categorical data
+k-means
+bootstrap aggregation
+cross validation
+auc - roc curve
+k-nearest neighbors
+mysql get started
+mysql create database
+mysql create table
+mysql insert
+mysql select
+mysql where
+mysql order by
+mysql delete
+mysql drop table
+mysql update
+mysql limit
+mysql join
+mongodb get started
+mongodb create database
+mongodb create collection
+mongodb insert
+mongodb find
+mongodb query
+mongodb sort
+mongodb delete
+mongodb drop collection
+mongodb update
+mongodb limit
+python overview
+python built-in functions
+python string methods
+python list methods
+python dictionary methods
+python tuple methods
+python set methods
+python file methods
+python keywords
+python exceptions
+python glossary
+random module
+requests module
+statistics module
+math module
+cmath module
+remove list duplicates
+reverse a string
+add two numbers
+python examples
+python compiler
+python exercises
+python quiz
+python certificate
+stat home
+stat introduction
+stat gathering data
+stat describing data
+stat making conclusions
+stat prediction & explanation
+stat populations & samples
+stat parameters & statistics
+stat study types
+stat sample types
+stat data types
+stat measurement levels
+stat descriptive statistics
+stat frequency tables
+stat histograms
+stat bar graphs
+stat pie charts
+stat box plots
+stat average
+stat mean
+stat median
+stat mode
+stat variation
+stat range
+stat quartiles and percentiles
+stat interquartile range
+stat standard deviation
+stat statistical inference
+stat normal distribution
+stat standard normal distribution
+stat students t-distribution
+stat estimation
+stat population proportion estimation
+stat population mean estimation
+stat hypothesis testing
+stat hypothesis testing proportion
+stat hypothesis testing mean
+stat z-table
+stat t-table
+stat hypothesis testing proportion (left tailed)
+stat hypothesis testing proportion (two tailed)
+stat hypothesis testing mean (left tailed)
+stat hypothesis testing mean (two tailed)
+excel home
+excel introduction
+excel get started
+excel overview
+excel syntax
+excel ranges
+excel fill
+filling
+double click to fill
+excel move cells
+excel add cells
+excel delete cells
+excel undo redo
+excel formulas
+excel relative reference
+excel absolute reference
+excel arithmetic operators
+excel addition
+excel subtraction
+excel multiplication
+excel division
+excel parentheses
+excel functions
+excel formatting
+excel format painter
+excel format colors
+excel format fonts
+excel format borders
+excel format numbers
+excel format grids
+excel format settings
+excel sort
+excel filter
+excel tables
+tables
+table design
+table resizing
+remove duplicates
+convert table to range
+table style
+excel conditional format
+excel highlight cell rules
+highlight cell rules
+hcr - greater than
+hcr - less than
+hcr - between
+hcr - equal to
+hcr - text that contains
+hcr - date occurring
+hcr - unique values
+excel top bottom rules
+top bottom rules
+above below average
+excel data bars
+excel color scales
+excel icon sets
+excel manage rules (cf)
+excel charts
+charts
+bar charts
+stacked bar charts
+column charts
+stacked column charts
+pie charts
+line charts
+stacked line charts
+100% stacked line charts
+radar charts
+excel charts customization
+table pivot intro
+case: poke mart
+case: poke mart, styling
+and
+average
+averageif
+averageifs
+concat
+count
+counta
+countblank
+countif
+countifs
+if
+ifs
+left
+lower
+max
+median
+min
+mode
+npv
+or
+rand
+right
+stdev.p
+stdev.s
+sum
+sumif
+sumifs
+trim
+vlookup
+xor
+convert time to seconds
+difference between times
+npv (net present value)
+remove duplicates
+introduction to excel
+data calculations
+data visualization
+to create a budget
+to create a timeline
+to style in excel
+excel exercises
+excel certificate
+excel keyboard shortcuts
+gs home
+gs introduction
+gs get started
+gs overview
+gs syntax
+gs ranges
+gs fill
+filling
+double click to fill
+gs move cells
+gs add cells
+gs delete cells
+gs undo redo
+gs formulas
+gs relative reference
+gs absolute reference
+gs arithmetic operators
+gs addition
+gs subtraction
+gs multiplication
+gs division
+gs parentheses
+gs functions
+gs location settings
+gs formatting
+gs format painter
+gs format colors
+gs format fonts
+fonts
+font color
+font size
+font characteristics
+gs format borders
+gs format numbers
+gs format grids
+gs format clear
+gs sort
+gs sort sheet
+gs sort by range
+gs sort range
+gs conditional formatting
+gs single color formatting
+gs color scale formatting
+and
+average
+averageif
+averageifs
+count
+counta
+countblank
+countif
+countifs
+if
+ifs
+max
+median
+min
+mode
+or
+stdev.p
+stdev.s
+sum
+sumif
+sumifs
+vlookup
+xor
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
+xml home
+xml introduction
+xml how to use
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml httprequest
+xml parser
+xml dom
+xml xpath
+xml xslt
+xml xquery
+xml xlink
+xml validator
+xml dtd
+xml schema
+xml server
+xml examples
+xml quiz
+xml certificate
+ajax introduction
+ajax xmlhttp
+ajax request
+ajax response
+ajax xml file
+ajax php
+ajax asp
+ajax database
+ajax applications
+ajax examples
+dom introduction
+dom nodes
+dom accessing
+dom node info
+dom node list
+dom traversing
+dom navigating
+dom get values
+dom change nodes
+dom remove nodes
+dom replace nodes
+dom create nodes
+dom add nodes
+dom clone nodes
+dom examples
+xpath introduction
+xpath nodes
+xpath syntax
+xpath axes
+xpath operators
+xpath examples
+xslt introduction
+xsl languages
+xslt transform
+xslt <template>
+xslt <value-of>
+xslt <for-each>
+xslt <sort>
+xslt <if>
+xslt <choose>
+xslt apply
+xslt on the client
+xslt on the server
+xslt edit xml
+xslt examples
+xquery introduction
+xquery example
+xquery flwor
+xquery html
+xquery terms
+xquery syntax
+xquery add
+xquery select
+xquery functions
+dtd introduction
+dtd building blocks
+dtd elements
+dtd attributes
+dtd elements vs attr
+dtd entities
+dtd examples
+xsd introduction
+xsd how to
+xsd <schema>
+xsd elements
+xsd attributes
+xsd restrictions
+xsd complex elements
+xsd empty
+xsd elements-only
+xsd text-only
+xsd mixed
+xsd indicators
+xsd <any>
+xsd <anyattribute>
+xsd substitution
+xsd example
+xsd string
+xsd date/time
+xsd numeric
+xsd misc
+xsd reference
+xml services
+xml wsdl
+xml soap
+xml rdf
+xml rss
+dom node types
+dom node
+dom nodelist
+dom namednodemap
+dom document
+dom element
+dom attribute
+dom text
+dom cdata
+dom comment
+dom xmlhttprequest
+dom parser
+xslt elements
+xslt/xpath functions
