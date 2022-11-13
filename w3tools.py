@@ -12,38 +12,11 @@ w3HomeSoup = bs(response.content, 'html.parser')  # turn html into soup
 
 tutorial = "python"
 topic = "arrays"
-w3treeHtml = open("w3tree.html","r")
-tutorialsBS = bs(w3treeHtml,'html.parser') # code with tutorials list
-print(tutorialsBS.contents[0].contents)
 
+w3 = bs(response.content, 'html.parser')  # turn html into soup
 
-for a in tutorialsBS.find_all('a', href=True): # get links from tutorials to dictionary
-	link = url+a['href'].replace(" ","")
-	last = link.rindex("/") 
-	# print(last)
-	link = link[0:last]+"/"
-	name = a.get_text().replace("Learn","").casefold()
-	name = name.replace(" ","")
-	# print(name)
-	tutorialsDict[name] = link
+data = w3.find_all(attrs={'class': 'w3-col l3 m6 w3-hide-medium'})
+data += w3.find_all(attrs={'class': 'w3-col l3 m6'})
+
+for div in data:
 	
-# print(tutorialsDict)
-urlToSearch = tutorialsDict[tutorial]# testing tutorial
-# print(urlToSearch)
-# topic = "arrays"
-
-# print(urlToSearch) 
-
-searchResponse = requests.get(urlToSearch) 
-w3HomeSoup = bs(searchResponse.content, 'html.parser')  
-
-topics = w3HomeSoup.find("div",id="leftmenuinnerinner") # find list of tutorial's topics
-
-topicSoup = bs(str(topics), 'html.parser')  # turn topics into bs
-
-for obj in topicSoup.find_all('a', href=True): # create list 
-	name = obj.get_text().casefold()
-	topicLink = urlToSearch +obj['href'] 
-	if topic in name:
-		print(topicLink)
-		pass
