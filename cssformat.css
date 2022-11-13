@@ -1,0 +1,30 @@
+html{
+    background-color: #232023;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+dd {
+
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+a:link {
+    color: #FFFDD0;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #FFFDD0;
+    background-color: transparent;
+    text-decoration: none;
+}

@@ -4,6 +4,7 @@ from nltk.corpus import stopwords  # stop words from nltk
 from nltk.tokenize import word_tokenize  # tokenizer function
 from nltk.stem import WordNetLemmatizer
 
+import re
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 
 nltk.download("punkt")  #	downloads
@@ -31,7 +32,7 @@ def tutorialGlossary():
         temp = temp.replace("learn", "")
         temp = temp.replace(" ","")
         tutorialsArr.append(temp)
-    print(tutorialsLinksArr)
+    # print(tutorialsLinksArr)
     
     return tutorialsArr
 
@@ -48,14 +49,20 @@ def topicsGlossary(arr):
             
             text = o.get_text()
             text = text.replace("Learn ", "").casefold()
+            temp = text.split(" ")
+            if temp[0] in tutorialsArr:
+                # print("FOUND " ,temp[0])
+                text = text.replace(temp[0],"")
+            
             myFile.write(text+'\n')
+
     myFile.close()
         
 #arrays for terms that determine sentence
 questionWords = ["what"]
 exWords = ["how","why"]
 # auxVerbs = ["be","can","could","do","have","would","will","shall","must","might","may"]
-
+qw = ["an","be","can","could","do","have","would","will","shall","must","might","may","what","how","why","which","whom","work","with"]
 def strToLemmatized(inp): # IGNORE
     out = []
     temp = word_tokenize(inp)
@@ -66,44 +73,88 @@ def strToLemmatized(inp): # IGNORE
     return out
 
 def tagWords(inp: str): #tag words according to aux verb or part of speech for parse
+    ct = 0
+
     inp = inp.split(" ")
     out = []
+    with open("topics.txt", "r") as f:
+        contents = f.read()
+        for index, word in enumerate(inp):
+            # if word in auxVerbs:
+            #     out.append([word,"VAX"]) # Word is an auxillary verb
+            if word in questionWords:
+                out.append([(word,"QW")]) # word is a question word
+            elif word in contents and word not in qw and word not in stoplist and word not in tutorialsArr: 
+                # print(word)
+                ct +=1
+                out.append([(word,"TPC")])
+            elif word in tutorialsArr:
+                ct+=1
+                out.append([(word,"TUT")])
+            elif word in exWords:
+                out.append([(word,"EW")]) # word is an example word
+            else:
+                out.append(nltk.pos_tag([word]))
 
-    for index, word in enumerate(inp):
-        # if word in auxVerbs:
-        #     out.append([word,"VAX"]) # Word is an auxillary verb
-        if word in questionWords:
-            out.append([word,"QW"]) # word is a question word
-        elif word in tutorialsArr:
-            out.append([word,"TUT"])
-        elif word in exWords:
-            out.append([word,"EW"]) # word is an example word
-        else:
-            out.append(nltk.pos_tag([word]))
-        
-    return out
+        f.close() 
+        return out, ct
             
 
 def findType(inp: list): #function to sort tagged input by question type (yes or no/what/example)
     out = ""
+    # print(inp)
     for ind,obj in enumerate(inp):
+        # print(obj)
         # if ind == 0 and obj[1] == "VAX":
         #     return "Y/N"
         #     print("y/n")
-        if obj[1] == "QW":
+        if obj[0][1] == "QW":
+            
             return "WHAT"
-        elif obj[1] == "EW":
+        elif obj[0][1] == "EW":
             return "EXAMPLE"
     return out        
 
+def findArgs(arr,qType,ct):
+    args = []
+    tagsArr = [i[0][1] for i in arr]
+    print(arr)
+    if ct > 1:
+        if qType == "WHAT":
+            for ind,obj in enumerate(tagsArr):
+                if obj == "TUT" or obj == "TPC":
+                    args.append(arr[ind])
+        elif qType == "EXAMPLE":
+            for ind,obj in enumerate(tagsArr):
+                if obj == "TUT" or obj == "TPC":
+                    args.append(arr[ind])
+    else:
+        if qType == "WHAT":
+            for ind,obj in enumerate(tagsArr):
+                if obj == "TUT" or obj == "TPC":
+                    args.append(arr[ind])            
+        elif qType == "WHAT":
+            for ind,obj in enumerate(tagsArr):
+                if obj == "TUT" or obj == "TPC":
+                    args.append(arr[ind])            
+                    
+    return qType,args
+        
+
 # https://www.englishclub.com/vocabulary/wh-question-words.htm USE THIS FOR AUX VERBS
 def main():
-    sentence = "how can i iterate over an array in python"  #	sentence to be processed
-    taggedQuestion = tagWords(sentence)
-    # print(taggedQuestion)
+    sentence = "what is a c++ for loop"  #	sentence to be processed
+    
+
     tutorials = tutorialGlossary()
+    # print(tutorialsArr,"\n\n")
+    tagged = tagWords(sentence)
+    taggedQuestion = tagged[0]
+    count =tagged[1]
+
     # topicsGlossary(tutorialsLinksArr) 
-    return findType(taggedQuestion)
+    questionType = findType(taggedQuestion)
+    print(findArgs(taggedQuestion,questionType,count))
 
 
 if __name__ == '__main__':

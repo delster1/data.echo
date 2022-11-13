@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-    <html lang = eng>
-        <h>
+    <html lang = eng >
+    <link rel="stylesheet" href="cssformat.css">
+        <h1>
             <t>
-                (name pending)
+                Data.Echo
             </t>
-        </h>
+        </h1>
 <body>
 
-    <h1>
-        possible explanation of how the database works
-    </h1>
+    <h2>
+        Data.Echo takes speech input of a coding question and can output answers and resources using NLTK to sort questions
+    </h2>
