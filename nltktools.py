@@ -11,10 +11,13 @@ nltk.download('omw-1.4')
 
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
 lemmatizer = WordNetLemmatizer()
+
+#arrays for terms that determine sentence
 questionWords = ["what"]
 exWords = ["how","why"]
 auxVerbs = ["be","can","could","do","have","would","will","shall","must","might","may"]
-def strToLemmatized(inp):
+
+def strToLemmatized(inp): # IGNORE
     out = []
     temp = word_tokenize(inp)
     temp = [lemmatizer.lemmatize(word) for word in temp]
@@ -23,7 +26,7 @@ def strToLemmatized(inp):
             out.append(word)
     return out
 
-def fixInput(inp):
+def fixInput(inp): # TOKENIZE AND LEMMAITZE INPUT
     out = []
     temp = word_tokenize(inp)
     temp = [lemmatizer.lemmatize(word) for word in temp]
@@ -36,18 +39,18 @@ def tagWords(inp): #tag words according to aux verb or part of speech for parse
 
     for index, word in enumerate(inp):
         if word in auxVerbs:
-            out.append([word,"VAX"])
+            out.append([word,"VAX"]) # Word is an auxillary verb
         elif word in questionWords:
-            out.append([word,"QW"])
+            out.append([word,"QW"]) # word is a question word
         elif word in exWords:
-            out.append([word,"EW"])
+            out.append([word,"EW"]) # word is an example word
         else:
             out.append(nltk.pos_tag([word]))
         
     return out
             
 
-def findType(inp):
+def findType(inp): #function to sort tagged input by question type (yes or no/what/example)
     out = ""
     for ind,obj in enumerate(inp):
         if ind == 0 and obj[1] == "VAX":
@@ -59,6 +62,7 @@ def findType(inp):
             return "EXAMPLE"
     return out        
 
+# https://www.englishclub.com/vocabulary/wh-question-words.htm USE THIS FOR AUX VERBS
 def main():
     sentence = input("enter a question\n")  #	sentence to be processed
     taggedQuestion = tagWords(sentence)
