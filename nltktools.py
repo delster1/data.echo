@@ -3,8 +3,6 @@ import nltk
 from nltk.corpus import stopwords  # stop words from nltk
 from nltk.tokenize import word_tokenize  # tokenizer function
 from nltk.stem import WordNetLemmatizer
-
-import re
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 
 nltk.download("punkt")  #	downloads
@@ -108,14 +106,24 @@ def findType(inp: list): #function to sort tagged input by question type (yes or
         # if ind == 0 and obj[1] == "VAX":
         #     return "Y/N"
         #     print("y/n")
-        if obj[0][1] == "QW" :
-            print("101: ",inp[1][0][1])
-            if(ind == 0 and inp[1][0][1] == "VBZ" and inp[2][0][1] == "DT"):
+        print(f'ind: {ind}, obj: {obj}\n\n')
+
+
+        firstWord = obj[0][-1]
+        print(firstWord)
+
+        match firstWord:
+            case 'QW':
+                print("101: ",inp[1][0][1])
+                if(ind == 0 and inp[1][0][1] == "VBZ" and inp[2][0][1] == "DT"):
+                    return "WHAT"
+                
                 return "WHAT"
+            case 'EW':
+                return "EXAMPLE"
+            case _:
+                print('Unknown first word!')
             
-            return "WHAT"
-        elif obj[0][1] == "EW":
-            return "EXAMPLE"
     return out        
 
 def findArgs(arr,qType,ct):
