@@ -32,9 +32,11 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
                     case _:
                         pass
             case _:
-                if clean_style:
-                    if 'style' in markup.attrs:
-                        markup.attrs.pop('style', None)
+                pass
+        
+        if clean_style:
+            if 'style' in markup.attrs:
+                markup.attrs.pop('style', None)
 
         if markup.children is not None:
             for i in range(len(markup.contents)):
@@ -65,7 +67,6 @@ def search_cswiki(sentence: str) -> str:
                 if term:
                     if term == topic:
                         topic = '_'.join(term)
-                        print('Associated CS Wikipedia Topic: ', topic)
                         
                         # finding glossary entry from url for topic
                         contents = soup.find_all(id=topic)
@@ -74,3 +75,12 @@ def search_cswiki(sentence: str) -> str:
                             return tag.find_next('dd')
 
     return None
+
+# takes w3schools URL and returns chunk of info about the page
+def search_w3(sentence: str, url: str) -> str:
+    filteredSentence = nql.strToLemmatized(sentence)
+
+    response = requests.get(url) # turn url into html
+
+    bstrainer = strainer(attrs={'class': 'glossary'})
+    soup = bs(response.content, 'html.parser', parse_only=bstrainer)  # turn html into soup
