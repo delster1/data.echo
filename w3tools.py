@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 
 import requests  # this is so i can use a link to get html output
-import re  # python regex library (used ln 11)
 
 url = "https://www.w3schools.com/"  # url to search
 

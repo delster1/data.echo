@@ -14,6 +14,7 @@ lemmatizer = WordNetLemmatizer()
 questionWords = ["what"]
 exWords = ["how","why"]
 auxVerbs = ["be","can","could","do","have","would","will","shall","must","might","may"]
+
 def strToLemmatized(inp):
     out = []
     temp = word_tokenize(inp)
