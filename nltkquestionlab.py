@@ -11,7 +11,9 @@ nltk.download('omw-1.4')
 
 stoplist = stopwords.words("english")  #	initalized stopwords in english from nltk
 lemmatizer = WordNetLemmatizer()
-
+questionWords = ["what"]
+exWords = ["how","why"]
+auxVerbs = ["be","can","could","do","have","would","will","shall","must","might","may"]
 def strToLemmatized(inp):
     out = []
     temp = word_tokenize(inp)
@@ -25,33 +27,44 @@ def fixInput(inp):
     out = []
     temp = word_tokenize(inp)
     temp = [lemmatizer.lemmatize(word) for word in temp]
-    for word in temp:
-        if word not in stoplist:
-            out.append(word)
+    temp = out
     return out
 
+def tagWords(inp): #tag words according to aux verb or part of speech for parse
+    inp = inp.split(" ")
+    out = []
 
-# print(cswords)
+    for index, word in enumerate(inp):
+        if word in auxVerbs:
+            out.append([word,"VAX"])
+        elif word in questionWords:
+            out.append([word,"QW"])
+        elif word in exWords:
+            out.append([word,"EW"])
+        else:
+            out.append(nltk.pos_tag([word]))
+        
+    return out
+            
+
+def findType(inp):
+    out = ""
+    for ind,obj in enumerate(inp):
+        if ind == 0 and obj[1] == "VAX":
+            return "Y/N"
+            print("y/n")
+        elif obj[1] == "QW":
+            return "WHAT"
+        elif obj[1] == "EW":
+            return "EXAMPLE"
+    return out        
+
 def main():
-    print("toResearch: ", toResearch)
     sentence = input("enter a question\n")  #	sentence to be processed
+    taggedQuestion = tagWords(sentence)
+    print(taggedQuestion)
+    return findType(taggedQuestion)
 
-    wordsInSentence = word_tokenize(sentence)  # tokenizing sentence by
-    wordsInSentence = [lemmatizer.lemmatize(word) for word in wordsInSentence]
-    taggedSentence = nltk.pos_tag(wordsInSentence)  # tagging sentence by POS
-    print(taggedSentence)
-    cswords = open('cswords.txt', 'r')
-    cswordslines = cswords.readlines()
-
-    toResearch = []
-
-    filteredSentence = []
-    for line in cswordslines:
-        for word in wordsInSentence:
-            if word in stoplist:
-                wordsInSentence.remove(word)
-            elif word in line:
-                toResearch.append([word,line])
 
 if __name__ == '__main__':
     main() 
