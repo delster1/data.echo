@@ -13,5 +13,8 @@ topic = "arrays"
 
 w3 = bs(response.content, 'html.parser')  # turn html into soup
 
-for div in w3.find_all(attrs={'class': 'w3-col 13 m6'}):
-	print(div)
+data = w3.find_all(attrs={'class': 'w3-col l3 m6 w3-hide-medium'})
+data += w3.find_all(attrs={'class': 'w3-col l3 m6'})
+
+for div in data:
+	
