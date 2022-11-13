@@ -9,10 +9,6 @@ h1 {
     font-size: 2.5em;
 }
 
-dd {
-
-}
-
 h2 {
     font-size: 1.25em;
 }
@@ -27,4 +23,8 @@ a:visited {
     color: #FFFDD0;
     background-color: transparent;
     text-decoration: none;
+}
+
+img {
+    align-items: center;
 }

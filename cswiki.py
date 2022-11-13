@@ -57,6 +57,9 @@ def search_cswiki(sentence: str, qtype: str, args: list) -> str:
     response = requests.get(url)
 
     match qtype:
+        case 'EXAMPLE': # w3
+            pass
+
         case 'WHAT':
             sentence = strToLemmatized(sentence.casefold())
             print(sentence)
@@ -75,9 +78,6 @@ def search_cswiki(sentence: str, qtype: str, args: list) -> str:
                         return tag.find_next('dd')
 
             # TODO: search w3schools
-
-        case 'EXAMPLE': # w3
-            pass
 
         case _:
             print('More question types haven\'t been implemented yet!')
