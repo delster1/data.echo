@@ -1,33 +1,33 @@
-html home
-html introduction
-html editors
-html basic
-html elements
-html attributes
-html headings
-html paragraphs
-html styles
-html formatting
-html quotations
-html comments
-html colors
-colors
+ home
+ introduction
+ editors
+ basic
+ elements
+ attributes
+ headings
+ paragraphs
+ styles
+ formatting
+ quotations
+ comments
+ colors
+
 rgb
 hex
 hsl
-html css
-html links
+ css
+ links
 links
 link colors
 link bookmarks
-html images
+ images
 images
 image map
 background images
 the picture element
-html favicon
-html tables
-html tables
+ favicon
+ tables
+ tables
 table borders
 table sizes
 table headers
@@ -35,113 +35,113 @@ padding & spacing
 colspan & rowspan
 table styling
 table colgroup
-html lists
+ lists
 lists
 unordered lists
 ordered lists
 other lists
-html block & inline
-html classes
-html id
-html iframes
-html javascript
-html file paths
-html head
-html layout
-html responsive
-html computercode
-html semantics
-html style guide
-html entities
-html symbols
-html emojis
-html charset
-html url encode
-html vs. xhtml
-html forms
-html form attributes
-html form elements
-html input types
-html input attributes
-html input form attributes
-html canvas
-html svg
-html media
-html video
-html audio
-html plug-ins
-html youtube
-html geolocation
-html drag/drop
-html web storage
-html web workers
-html sse
-html examples
-html quiz
-html exercises
-html certificate
-html summary
-html accessibility
-html tag list
-html attributes
-html global attributes
-html browser support
-html events
-html colors
-html canvas
-html audio/video
-html doctypes
-html character sets
-html url encode
-html lang codes
+ block & inline
+ classes
+ id
+ iframes
+ javascript
+ file paths
+ head
+ layout
+ responsive
+ computercode
+ semantics
+ style guide
+ entities
+ symbols
+ emojis
+ charset
+ url encode
+ vs. x
+ forms
+ form attributes
+ form elements
+ input types
+ input attributes
+ input form attributes
+ canvas
+ svg
+ media
+ video
+ audio
+ plug-ins
+ youtube
+ geolocation
+ drag/drop
+ web storage
+ web workers
+ sse
+ examples
+ quiz
+ exercises
+ certificate
+ summary
+ accessibility
+ tag list
+ attributes
+ global attributes
+ browser support
+ events
+ colors
+ canvas
+ audio/video
+ doctypes
+ character sets
+ url encode
+ lang codes
 http messages
 http methods
 px to em converter
 keyboard shortcuts
-css home
-css introduction
-css syntax
-css selectors
-css how to
-css comments
-css colors
-colors
+ home
+ introduction
+ syntax
+ selectors
+ how to
+ comments
+ colors
+
 rgb
 hex
 hsl
-css backgrounds
+ backgrounds
 background color
 background image
 background repeat
 background attachment
 background shorthand
-css borders
+ borders
 borders
 border width
 border color
 border sides
 border shorthand
 rounded borders
-css margins
+ margins
 margins
 margin collapse
-css padding
-css height/width
-css box model
-css outline
+ padding
+ height/width
+ box model
+ outline
 outline
 outline width
 outline color
 outline shorthand
 outline offset
-css text
+ text
 text color
 text alignment
 text decoration
 text transformation
 text spacing
 text shadow
-css fonts
+ fonts
 font family
 font web safe
 font fallbacks
@@ -150,160 +150,160 @@ font size
 font google
 font pairings
 font shorthand
-css icons
-css links
-css lists
-css tables
+ icons
+ links
+ lists
+ tables
 table borders
 table size
 table alignment
 table style
 table responsive
-css display
-css max-width
-css position
-css z-index
-css overflow
-css float
+ display
+ max-width
+ position
+ z-index
+ overflow
+ float
 float
 clear
 float examples
-css inline-block
-css align
-css combinators
-css pseudo-class
-css pseudo-element
-css opacity
-css navigation bar
+ inline-block
+ align
+ combinators
+ pseudo-class
+ pseudo-element
+ opacity
+ navigation bar
 navbar
 vertical navbar
 horizontal navbar
-css dropdowns
-css image gallery
-css image sprites
-css attr selectors
-css forms
-css counters
-css website layout
-css units
-css specificity
-css !important
-css math functions
-css rounded corners
-css border images
-css backgrounds
-css colors
-css color keywords
-css gradients
+ dropdowns
+ image gallery
+ image sprites
+ attr selectors
+ forms
+ counters
+ website layout
+ units
+ specificity
+ !important
+ math functions
+ rounded corners
+ border images
+ backgrounds
+ colors
+ color keywords
+ gradients
 linear gradients
 radial gradients
 conic gradients
-css shadows
+ shadows
 shadow effects
 box shadow
-css text effects
-css web fonts
-css 2d transforms
-css 3d transforms
-css transitions
-css animations
-css tooltips
-css style images
-css image reflection
-css object-fit
-css object-position
-css masking
-css buttons
-css pagination
-css multiple columns
-css user interface
-css variables
+ text effects
+ web fonts
+ 2d transforms
+ 3d transforms
+ transitions
+ animations
+ tooltips
+ style images
+ image reflection
+ object-fit
+ object-position
+ masking
+ buttons
+ pagination
+ multiple columns
+ user interface
+ variables
 the var() function
 overriding variables
 variables and javascript
 variables in media queries
-css box sizing
-css media queries
-css mq examples
-css flexbox
-css flexbox
-css flex container
-css flex items
-css flex responsive
-rwd intro
-rwd viewport
-rwd grid view
-rwd media queries
-rwd images
-rwd videos
-rwd frameworks
-rwd templates
+ box sizing
+ media queries
+ mq examples
+ flexbox
+ flexbox
+ flex container
+ flex items
+ flex responsive
+ intro
+ viewport
+ grid view
+ media queries
+ images
+ videos
+ frameworks
+ templates
 grid intro
 grid container
 grid item
-sass tutorial
-css templates
-css examples
-css snippets
-css quiz
-css exercises
-css certificate
-css reference
-css selectors
-css functions
-css reference aural
-css web safe fonts
-css animatable
-css units
-css px-em converter
-css colors
-css color values
-css default values
-css browser support
-css home
-css introduction
-css syntax
-css selectors
-css how to
-css comments
-css colors
-colors
+ tutorial
+ templates
+ examples
+ snippets
+ quiz
+ exercises
+ certificate
+ reference
+ selectors
+ functions
+ reference aural
+ web safe fonts
+ animatable
+ units
+ px-em converter
+ colors
+ color values
+ default values
+ browser support
+ home
+ introduction
+ syntax
+ selectors
+ how to
+ comments
+ colors
+
 rgb
 hex
 hsl
-css backgrounds
+ backgrounds
 background color
 background image
 background repeat
 background attachment
 background shorthand
-css borders
+ borders
 borders
 border width
 border color
 border sides
 border shorthand
 rounded borders
-css margins
+ margins
 margins
 margin collapse
-css padding
-css height/width
-css box model
-css outline
+ padding
+ height/width
+ box model
+ outline
 outline
 outline width
 outline color
 outline shorthand
 outline offset
-css text
+ text
 text color
 text alignment
 text decoration
 text transformation
 text spacing
 text shadow
-css fonts
+ fonts
 font family
 font web safe
 font fallbacks
@@ -312,177 +312,177 @@ font size
 font google
 font pairings
 font shorthand
-css icons
-css links
-css lists
-css tables
+ icons
+ links
+ lists
+ tables
 table borders
 table size
 table alignment
 table style
 table responsive
-css display
-css max-width
-css position
-css z-index
-css overflow
-css float
+ display
+ max-width
+ position
+ z-index
+ overflow
+ float
 float
 clear
 float examples
-css inline-block
-css align
-css combinators
-css pseudo-class
-css pseudo-element
-css opacity
-css navigation bar
+ inline-block
+ align
+ combinators
+ pseudo-class
+ pseudo-element
+ opacity
+ navigation bar
 navbar
 vertical navbar
 horizontal navbar
-css dropdowns
-css image gallery
-css image sprites
-css attr selectors
-css forms
-css counters
-css website layout
-css units
-css specificity
-css !important
-css math functions
-css rounded corners
-css border images
-css backgrounds
-css colors
-css color keywords
-css gradients
+ dropdowns
+ image gallery
+ image sprites
+ attr selectors
+ forms
+ counters
+ website layout
+ units
+ specificity
+ !important
+ math functions
+ rounded corners
+ border images
+ backgrounds
+ colors
+ color keywords
+ gradients
 linear gradients
 radial gradients
 conic gradients
-css shadows
+ shadows
 shadow effects
 box shadow
-css text effects
-css web fonts
-css 2d transforms
-css 3d transforms
-css transitions
-css animations
-css tooltips
-css style images
-css image reflection
-css object-fit
-css object-position
-css masking
-css buttons
-css pagination
-css multiple columns
-css user interface
-css variables
+ text effects
+ web fonts
+ 2d transforms
+ 3d transforms
+ transitions
+ animations
+ tooltips
+ style images
+ image reflection
+ object-fit
+ object-position
+ masking
+ buttons
+ pagination
+ multiple columns
+ user interface
+ variables
 the var() function
 overriding variables
 variables and javascript
 variables in media queries
-css box sizing
-css media queries
-css mq examples
-css flexbox
-css flexbox
-css flex container
-css flex items
-css flex responsive
-rwd intro
-rwd viewport
-rwd grid view
-rwd media queries
-rwd images
-rwd videos
-rwd frameworks
-rwd templates
+ box sizing
+ media queries
+ mq examples
+ flexbox
+ flexbox
+ flex container
+ flex items
+ flex responsive
+ intro
+ viewport
+ grid view
+ media queries
+ images
+ videos
+ frameworks
+ templates
 grid intro
 grid container
 grid item
-sass tutorial
-css templates
-css examples
-css snippets
-css quiz
-css exercises
-css certificate
-css reference
-css selectors
-css functions
-css reference aural
-css web safe fonts
-css animatable
-css units
-css px-em converter
-css colors
-css color values
-css default values
-css browser support
-w3.css home
-w3.css intro
-w3.css colors
-w3.css containers
-w3.css panels
-w3.css borders
-w3.css cards
-w3.css defaults
-w3.css fonts
-w3.css google
-w3.css text
-w3.css round
-w3.css padding
-w3.css margins
-w3.css display
-w3.css buttons
-w3.css notes
-w3.css quotes
-w3.css alerts
-w3.css tables
-w3.css lists
-w3.css images
-w3.css inputs
-w3.css badges
-w3.css tags
-w3.css icons
-w3.css responsive
-w3.css layout
-w3.css animations
-w3.css effects
-w3.css bars
-w3.css dropdowns
-w3.css accordions
-w3.css navigation
-w3.css sidebar
-w3.css tabs
-w3.css pagination
-w3.css progress bars
-w3.css slideshow
-w3.css modal
-w3.css tooltips
-w3.css grid
-w3.css code
-w3.css filters
-w3.css trends
-w3.css case
-w3.css material
-w3.css validation
-w3.css versions
-w3.css mobile
-w3.css color classes
-w3.css color material
-w3.css color flat ui
-w3.css color metro ui
-w3.css color win8
-w3.css color ios
-w3.css color fashion
-w3.css color libraries
-w3.css color schemes
-w3.css color themes
-w3.css color generator
+ tutorial
+ templates
+ examples
+ snippets
+ quiz
+ exercises
+ certificate
+ reference
+ selectors
+ functions
+ reference aural
+ web safe fonts
+ animatable
+ units
+ px-em converter
+ colors
+ color values
+ default values
+ browser support
+ home
+ intro
+ colors
+ containers
+ panels
+ borders
+ cards
+ defaults
+ fonts
+ google
+ text
+ round
+ padding
+ margins
+ display
+ buttons
+ notes
+ quotes
+ alerts
+ tables
+ lists
+ images
+ inputs
+ badges
+ tags
+ icons
+ responsive
+ layout
+ animations
+ effects
+ bars
+ dropdowns
+ accordions
+ navigation
+ sidebar
+ tabs
+ pagination
+ progress bars
+ slideshow
+ modal
+ tooltips
+ grid
+ code
+ filters
+ trends
+ case
+ material
+ validation
+ versions
+ mobile
+ color classes
+ color material
+ color flat ui
+ color metro ui
+ color win8
+ color ios
+ color fashion
+ color libraries
+ color schemes
+ color themes
+ color generator
 web intro
 web html
 web css
@@ -492,12 +492,12 @@ web band
 web catering
 web restaurant
 web architect
-w3.css examples
-w3.css demos
-w3.css templates
-w3.css reference
-w3.css downloads
-colors home
+ examples
+ demos
+ templates
+ reference
+ downloads
+ home
 color names
 color values
 color groups
@@ -524,141 +524,141 @@ color metro ui
 color win8
 color flat ui
 color psychology
-colors monochromatic
-colors analogous
-colors complementary
-colors triadic
-colors compound
-colors of the year
-colors 2021
-colors 2020
-colors 2019
-colors 2018
-colors 2017
-colors 2016
-colors usa
-colors uk
-colors australia
-colors ral
-colors nbs
-colors ncs
-colors x11
-colors crayola
-colors resene
-colors xkcd
-icons home
-icons reference
+ monochromatic
+ analogous
+ complementary
+ triadic
+ compound
+ of the year
+ 2021
+ 2020
+ 2019
+ 2018
+ 2017
+ 2016
+ usa
+ uk
+ australia
+ ral
+ nbs
+ ncs
+ x11
+ crayola
+ resene
+ xkcd
+ home
+ reference
 font awesome 5 intro
-icons accessibility
-icons alert
-icons animals
-icons arrows
-icons audio & video
-icons automotive
-icons autumn
-icons beverage
-icons brands
-icons buildings
-icons business
-icons camping
-icons charity
-icons chat
-icons chess
-icons childhood
-icons clothing
-icons code
-icons communication
-icons computers
-icons construction
-icons currency
-icons date & time
-icons design
-icons editors
-icons education
-icons emoji
-icons energy
-icons files
-icons finance
-icons fitness
-icons food
-icons fruits & vegetables
-icons games
-icons genders
-icons halloween
-icons hands
-icons health
-icons holiday
-icons hotel
-icons household
-icons images
-icons interfaces
-icons logistics
-icons maps
-icons maritime
-icons marketing
-icons mathematics
-icons medical
-icons moving
-icons music
-icons objects
-icons payment & shopping
-icons pharmacy
-icons political
-icons religion
-icons science
-icons science fiction
-icons security
-icons shapes
-icons shopping
-icons social
-icons spinners
-icons sports
-icons spring
-icons status
-icons summer
-icons tabletop gaming
-icons toggle
-icons travel
-icons users & people
-icons vehicles
-icons weather
-icons winter
-icons writing
+ accessibility
+ alert
+ animals
+ arrows
+ audio & video
+ automotive
+ autumn
+ beverage
+ brands
+ buildings
+ business
+ camping
+ charity
+ chat
+ chess
+ childhood
+ clothing
+ code
+ communication
+ computers
+ construction
+ currency
+ date & time
+ design
+ editors
+ education
+ emoji
+ energy
+ files
+ finance
+ fitness
+ food
+ fruits & vegetables
+ games
+ genders
+ halloween
+ hands
+ health
+ holiday
+ hotel
+ household
+ images
+ interfaces
+ logistics
+ maps
+ maritime
+ marketing
+ mathematics
+ medical
+ moving
+ music
+ objects
+ payment & shopping
+ pharmacy
+ political
+ religion
+ science
+ science fiction
+ security
+ shapes
+ shopping
+ social
+ spinners
+ sports
+ spring
+ status
+ summer
+ tabletop gaming
+ toggle
+ travel
+ users & people
+ vehicles
+ weather
+ winter
+ writing
 font awesome intro
-icons brand
-icons chart
-icons currency
-icons directional
-icons file type
-icons form
-icons gender
-icons hand
-icons medical
-icons payment
-icons spinner
-icons text
-icons transportation
-icons video
-icons web application
-icons bs glyphicons
+ brand
+ chart
+ currency
+ directional
+ file type
+ form
+ gender
+ hand
+ medical
+ payment
+ spinner
+ text
+ transportation
+ video
+ web application
+ bs glyph
 google icons intro
-icons action
-icons alert
-icons av
-icons communication
-icons content
-icons device
-icons editor
-icons file
-icons hardware
-icons image
-icons maps
-icons navigation
-icons notification
-icons places
-icons social
-icons toggle
-graphics home
+ action
+ alert
+ av
+ communication
+ content
+ device
+ editor
+ file
+ hardware
+ image
+ maps
+ navigation
+ notification
+ places
+ social
+ toggle
+ home
 maps intro
 maps basic
 maps overlays
@@ -666,31 +666,31 @@ maps events
 maps controls
 maps types
 maps reference
-svg intro
-svg in html
-svg rectangle
-svg circle
-svg ellipse
-svg line
-svg polygon
-svg polyline
-svg path
-svg text
-svg stroking
-svg filters intro
-svg blur effects
-svg drop shadows
-svg linear
-svg radial
-svg examples
-svg reference
-canvas intro
-canvas drawing
-canvas coordinates
-canvas gradients
-canvas text
-canvas images
-canvas reference
+ intro
+ in html
+ rectangle
+ circle
+ ellipse
+ line
+ polygon
+ polyline
+ path
+ text
+ stroking
+ filters intro
+ blur effects
+ drop shadows
+ linear
+ radial
+ examples
+ reference
+ intro
+ drawing
+ coordinates
+ gradients
+ text
+ images
+ reference
 clock intro
 clock face
 clock numbers
@@ -708,7 +708,7 @@ game gravity
 game bouncing
 game rotation
 game movement
-graphics home
+ home
 maps intro
 maps basic
 maps overlays
@@ -716,31 +716,31 @@ maps events
 maps controls
 maps types
 maps reference
-svg intro
-svg in html
-svg rectangle
-svg circle
-svg ellipse
-svg line
-svg polygon
-svg polyline
-svg path
-svg text
-svg stroking
-svg filters intro
-svg blur effects
-svg drop shadows
-svg linear
-svg radial
-svg examples
-svg reference
-canvas intro
-canvas drawing
-canvas coordinates
-canvas gradients
-canvas text
-canvas images
-canvas reference
+ intro
+ in html
+ rectangle
+ circle
+ ellipse
+ line
+ polygon
+ polyline
+ path
+ text
+ stroking
+ filters intro
+ blur effects
+ drop shadows
+ linear
+ radial
+ examples
+ reference
+ intro
+ drawing
+ coordinates
+ gradients
+ text
+ images
+ reference
 clock intro
 clock face
 clock numbers
@@ -758,7 +758,7 @@ game gravity
 game bouncing
 game rotation
 game movement
-graphics home
+ home
 maps intro
 maps basic
 maps overlays
@@ -766,31 +766,31 @@ maps events
 maps controls
 maps types
 maps reference
-svg intro
-svg in html
-svg rectangle
-svg circle
-svg ellipse
-svg line
-svg polygon
-svg polyline
-svg path
-svg text
-svg stroking
-svg filters intro
-svg blur effects
-svg drop shadows
-svg linear
-svg radial
-svg examples
-svg reference
-canvas intro
-canvas drawing
-canvas coordinates
-canvas gradients
-canvas text
-canvas images
-canvas reference
+ intro
+ in html
+ rectangle
+ circle
+ ellipse
+ line
+ polygon
+ polyline
+ path
+ text
+ stroking
+ filters intro
+ blur effects
+ drop shadows
+ linear
+ radial
+ examples
+ reference
+ intro
+ drawing
+ coordinates
+ gradients
+ text
+ images
+ reference
 clock intro
 clock face
 clock numbers
@@ -808,7 +808,7 @@ game gravity
 game bouncing
 game rotation
 game movement
-howto home
+ home
 icon bar
 menu icon
 accordion
@@ -981,7 +981,7 @@ display element hover
 popups
 collapsible
 calendar
-html includes
+ includes
 to do list
 loaders
 badges
@@ -1119,21 +1119,21 @@ convert length
 convert speed
 get a developer job
 become a front-end dev.
-sass home
-sass intro
-sass installation
-sass variables
-sass nesting
-sass @import
-sass @mixin
-sass @extend
-sass string
-sass numeric
-sass list
-sass map
-sass selector
-sass introspection
-sass color
+ home
+ intro
+ installation
+ variables
+ nesting
+ @import
+ @mixin
+ @extend
+ string
+ numeric
+ list
+ map
+ selector
+ introspection
+ color
 ml intro
 ml and ai
 ml examples
@@ -1146,14 +1146,14 @@ linear algebra
 vectors
 matrices
 tensors
-statistics
+
 descriptive
 variability
 distribution
 probability
-ai plotter
-ai linear graphs
-ai scatter plots
+ plotter
+ linear graphs
+ scatter plots
 data science
 collecting data
 clustering
@@ -1193,23 +1193,23 @@ history of robots
 history of ai
 job replacements
 theory of mind
-python home
-python intro
-python get started
-python syntax
-python comments
-python variables
-python variables
+ home
+ intro
+ get started
+ syntax
+ comments
+ variables
+ variables
 variable names
 assign multiple values
 output variables
 global variables
 variable exercises
-python data types
-python numbers
-python casting
-python strings
-python strings
+ data types
+ numbers
+ casting
+ strings
+ strings
 slicing strings
 modify strings
 concatenate strings
@@ -1217,10 +1217,10 @@ format strings
 escape characters
 string methods
 string exercises
-python booleans
-python operators
-python lists
-python lists
+ booleans
+ operators
+ lists
+ lists
 access list items
 change list items
 add list items
@@ -1232,8 +1232,8 @@ copy lists
 join lists
 list methods
 list exercises
-python tuples
-python tuples
+ tuples
+ tuples
 access tuples
 update tuples
 unpack tuples
@@ -1241,8 +1241,8 @@ loop tuples
 join tuples
 tuple methods
 tuple exercises
-python sets
-python sets
+ sets
+ sets
 access set items
 add set items
 remove set items
@@ -1250,8 +1250,8 @@ loop sets
 join sets
 set methods
 set exercises
-python dictionaries
-python dictionaries
+ dictionaries
+ dictionaries
 access items
 change items
 add items
@@ -1261,46 +1261,46 @@ copy dictionaries
 nested dictionaries
 dictionary methods
 dictionary exercise
-python if...else
-python while loops
-python for loops
-python functions
-python lambda
-python arrays
-python classes/objects
-python inheritance
-python iterators
-python scope
-python modules
-python dates
-python math
-python json
-python regex
-python pip
-python try...except
-python user input
-python string formatting
-python file handling
-python read files
-python write/create files
-python delete files
-numpy tutorial
-pandas tutorial
-scipy tutorial
-django tutorial
-matplotlib intro
-matplotlib get started
-matplotlib pyplot
-matplotlib plotting
-matplotlib markers
-matplotlib line
-matplotlib labels
-matplotlib grid
-matplotlib subplot
-matplotlib scatter
-matplotlib bars
-matplotlib histograms
-matplotlib pie charts
+ if...else
+ while loops
+ for loops
+ functions
+ lambda
+ arrays
+ classes/objects
+ inheritance
+ iterators
+ scope
+ modules
+ dates
+ math
+ json
+ regex
+ pip
+ try...except
+ user input
+ string formatting
+ file handling
+ read files
+ write/create files
+ delete files
+ tutorial
+ tutorial
+ tutorial
+ tutorial
+ intro
+ get started
+ pyplot
+ plotting
+ markers
+ line
+ labels
+ grid
+ subplot
+ scatter
+ bars
+ histograms
+ pie charts
 getting started
 mean median mode
 standard deviation
@@ -1320,57 +1320,57 @@ logistic regression
 grid search
 categorical data
 k-means
-bootstrap aggregation
+ aggregation
 cross validation
 auc - roc curve
 k-nearest neighbors
-mysql get started
-mysql create database
-mysql create table
-mysql insert
-mysql select
-mysql where
-mysql order by
-mysql delete
-mysql drop table
-mysql update
-mysql limit
-mysql join
-mongodb get started
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb query
-mongodb sort
-mongodb delete
-mongodb drop collection
-mongodb update
-mongodb limit
-python overview
-python built-in functions
-python string methods
-python list methods
-python dictionary methods
-python tuple methods
-python set methods
-python file methods
-python keywords
-python exceptions
-python glossary
+ get started
+ create database
+ create table
+ insert
+ select
+ where
+ order by
+ delete
+ drop table
+ update
+ limit
+ join
+ get started
+ create database
+ create collection
+ insert
+ find
+ query
+ sort
+ delete
+ drop collection
+ update
+ limit
+ overview
+ built-in functions
+ string methods
+ list methods
+ dictionary methods
+ tuple methods
+ set methods
+ file methods
+ keywords
+ exceptions
+ glossary
 random module
 requests module
-statistics module
+ module
 math module
 cmath module
 remove list duplicates
 reverse a string
 add two numbers
-python examples
-python compiler
-python exercises
-python quiz
-python certificate
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
 ds home
 ds introduction
 ds what is data
@@ -1396,22 +1396,22 @@ ds regression coefficients
 ds regression p-value
 ds regression r-squared
 ds linear regression case
-numpy home
-numpy intro
-numpy getting started
-numpy creating arrays
-numpy array indexing
-numpy array slicing
-numpy data types
-numpy copy vs view
-numpy array shape
-numpy array reshape
-numpy array iterating
-numpy array join
-numpy array split
-numpy array search
-numpy array sort
-numpy array filter
+ home
+ intro
+ getting started
+ creating arrays
+ array indexing
+ array slicing
+ data types
+ copy vs view
+ array shape
+ array reshape
+ array iterating
+ array join
+ array split
+ array search
+ array sort
+ array filter
 random intro
 data distribution
 random permutation
@@ -1440,58 +1440,58 @@ ufunc finding gcd
 ufunc trigonometric
 ufunc hyperbolic
 ufunc set operations
-numpy quiz
-numpy exercises
-numpy certificate
-pandas home
-pandas intro
-pandas getting started
-pandas series
-pandas dataframes
-pandas read csv
-pandas read json
-pandas analyzing data
+ quiz
+ exercises
+ certificate
+ home
+ intro
+ getting started
+ series
+ dataframes
+ read csv
+ read json
+ analyzing data
 cleaning data
 cleaning empty cells
 cleaning wrong format
 cleaning wrong data
 removing duplicates
-pandas correlations
-pandas plotting
-pandas quiz
-pandas exercises
-pandas certificate
+ correlations
+ plotting
+ quiz
+ exercises
+ certificate
 dataframes reference
-scipy home
-scipy intro
-scipy getting started
-scipy constants
-scipy optimizers
-scipy sparse data
-scipy graphs
-scipy spatial data
-scipy matlab arrays
-scipy interpolation
-scipy significance tests
-scipy quiz
-scipy exercises
-python home
-python intro
-python get started
-python syntax
-python comments
-python variables
-python variables
+ home
+ intro
+ getting started
+ constants
+ optimizers
+ sparse data
+ graphs
+ spatial data
+ matlab arrays
+ interpolation
+ significance tests
+ quiz
+ exercises
+ home
+ intro
+ get started
+ syntax
+ comments
+ variables
+ variables
 variable names
 assign multiple values
 output variables
 global variables
 variable exercises
-python data types
-python numbers
-python casting
-python strings
-python strings
+ data types
+ numbers
+ casting
+ strings
+ strings
 slicing strings
 modify strings
 concatenate strings
@@ -1499,10 +1499,10 @@ format strings
 escape characters
 string methods
 string exercises
-python booleans
-python operators
-python lists
-python lists
+ booleans
+ operators
+ lists
+ lists
 access list items
 change list items
 add list items
@@ -1514,8 +1514,8 @@ copy lists
 join lists
 list methods
 list exercises
-python tuples
-python tuples
+ tuples
+ tuples
 access tuples
 update tuples
 unpack tuples
@@ -1523,8 +1523,8 @@ loop tuples
 join tuples
 tuple methods
 tuple exercises
-python sets
-python sets
+ sets
+ sets
 access set items
 add set items
 remove set items
@@ -1532,8 +1532,8 @@ loop sets
 join sets
 set methods
 set exercises
-python dictionaries
-python dictionaries
+ dictionaries
+ dictionaries
 access items
 change items
 add items
@@ -1543,46 +1543,46 @@ copy dictionaries
 nested dictionaries
 dictionary methods
 dictionary exercise
-python if...else
-python while loops
-python for loops
-python functions
-python lambda
-python arrays
-python classes/objects
-python inheritance
-python iterators
-python scope
-python modules
-python dates
-python math
-python json
-python regex
-python pip
-python try...except
-python user input
-python string formatting
-python file handling
-python read files
-python write/create files
-python delete files
-numpy tutorial
-pandas tutorial
-scipy tutorial
-django tutorial
-matplotlib intro
-matplotlib get started
-matplotlib pyplot
-matplotlib plotting
-matplotlib markers
-matplotlib line
-matplotlib labels
-matplotlib grid
-matplotlib subplot
-matplotlib scatter
-matplotlib bars
-matplotlib histograms
-matplotlib pie charts
+ if...else
+ while loops
+ for loops
+ functions
+ lambda
+ arrays
+ classes/objects
+ inheritance
+ iterators
+ scope
+ modules
+ dates
+ math
+ json
+ regex
+ pip
+ try...except
+ user input
+ string formatting
+ file handling
+ read files
+ write/create files
+ delete files
+ tutorial
+ tutorial
+ tutorial
+ tutorial
+ intro
+ get started
+ pyplot
+ plotting
+ markers
+ line
+ labels
+ grid
+ subplot
+ scatter
+ bars
+ histograms
+ pie charts
 getting started
 mean median mode
 standard deviation
@@ -1602,57 +1602,57 @@ logistic regression
 grid search
 categorical data
 k-means
-bootstrap aggregation
+ aggregation
 cross validation
 auc - roc curve
 k-nearest neighbors
-mysql get started
-mysql create database
-mysql create table
-mysql insert
-mysql select
-mysql where
-mysql order by
-mysql delete
-mysql drop table
-mysql update
-mysql limit
-mysql join
-mongodb get started
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb query
-mongodb sort
-mongodb delete
-mongodb drop collection
-mongodb update
-mongodb limit
-python overview
-python built-in functions
-python string methods
-python list methods
-python dictionary methods
-python tuple methods
-python set methods
-python file methods
-python keywords
-python exceptions
-python glossary
+ get started
+ create database
+ create table
+ insert
+ select
+ where
+ order by
+ delete
+ drop table
+ update
+ limit
+ join
+ get started
+ create database
+ create collection
+ insert
+ find
+ query
+ sort
+ delete
+ drop collection
+ update
+ limit
+ overview
+ built-in functions
+ string methods
+ list methods
+ dictionary methods
+ tuple methods
+ set methods
+ file methods
+ keywords
+ exceptions
+ glossary
 random module
 requests module
-statistics module
+ module
 math module
 cmath module
 remove list duplicates
 reverse a string
 add two numbers
-python examples
-python compiler
-python exercises
-python quiz
-python certificate
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
 stat home
 stat introduction
 stat gathering data
@@ -1696,48 +1696,48 @@ stat hypothesis testing proportion (left tailed)
 stat hypothesis testing proportion (two tailed)
 stat hypothesis testing mean (left tailed)
 stat hypothesis testing mean (two tailed)
-excel home
-excel introduction
-excel get started
-excel overview
-excel syntax
-excel ranges
-excel fill
+ home
+ introduction
+ get started
+ overview
+ syntax
+ ranges
+ fill
 filling
 double click to fill
-excel move cells
-excel add cells
-excel delete cells
-excel undo redo
-excel formulas
-excel relative reference
-excel absolute reference
-excel arithmetic operators
-excel addition
-excel subtraction
-excel multiplication
-excel division
-excel parentheses
-excel functions
-excel formatting
-excel format painter
-excel format colors
-excel format fonts
-excel format borders
-excel format numbers
-excel format grids
-excel format settings
-excel sort
-excel filter
-excel tables
+ move cells
+ add cells
+ delete cells
+ undo redo
+ formulas
+ relative reference
+ absolute reference
+ arithmetic operators
+ addition
+ subtraction
+ multiplication
+ division
+ parentheses
+ functions
+ formatting
+ format painter
+ format colors
+ format fonts
+ format borders
+ format numbers
+ format grids
+ format settings
+ sort
+ filter
+ tables
 tables
 table design
 table resizing
 remove duplicates
 convert table to range
 table style
-excel conditional format
-excel highlight cell rules
+ conditional format
+ highlight cell rules
 highlight cell rules
 hcr - greater than
 hcr - less than
@@ -1746,14 +1746,14 @@ hcr - equal to
 hcr - text that contains
 hcr - date occurring
 hcr - unique values
-excel top bottom rules
+ top bottom rules
 top bottom rules
 above below average
-excel data bars
-excel color scales
-excel icon sets
-excel manage rules (cf)
-excel charts
+ data bars
+ color scales
+ icon sets
+ manage rules (cf)
+ charts
 charts
 bar charts
 stacked bar charts
@@ -1764,7 +1764,7 @@ line charts
 stacked line charts
 100% stacked line charts
 radar charts
-excel charts customization
+ charts customization
 table pivot intro
 case: poke mart
 case: poke mart, styling
@@ -1808,42 +1808,42 @@ data visualization
 to create a budget
 to create a timeline
 to style in excel
-excel exercises
-excel certificate
-excel keyboard shortcuts
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ exercises
+ certificate
+ keyboard shortcuts
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -1859,35 +1859,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -1916,11 +1916,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -1933,41 +1933,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -1983,35 +1983,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -2040,11 +2040,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -2057,41 +2057,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -2107,35 +2107,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -2164,11 +2164,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -2181,41 +2181,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -2231,35 +2231,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -2288,11 +2288,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -2305,41 +2305,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -2355,35 +2355,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -2412,11 +2412,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -2429,41 +2429,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -2479,35 +2479,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -2536,11 +2536,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -2553,41 +2553,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -2603,35 +2603,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -2660,11 +2660,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -2677,41 +2677,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -2727,35 +2727,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -2784,11 +2784,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -2801,7 +2801,7 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
 js home
 js introduction
@@ -2936,32 +2936,32 @@ web storage api
 web worker api
 web fetch api
 web geolocation api
-ajax intro
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
-json intro
-json syntax
-json vs xml
-json data types
-json parse
-json stringify
-json objects
-json arrays
-json server
-json php
-json html
-json jsonp
-jquery selectors
-jquery html
-jquery css
-jquery dom
+ intro
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
+ intro
+ syntax
+ vs xml
+ data types
+ parse
+ stringify
+ objects
+ arrays
+ server
+ php
+ html
+ p
+ selectors
+ html
+ css
+ dom
 js graphics
 js canvas
 js plotly
@@ -2978,56 +2978,56 @@ js editor
 js exercises
 js quiz
 js certificate
-javascript objects
-html dom objects
-jquery home
-jquery intro
-jquery get started
-jquery syntax
-jquery selectors
-jquery events
-jquery hide/show
-jquery fade
-jquery slide
-jquery animate
-jquery stop()
-jquery callback
-jquery chaining
-jquery get
-jquery set
-jquery add
-jquery remove
-jquery css classes
-jquery css()
-jquery dimensions
-jquery traversing
-jquery ancestors
-jquery descendants
-jquery siblings
-jquery filtering
-jquery ajax intro
-jquery load
-jquery get/post
-jquery noconflict()
-jquery filters
-jquery examples
-jquery quiz
-jquery exercises
-jquery certificate
-jquery overview
-jquery selectors
-jquery events
-jquery effects
-jquery html/css
-jquery traversing
-jquery ajax
-jquery misc
-jquery properties
-react home
-react intro
-react get started
-react es6
-react es6
+ objects
+ dom objects
+ home
+ intro
+ get started
+ syntax
+ selectors
+ events
+ hide/show
+ fade
+ slide
+ animate
+ stop()
+ callback
+ chaining
+ get
+ set
+ add
+ remove
+ css classes
+ css()
+ dimensions
+ traversing
+ ancestors
+ descendants
+ siblings
+ filtering
+ ajax intro
+ load
+ get/post
+ noconflict()
+ filters
+ examples
+ quiz
+ exercises
+ certificate
+ overview
+ selectors
+ events
+ effects
+ html/css
+ traversing
+ ajax
+ misc
+ properties
+ home
+ intro
+ get started
+ es6
+ es6
 es6 classes
 es6 arrow functions
 es6 variables
@@ -3036,19 +3036,19 @@ es6 destructuring
 es6 spread operator
 es6 modules
 es6 ternary operator
-react render html
-react jsx
-react components
-react class
-react props
-react events
-react conditionals
-react lists
-react forms
-react router
-react memo
-react css styling
-react sass styling
+ render html
+ jsx
+ components
+ class
+ props
+ events
+ conditionals
+ lists
+ forms
+ router
+ memo
+ css styling
+ sass styling
 what is a hook?
 usestate
 useeffect
@@ -3058,36 +3058,36 @@ usereducer
 usecallback
 usememo
 custom hooks
-react quiz
-react exercises
-react certificate
-angularjs home
-angularjs intro
-angularjs expressions
-angularjs modules
-angularjs directives
-angularjs model
-angularjs data binding
-angularjs controllers
-angularjs scopes
-angularjs filters
-angularjs services
-angularjs http
-angularjs tables
-angularjs select
-angularjs sql
-angularjs dom
-angularjs events
-angularjs forms
-angularjs validation
-angularjs api
-angularjs w3.css
-angularjs includes
-angularjs animations
-angularjs routing
-angularjs application
-angularjs examples
-angularjs reference
+ quiz
+ exercises
+ certificate
+ home
+ intro
+ expressions
+ modules
+ directives
+ model
+ data binding
+ controllers
+ scopes
+ filters
+ services
+ http
+ tables
+ select
+ sql
+ dom
+ events
+ forms
+ validation
+ api
+ w3.css
+ includes
+ animations
+ routing
+ application
+ examples
+ reference
 js home
 js introduction
 js where to
@@ -3221,32 +3221,32 @@ web storage api
 web worker api
 web fetch api
 web geolocation api
-ajax intro
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
-json intro
-json syntax
-json vs xml
-json data types
-json parse
-json stringify
-json objects
-json arrays
-json server
-json php
-json html
-json jsonp
-jquery selectors
-jquery html
-jquery css
-jquery dom
+ intro
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
+ intro
+ syntax
+ vs xml
+ data types
+ parse
+ stringify
+ objects
+ arrays
+ server
+ php
+ html
+ p
+ selectors
+ html
+ css
+ dom
 js graphics
 js canvas
 js plotly
@@ -3263,8 +3263,8 @@ js editor
 js exercises
 js quiz
 js certificate
-javascript objects
-html dom objects
+ objects
+ dom objects
 js home
 js introduction
 js where to
@@ -3398,32 +3398,32 @@ web storage api
 web worker api
 web fetch api
 web geolocation api
-ajax intro
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
-json intro
-json syntax
-json vs xml
-json data types
-json parse
-json stringify
-json objects
-json arrays
-json server
-json php
-json html
-json jsonp
-jquery selectors
-jquery html
-jquery css
-jquery dom
+ intro
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
+ intro
+ syntax
+ vs xml
+ data types
+ parse
+ stringify
+ objects
+ arrays
+ server
+ php
+ html
+ p
+ selectors
+ html
+ css
+ dom
 js graphics
 js canvas
 js plotly
@@ -3440,16 +3440,16 @@ js editor
 js exercises
 js quiz
 js certificate
-javascript objects
-html dom objects
-appml home
-appml how to
-appml data
-appml includes
-appml controllers
-appml messages
-appml models
-appml api
+ objects
+ dom objects
+ home
+ how to
+ data
+ includes
+ controllers
+ messages
+ models
+ api
 case intro
 case text file
 case xml file
@@ -3460,56 +3460,56 @@ case suppliers
 case shippers
 case categories
 case employees
-appml client
-appml prototype
-appml lists
-appml forms
-appml websql
-appml php
-appml asp
+ client
+ prototype
+ lists
+ forms
+ websql
+ php
+ asp
 google cloud sql
 amazon rds sql
-appml reference
-appml datafiles
-appml databases
-appml api
-appml architecture
-appml history
-w3.js home
-w3.js intro
-w3.js selectors
-w3.js hide/show
-w3.js add style
-w3.js add class
-w3.js filters
-w3.js sort
-w3.js slideshow
-w3.js includes
-w3.js display
-w3.js http
-w3.js controllers
-w3.js servers
-w3.js w3data
-w3.js examples
-w3.js references
-w3.js downloads
-python home
-python intro
-python get started
-python syntax
-python comments
-python variables
-python variables
+ reference
+ datafiles
+ databases
+ api
+ architecture
+ history
+ home
+ intro
+ selectors
+ hide/show
+ add style
+ add class
+ filters
+ sort
+ slideshow
+ includes
+ display
+ http
+ controllers
+ servers
+ w3data
+ examples
+ references
+ downloads
+ home
+ intro
+ get started
+ syntax
+ comments
+ variables
+ variables
 variable names
 assign multiple values
 output variables
 global variables
 variable exercises
-python data types
-python numbers
-python casting
-python strings
-python strings
+ data types
+ numbers
+ casting
+ strings
+ strings
 slicing strings
 modify strings
 concatenate strings
@@ -3517,10 +3517,10 @@ format strings
 escape characters
 string methods
 string exercises
-python booleans
-python operators
-python lists
-python lists
+ booleans
+ operators
+ lists
+ lists
 access list items
 change list items
 add list items
@@ -3532,8 +3532,8 @@ copy lists
 join lists
 list methods
 list exercises
-python tuples
-python tuples
+ tuples
+ tuples
 access tuples
 update tuples
 unpack tuples
@@ -3541,8 +3541,8 @@ loop tuples
 join tuples
 tuple methods
 tuple exercises
-python sets
-python sets
+ sets
+ sets
 access set items
 add set items
 remove set items
@@ -3550,8 +3550,8 @@ loop sets
 join sets
 set methods
 set exercises
-python dictionaries
-python dictionaries
+ dictionaries
+ dictionaries
 access items
 change items
 add items
@@ -3561,46 +3561,46 @@ copy dictionaries
 nested dictionaries
 dictionary methods
 dictionary exercise
-python if...else
-python while loops
-python for loops
-python functions
-python lambda
-python arrays
-python classes/objects
-python inheritance
-python iterators
-python scope
-python modules
-python dates
-python math
-python json
-python regex
-python pip
-python try...except
-python user input
-python string formatting
-python file handling
-python read files
-python write/create files
-python delete files
-numpy tutorial
-pandas tutorial
-scipy tutorial
-django tutorial
-matplotlib intro
-matplotlib get started
-matplotlib pyplot
-matplotlib plotting
-matplotlib markers
-matplotlib line
-matplotlib labels
-matplotlib grid
-matplotlib subplot
-matplotlib scatter
-matplotlib bars
-matplotlib histograms
-matplotlib pie charts
+ if...else
+ while loops
+ for loops
+ functions
+ lambda
+ arrays
+ classes/objects
+ inheritance
+ iterators
+ scope
+ modules
+ dates
+ math
+ json
+ regex
+ pip
+ try...except
+ user input
+ string formatting
+ file handling
+ read files
+ write/create files
+ delete files
+ tutorial
+ tutorial
+ tutorial
+ tutorial
+ intro
+ get started
+ pyplot
+ plotting
+ markers
+ line
+ labels
+ grid
+ subplot
+ scatter
+ bars
+ histograms
+ pie charts
 getting started
 mean median mode
 standard deviation
@@ -3620,137 +3620,137 @@ logistic regression
 grid search
 categorical data
 k-means
-bootstrap aggregation
+ aggregation
 cross validation
 auc - roc curve
 k-nearest neighbors
-mysql get started
-mysql create database
-mysql create table
-mysql insert
-mysql select
-mysql where
-mysql order by
-mysql delete
-mysql drop table
-mysql update
-mysql limit
-mysql join
-mongodb get started
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb query
-mongodb sort
-mongodb delete
-mongodb drop collection
-mongodb update
-mongodb limit
-python overview
-python built-in functions
-python string methods
-python list methods
-python dictionary methods
-python tuple methods
-python set methods
-python file methods
-python keywords
-python exceptions
-python glossary
+ get started
+ create database
+ create table
+ insert
+ select
+ where
+ order by
+ delete
+ drop table
+ update
+ limit
+ join
+ get started
+ create database
+ create collection
+ insert
+ find
+ query
+ sort
+ delete
+ drop collection
+ update
+ limit
+ overview
+ built-in functions
+ string methods
+ list methods
+ dictionary methods
+ tuple methods
+ set methods
+ file methods
+ keywords
+ exceptions
+ glossary
 random module
 requests module
-statistics module
+ module
 math module
 cmath module
 remove list duplicates
 reverse a string
 add two numbers
-python examples
-python compiler
-python exercises
-python quiz
-python certificate
-java home
-java intro
-java get started
-java syntax
-java output
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
+ home
+ intro
+ get started
+ syntax
+ output
 print text
 print numbers
-java comments
-java variables
+ comments
+ variables
 variables
 print variables
 declare multiple variables
 identifiers
-java data types
+ data types
 data types
 numbers
 booleans
 characters
 non-primitive types
-java type casting
-java operators
-java strings
+ type casting
+ operators
+ strings
 strings
 concatenation
 numbers and strings
 special characters
-java math
-java booleans
-java if...else
+ math
+ booleans
+ if...else
 if...else
 short hand if...else
-java switch
-java while loop
-java for loop
+ switch
+ while loop
+ for loop
 for loop
 for-each loop
-java break/continue
-java arrays
+ break/continue
+ arrays
 arrays
 loop through an array
 multidimensional arrays
-java methods
-java method parameters
-java method overloading
-java scope
-java recursion
-java oop
-java classes/objects
-java class attributes
-java class methods
-java constructors
-java modifiers
-java encapsulation
-java packages / api
-java inheritance
-java polymorphism
-java inner classes
-java abstraction
-java interface
-java enums
-java user input
-java date
-java arraylist
-java linkedlist
-java hashmap
-java hashset
-java iterator
-java wrapper classes
-java exceptions
-java regex
-java threads
-java lambda
-java files
-java create/write files
-java read files
-java delete files
+ methods
+ method parameters
+ method overloading
+ scope
+ recursion
+ oop
+ classes/objects
+ class attributes
+ class methods
+ constructors
+ modifiers
+ encapsulation
+ packages / api
+ inheritance
+ polymorphism
+ inner classes
+ abstraction
+ interface
+ enums
+ user input
+ date
+ arraylist
+ linkedlist
+ hashmap
+ hashset
+ iterator
+ wrapper classes
+ exceptions
+ regex
+ threads
+ lambda
+ files
+ create/write files
+ read files
+ delete files
 add two numbers
 count words
 reverse a string
-java keywords
+ keywords
 abstract
 boolean
 break
@@ -3793,77 +3793,77 @@ throws
 try
 void
 while
-java string methods
-java math methods
-java examples
-java compiler
-java exercises
-java quiz
-java certificate
-c home
-c intro
-c get started
-c syntax
-c output
+ string methods
+ math methods
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
+ home
+ intro
+ get started
+ syntax
+ output
 print text
 new lines
-c comments
-c variables
-c data types
-c constants
-c operators
-c if...else
-c if...else
-c short hand if
-c switch
-c while loop
-c for loop
-c break/continue
-c arrays
+ omments
+ variables
+ data types
+ onstants
+ operators
+ if...else
+ if...else
+ short hand if
+ swith
+ while loop
+ for loop
+ break/ontinue
+ arrays
 arrays
 multidimensional arrays
-c strings
+ strings
 strings
 special characters
-c user input
-c memory address
-c pointers
-c functions
-c function parameters
-c function declaration
-c recursion
-c math functions
-c structures
-c examples
-c exercises
-c quiz
-c compiler
-c++ home
-c++ intro
-c++ get started
-c++ syntax
-c++ output
+ user input
+ memory address
+ pointers
+ funtions
+ funtion parameters
+ funtion delaration
+ reursion
+ math funtions
+ strutures
+ examples
+ exerises
+ quiz
+ ompiler
+ home
+ intro
+ get started
+ syntax
+ output
 print text
 new lines
-c++ comments
-c++ variables
+ comments
+ variables
 declare variables
 declare multiple variables
 identifiers
 constants
-c++ user input
-c++ data types
+ user input
+ data types
 basic data types
 numbers
 booleans
 characters
 strings
-c++ operators
+ operators
 arithmetic
 assignment
 comparison
 logical
-c++ strings
+ strings
 strings
 concatenation
 numbers and strings
@@ -3872,283 +3872,283 @@ access strings
 special characters
 user input strings
 omitting namespace
-c++ math
-c++ booleans
+ math
+ booleans
 boolean values
 boolean expressions
-c++ conditions
+ conditions
 if
 else
 else if
 short hand if..else
-c++ switch
-c++ while loop
+ switch
+ while loop
 while loop
 do/while loop
-c++ for loop
-c++ break/continue
-c++ arrays
+ for loop
+ break/continue
+ arrays
 arrays
 arrays and loops
 omit array size
 get array size
 multidimensional arrays
-c++ structures
-c++ references
+ structures
+ references
 create references
 memory address
-c++ pointers
+ pointers
 create pointers
 dereferencing
 modify pointers
-c++ functions
-c++ function parameters
+ functions
+ function parameters
 parameters/arguments
 default parameter
 multiple parameters
 return values
 pass by reference
 pass arrays
-c++ function overloading
-c++ recursion
-c++ oop
-c++ classes/objects
-c++ class methods
-c++ constructors
-c++ access specifiers
-c++ encapsulation
-c++ inheritance
+ function overloading
+ recursion
+ oop
+ classes/objects
+ class methods
+ constructors
+ access specifiers
+ encapsulation
+ inheritance
 inheritance
 multilevel inheritance
 multiple inheritance
 access specifiers
-c++ polymorphism
-c++ files
-c++ exceptions
+ polymorphism
+ files
+ exceptions
 add two numbers
-c++ examples
-c++ compiler
-c++ exercises
-c++ quiz
-c++ certificate
-c# home
-c# intro
-c# get started
-c# syntax
-c# output
-c# comments
-c# variables
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
+ home
+ intro
+ get started
+ syntax
+ output
+ comments
+ variables
 variables
 constants
 display variables
 multiple variables
 identifiers
-c# data types
-c# type casting
-c# user input
-c# operators
+ data types
+ type casting
+ user input
+ operators
 arithmetic
 assignment
 comparison
 logical
-c# math
-c# strings
+ math
+ strings
 strings
 concatenation
 interpolation
 access strings
 special characters
-c# booleans
-c# if...else
+ booleans
+ if...else
 if
 else
 else if
 short hand if..else
-c# switch
-c# while loop
-c# for loop
+ switch
+ while loop
+ for loop
 for loop
 foreach loop
-c# break/continue
-c# arrays
+ break/continue
+ arrays
 arrays
 loop through an array
 sort arrays
 multidimensional arrays
-c# methods
-c# method parameters
+ methods
+ method parameters
 parameters & arguments
 default parameter
 return values
 named arguments
-c# method overloading
-c# oop
-c# classes/objects
+ method overloading
+ oop
+ classes/objects
 classes and objects
 multiple objects
-c# class members
-c# constructors
-c# access modifiers
-c# properties
-c# inheritance
-c# polymorphism
-c# abstraction
-c# interface
+ class members
+ constructors
+ access modifiers
+ properties
+ inheritance
+ polymorphism
+ abstraction
+ interface
 interface
 multiple interfaces
-c# enums
-c# files
-c# exceptions
+ enums
+ files
+ exceptions
 add two numbers
-c# examples
-c# compiler
-c# exercises
-c# quiz
-c# certificate
-r home
-r intro
-r get started
-r syntax
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
+ home
+ into
+ get stated
+ syntax
 syntax
 print
-r comments
-r variables
-r data types
-r numbers
-r math
-r strings
-r booleans
-r operators
-r if...else
-r while loop
-r for loop
-r functions
+ comments
+ vaiables
+ data types
+ numbes
+ math
+ stings
+ booleans
+ opeatos
+ if...else
+ while loop
+ fo loop
+ functions
 functions
 global variables
-r vectors
-r lists
-r matrices
-r arrays
-r data frames
-r factors
-r plot
-r line
-r scatterplot
-r pie charts
-r bars
-r statistics intro
-r data set
-r max and min
-r mean median mode
-r mean
-r median
-r mode
-r percentiles
-r examples
-r compiler
-r exercises
-r quiz
-r certificate
-kotlin home
-kotlin intro
-kotlin get started
-kotlin syntax
-kotlin output
-kotlin comments
-kotlin variables
-kotlin data types
-kotlin operators
-kotlin strings
-kotlin booleans
-kotlin if...else
-kotlin when
-kotlin while loop
-kotlin break/continue
-kotlin arrays
-kotlin for loop
-kotlin ranges
-kotlin functions
-kotlin oop
-kotlin classes/objects
-kotlin constructors
-kotlin class functions
-kotlin inheritance
-kotlin examples
-kotlin exercises
-kotlin quiz
-kotlin compiler
-go home
-go introduction
-go get started
-go syntax
-go comments
-go variables
+ vectos
+ lists
+ matices
+ aays
+ data fames
+ factos
+ plot
+ line
+ scatteplot
+ pie chats
+ bas
+ statistics into
+ data set
+ max and min
+ mean median mode
+ mean
+ median
+ mode
+ pecentiles
+ examples
+ compile
+ execises
+ quiz
+ cetificate
+ home
+ intro
+ get started
+ syntax
+ output
+ comments
+ variables
+ data types
+ operators
+ strings
+ booleans
+ if...else
+ when
+ while loop
+ break/continue
+ arrays
+ for loop
+ ranges
+ functions
+ oop
+ classes/objects
+ constructors
+ class functions
+ inheritance
+ examples
+ exercises
+ quiz
+ compiler
+ home
+ introduction
+ get started
+ syntax
+ comments
+ variables
 declare variables
 declare multiple variables
 naming rules
-go constants
-go output
+ constants
+ output
 output functions
 formatting verbs
-go data types
+ data types
 basic data types
 boolean
 integer
 float
 string
-go arrays
-go slices
+ arrays
+ slices
 create slice
 modify slice
-go operators
+ operators
 operators
 arithmetic
 assignment
 comparison
 logical
 bitwise
-go conditions
+ conditions
 conditions
 if statement
 if else statement
 else if statement
 nested if
-go switch
+ switch
 single-case
 multi-case
-go loops
-go functions
+ loops
+ functions
 create/call function
 parameters/arguments
 function returns
 recursion
-go struct
-go maps
-go exercises
-go compiler
-django home
-django intro
-django get started
-django create project
-django create app
-django views
-django templates
-django models
-django add members
-django add template
-django add record
-django delete record
-django update record
-django variables
-django tags
-django if else
-django for loop
-django comment
-django cycle
-django extends
-django include
-django filter
-django 404 template
+ struct
+ maps
+ exercises
+ compiler
+ home
+ intro
+ get started
+ create project
+ create app
+ views
+ templates
+ models
+ add members
+ add template
+ add record
+ delete record
+ update record
+ variables
+ tags
+ if else
+ for loop
+ comment
+ cycle
+ extends
+ include
+ filter
+ 404 template
 add css file
 add js file
 add image
@@ -4181,65 +4181,65 @@ ts definitely typed
 ts exercises
 ts quiz
 ts certificate
-sql home
-sql intro
-sql syntax
-sql select
-sql select distinct
-sql where
-sql and, or, not
-sql order by
-sql insert into
-sql null values
-sql update
-sql delete
-sql select top
-sql min and max
-sql count, avg, sum
-sql like
-sql wildcards
-sql in
-sql between
-sql aliases
-sql joins
-sql inner join
-sql left join
-sql right join
-sql full join
-sql self join
-sql union
-sql group by
-sql having
-sql exists
-sql any, all
-sql select into
-sql insert into select
-sql case
-sql null functions
-sql stored procedures
-sql comments
-sql operators
-sql create db
-sql drop db
-sql backup db
-sql create table
-sql drop table
-sql alter table
-sql constraints
-sql not null
-sql unique
-sql primary key
-sql foreign key
-sql check
-sql default
-sql index
-sql auto increment
-sql dates
-sql views
-sql injection
-sql hosting
-sql data types
-sql keywords
+ home
+ intro
+ syntax
+ select
+ select distinct
+ where
+ and, or, not
+ order by
+ insert into
+ null values
+ update
+ delete
+ select top
+ min and max
+ count, avg, sum
+ like
+ wildcards
+ in
+ between
+ aliases
+ joins
+ inner join
+ left join
+ right join
+ full join
+ self join
+ union
+ group by
+ having
+ exists
+ any, all
+ select into
+ insert into select
+ case
+ null functions
+ stored procedures
+ comments
+ operators
+ create db
+ drop db
+ backup db
+ create table
+ drop table
+ alter table
+ constraints
+ not null
+ unique
+ primary key
+ foreign key
+ check
+ default
+ index
+ auto increment
+ dates
+ views
+ injection
+ hosting
+ data types
+ keywords
 add
 add constraint
 all
@@ -4319,7 +4319,7 @@ update
 values
 view
 where
-mysql functions
+ functions
 ascii
 char_length
 character_length
@@ -4458,7 +4458,7 @@ session_user
 system_user
 user
 version
-sql server functions
+ server functions
 ascii
 char
 charindex
@@ -4609,65 +4609,65 @@ environ
 isdate
 isnull
 isnumeric
-sql quick ref
-sql examples
-sql quiz
-sql exercises
-sql certificate
-mysql home
-mysql intro
-mysql rdbms
-mysql sql
-mysql select
-mysql where
-mysql and, or, not
-mysql order by
-mysql insert into
-mysql null values
-mysql update
-mysql delete
-mysql limit
-mysql min and max
-mysql count, avg, sum
-mysql like
-mysql wildcards
-mysql in
-mysql between
-mysql aliases
-mysql joins
-mysql inner join
-mysql left join
-mysql right join
-mysql cross join
-mysql self join
-mysql union
-mysql group by
-mysql having
-mysql exists
-mysql any, all
-mysql insert select
-mysql case
-mysql null functions
-mysql comments
-mysql operators
-mysql create db
-mysql drop db
-mysql create table
-mysql drop table
-mysql alter table
-mysql constraints
-mysql not null
-mysql unique
-mysql primary key
-mysql foreign key
-mysql check
-mysql default
-mysql create index
-mysql auto increment
-mysql dates
-mysql views
-mysql data types
-mysql functions
+ quick ref
+ examples
+ quiz
+ exercises
+ certificate
+ home
+ intro
+ rdbms
+ sql
+ select
+ where
+ and, or, not
+ order by
+ insert into
+ null values
+ update
+ delete
+ limit
+ min and max
+ count, avg, sum
+ like
+ wildcards
+ in
+ between
+ aliases
+ joins
+ inner join
+ left join
+ right join
+ cross join
+ self join
+ union
+ group by
+ having
+ exists
+ any, all
+ insert select
+ case
+ null functions
+ comments
+ operators
+ create db
+ drop db
+ create table
+ drop table
+ alter table
+ constraints
+ not null
+ unique
+ primary key
+ foreign key
+ check
+ default
+ create index
+ auto increment
+ dates
+ views
+ data types
+ functions
 ascii
 char_length
 character_length
@@ -4806,113 +4806,113 @@ session_user
 system_user
 user
 version
-mysql examples
-mysql quiz
-mysql exercises
-mysql certificate
-php home
-php intro
-php install
-php syntax
-php comments
-php variables
+ examples
+ quiz
+ exercises
+ certificate
+ home
+ intro
+ install
+ syntax
+ comments
+ variables
 variables
 variables scope
-php echo / print
-php data types
-php strings
-php numbers
-php math
-php constants
-php operators
-php if...else...elseif
-php switch
-php loops
+ echo / print
+ data types
+ strings
+ numbers
+ math
+ constants
+ operators
+ if...else...elseif
+ switch
+ loops
 loops
 while loop
 do while loop
 for loop
 foreach loop
 break/continue
-php functions
-php arrays
+ functions
+ arrays
 arrays
 indexed arrays
 associative arrays
 multidimensional arrays
 sorting arrays
-php superglobals
+ superglobals
 superglobals
 $globals
 $_server
 $_request
 $_post
 $_get
-php regex
-php form handling
-php form validation
-php form required
-php form url/e-mail
-php form complete
-php date and time
-php include
-php file handling
-php file open/read
-php file create/write
-php file upload
-php cookies
-php sessions
-php filters
-php filters advanced
-php callback functions
-php json
-php exceptions
-php what is oop
-php classes/objects
-php constructor
-php destructor
-php access modifiers
-php inheritance
-php constants
-php abstract classes
-php interfaces
-php traits
-php static methods
-php static properties
-php namespaces
-php iterables
-mysql database
-mysql connect
-mysql create db
-mysql create table
-mysql insert data
-mysql get last id
-mysql insert multiple
-mysql prepared
-mysql select data
-mysql where
-mysql order by
-mysql delete data
-mysql update data
-mysql limit data
-php xml parsers
-php simplexml parser
-php simplexml - get
-php xml expat
-php xml dom
-ajax intro
-ajax php
-ajax database
-ajax xml
-ajax live search
-ajax poll
-php examples
-php compiler
-php quiz
-php exercises
-php certificate
-php overview
-php array
+ regex
+ form handling
+ form validation
+ form required
+ form url/e-mail
+ form complete
+ date and time
+ include
+ file handling
+ file open/read
+ file create/write
+ file upload
+ cookies
+ sessions
+ filters
+ filters advanced
+ callback functions
+ json
+ exceptions
+ what is oop
+ classes/objects
+ constructor
+ destructor
+ access modifiers
+ inheritance
+ constants
+ abstract classes
+ interfaces
+ traits
+ static methods
+ static properties
+ namespaces
+ iterables
+ database
+ connect
+ create db
+ create table
+ insert data
+ get last id
+ insert multiple
+ prepared
+ select data
+ where
+ order by
+ delete data
+ update data
+ limit data
+ xml parsers
+ simplexml parser
+ simplexml - get
+ xml expat
+ xml dom
+ intro
+ php
+ database
+ xml
+ live search
+ poll
+ examples
+ compiler
+ quiz
+ exercises
+ certificate
+ overview
+ array
 array()
 array_change_key_case()
 array_chunk()
@@ -5028,7 +5028,7 @@ sort()
 uasort()
 uksort()
 usort()
-php calendar
+ calendar
 cal_days_in_month()
 cal_from_jd()
 cal_info()
@@ -5047,7 +5047,7 @@ jdtounix()
 jewishtojd()
 juliantojd()
 unixtojd()
-php date
+ date
 checkdate()
 date_add()
 date_create_from_format()
@@ -5097,7 +5097,7 @@ timezone_offset_get()
 timezone_open()
 timezone_transitions_get()
 timezone_version_get()
-php directory
+ directory
 chdir()
 chroot()
 closedir()
@@ -5107,7 +5107,7 @@ opendir()
 readdir()
 rewinddir()
 scandir()
-php error
+ error
 debug_backtrace()
 debug_print_backtrace()
 error_get_last()
@@ -5118,7 +5118,7 @@ restore_exception_handler()
 set_error_handler()
 set_exception_handler()
 trigger_error()
-php exception
+ exception
 exception()
 getcode()
 getfile()
@@ -5127,7 +5127,7 @@ getline()
 getprevious()
 gettrace()
 gettraceasstring()
-php filesystem
+ filesystem
 basename()
 chgrp()
 chmod()
@@ -5209,7 +5209,7 @@ tmpfile()
 touch()
 umask()
 unlink()
-php filter
+ filter
 filter_has_var()
 filter_id()
 filter_input()
@@ -5217,7 +5217,7 @@ filter_input_array()
 filter_list()
 filter_var()
 filter_var_array()
-php ftp
+ ftp
 ftp_alloc()
 ftp_cdup()
 ftp_chdir()
@@ -5253,10 +5253,10 @@ ftp_site()
 ftp_size()
 ftp_ssl_connect()
 ftp_systype()
-php json
+ json
 json_decode()
 json_encode()
-php keywords
+ keywords
 abstract
 and
 as
@@ -5318,7 +5318,7 @@ while
 xor
 yield
 yield from
-php libxml
+ libxml
 libxml_clear_errors()
 libxml_disable_entity_loader()
 libxml_get_errors()
@@ -5326,10 +5326,10 @@ libxml_get_last_error()
 libxml_set_external_entity_loader()
 libxml_set_streams_context()
 libxml_use_internal_errors()
-php mail
+ mail
 ezmlm_hash()
 mail()
-php math
+ math
 abs()
 acos()
 acosh()
@@ -5379,7 +5379,7 @@ sqrt()
 srand()
 tan()
 tanh()
-php misc
+ misc
 connection_aborted()
 connection_status()
 connection_timeout()
@@ -5405,7 +5405,7 @@ time_sleep_until()
 uniqid()
 unpack()
 usleep()
-php mysqli
+ mysqli
 affected_rows
 autocommit
 change_user
@@ -5470,7 +5470,7 @@ thread_id
 thread_safe
 use_result
 warning_count
-php network
+ network
 checkdnsrr()
 closelog()
 dns_check_record()
@@ -5504,7 +5504,7 @@ socket_get_status()
 socket_set_blocking()
 socket_set_timeout()
 syslog()
-php output control
+ output control
 flush()
 ob_clean()
 ob_end_clean()
@@ -5521,7 +5521,7 @@ ob_list_handlers()
 ob_start()
 output_add_rewrite_var()
 output_reset_rewrite_vars()
-php regex
+ regex
 preg_filter()
 preg_grep()
 preg_last_error()
@@ -5532,7 +5532,7 @@ preg_replace_callback
 preg_replace_callback_array
 preg_split
 preg_quote
-php simplexml
+ simplexml
 __construct()
 __tostring()
 addattribute()
@@ -5557,8 +5557,8 @@ key()
 next()
 rewind()
 valid()
-php stream
-php string
+ stream
+ string
 addcslashes()
 addslashes()
 bin2hex()
@@ -5657,7 +5657,7 @@ vfprintf()
 vprintf()
 vsprintf()
 wordwrap()
-php variable handling
+ variable handling
 
 boolval()
 debug_zval_dump()
@@ -5695,7 +5695,7 @@ unset()
 var_dump()
 var_export()
 
-php xml parser
+ xml parser
 
 utf8_decode()
 utf8_encode()
@@ -5722,7 +5722,7 @@ xml_set_processing_instruction_handler()
 xml_set_start_namespace_decl_handler()
 xml_set_unparsed_entity_decl_handler()
 
-php zip
+ zip
 
 zip_close()
 zip_entry_close()
@@ -5735,7 +5735,7 @@ zip_entry_read()
 zip_open()
 zip_read()
 
-php timezones
+ timezones
 
 
 boolval()
@@ -5773,7 +5773,7 @@ unserialize()
 unset()
 var_dump()
 var_export()
-php xml parser
+ xml parser
 utf8_decode()
 utf8_encode()
 xml_error_string()
@@ -5798,7 +5798,7 @@ xml_set_object()
 xml_set_processing_instruction_handler()
 xml_set_start_namespace_decl_handler()
 xml_set_unparsed_entity_decl_handler()
-php zip
+ zip
 zip_close()
 zip_entry_close()
 zip_entry_compressedsize()
@@ -5809,8 +5809,8 @@ zip_entry_open()
 zip_entry_read()
 zip_open()
 zip_read()
-php timezones
-asp home
+ timezones
+ home
 webpages intro
 webpages razor
 webpages layout
@@ -5836,40 +5836,40 @@ razor c# logic
 razor vb variables
 razor vb loops
 razor vb logic
-asp intro
-asp syntax
-asp variables
-asp procedures
-asp conditionals
-asp looping
-asp forms
-asp cookies
-asp session
-asp application
-asp #include
-asp global.asa
-asp ajax
-asp e-mail
-asp examples
-asp vb functions
-asp vb keywords
-asp response
-asp request
-asp application
-asp session
-asp server
-asp error
-asp filesystem
-asp textstream
-asp drive
-asp file
-asp folder
-asp dictionary
-asp adrotator
-asp browsercap
-asp content linking
-asp content rotator
-asp quick ref
+ intro
+ syntax
+ variables
+ procedures
+ conditionals
+ looping
+ forms
+ cookies
+ session
+ application
+ #include
+ global.asa
+ ajax
+ e-mail
+ examples
+ vb functions
+ vb keywords
+ response
+ request
+ application
+ session
+ server
+ error
+ filesystem
+ textstream
+ drive
+ file
+ folder
+ dictionary
+ adrotator
+ browsercap
+ content linking
+ content rotator
+ quick ref
 ado intro
 ado connect
 ado recordset
@@ -5891,41 +5891,41 @@ ado record
 ado recordset
 ado stream
 ado datatypes
-node.js home
-node.js intro
-node.js get started
-node.js modules
-node.js http module
-node.js file system
-node.js url module
-node.js npm
-node.js events
-node.js upload files
-node.js email
-mysql get started
-mysql create database
-mysql create table
-mysql insert into
-mysql select from
-mysql where
-mysql order by
-mysql delete
-mysql drop table
-mysql update
-mysql limit
-mysql join
-mongodb get started
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb query
-mongodb sort
-mongodb delete
-mongodb drop collection
-mongodb update
-mongodb limit
-mongodb join
+ home
+ intro
+ get started
+ modules
+ http module
+ file system
+ url module
+ npm
+ events
+ upload files
+ email
+ get started
+ create database
+ create table
+ insert into
+ select from
+ where
+ order by
+ delete
+ drop table
+ update
+ limit
+ join
+ get started
+ create database
+ create collection
+ insert
+ find
+ query
+ sort
+ delete
+ drop collection
+ update
+ limit
+ join
 raspi get started
 raspi gpio introduction
 raspi blinking led
@@ -5935,41 +5935,41 @@ raspi websocket
 raspi rgb led websocket
 raspi components
 built-in modules
-node.js home
-node.js intro
-node.js get started
-node.js modules
-node.js http module
-node.js file system
-node.js url module
-node.js npm
-node.js events
-node.js upload files
-node.js email
-mysql get started
-mysql create database
-mysql create table
-mysql insert into
-mysql select from
-mysql where
-mysql order by
-mysql delete
-mysql drop table
-mysql update
-mysql limit
-mysql join
-mongodb get started
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb query
-mongodb sort
-mongodb delete
-mongodb drop collection
-mongodb update
-mongodb limit
-mongodb join
+ home
+ intro
+ get started
+ modules
+ http module
+ file system
+ url module
+ npm
+ events
+ upload files
+ email
+ get started
+ create database
+ create table
+ insert into
+ select from
+ where
+ order by
+ delete
+ drop table
+ update
+ limit
+ join
+ get started
+ create database
+ create collection
+ insert
+ find
+ query
+ sort
+ delete
+ drop collection
+ update
+ limit
+ join
 raspi get started
 raspi gpio introduction
 raspi blinking led
@@ -5979,15 +5979,15 @@ raspi websocket
 raspi rgb led websocket
 raspi components
 built-in modules
-git home
-git intro
-git get started
-git new files
-git staging environment
-git commit
-git help
-git branch
-git branch merge
+ home
+ intro
+ get started
+ new files
+ staging environment
+ commit
+ help
+ branch
+ branch merge
 {{title}} get started
 {{title}} edit code
 pull from {{title}}
@@ -5998,29 +5998,29 @@ push branch to {{title}}
 github flow
 {{title}} pages
 {{title}} fork
-git clone from {{title}}
+ clone from {{title}}
 {{title}} send pull request
-git .gitignore
-git security ssh
+ .ignore
+ security ssh
 {{title}} add ssh
-git revert
-git reset
-git amend
-git exercises
-git quiz
-mongodb home
-mongodb get started
-mongodb query api
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb update
-mongodb delete
-mongodb query operators
-mongodb update operators
-mongodb aggregations
-mongodb aggregations
+ revert
+ reset
+ amend
+ exercises
+ quiz
+ home
+ get started
+ query api
+ create database
+ create collection
+ insert
+ find
+ update
+ delete
+ query operators
+ update operators
+ aggregations
+ aggregations
 $group
 $limit
 $project
@@ -6030,13 +6030,13 @@ $addfields
 $count
 $lookup
 $out
-mongodb indexing/search
-mongodb validation
-mongodb data api
-mongodb drivers
-mongodb node.js driver
-mongodb charts
-mongodb exercises
+ indexing/search
+ validation
+ data api
+ drivers
+ node.js driver
+ charts
+ exercises
 aws home
 aws intro
 aws cloud certification
@@ -6123,9 +6123,9 @@ aws exam preparation
 aws cloud exercises
 aws cloud quiz
 aws fundamentals
-java app on aws
-node.js app on aws
-python app on aws
+ app on aws
+ app on aws
+ app on aws
 create vm ec2
 wordpress site ec2
 s3 basics
@@ -6134,7 +6134,7 @@ nodejs website
 
   js variables and operators
 
-mysql db with aws rds
+ db with aws rds
 
   web hosting and replication
 
@@ -6159,14 +6159,14 @@ linear algebra
 vectors
 matrices
 tensors
-statistics
+
 descriptive
 variability
 distribution
 probability
-ai plotter
-ai linear graphs
-ai scatter plots
+ plotter
+ linear graphs
+ scatter plots
 data science
 collecting data
 clustering
@@ -6206,23 +6206,23 @@ history of robots
 history of ai
 job replacements
 theory of mind
-python home
-python intro
-python get started
-python syntax
-python comments
-python variables
-python variables
+ home
+ intro
+ get started
+ syntax
+ comments
+ variables
+ variables
 variable names
 assign multiple values
 output variables
 global variables
 variable exercises
-python data types
-python numbers
-python casting
-python strings
-python strings
+ data types
+ numbers
+ casting
+ strings
+ strings
 slicing strings
 modify strings
 concatenate strings
@@ -6230,10 +6230,10 @@ format strings
 escape characters
 string methods
 string exercises
-python booleans
-python operators
-python lists
-python lists
+ booleans
+ operators
+ lists
+ lists
 access list items
 change list items
 add list items
@@ -6245,8 +6245,8 @@ copy lists
 join lists
 list methods
 list exercises
-python tuples
-python tuples
+ tuples
+ tuples
 access tuples
 update tuples
 unpack tuples
@@ -6254,8 +6254,8 @@ loop tuples
 join tuples
 tuple methods
 tuple exercises
-python sets
-python sets
+ sets
+ sets
 access set items
 add set items
 remove set items
@@ -6263,8 +6263,8 @@ loop sets
 join sets
 set methods
 set exercises
-python dictionaries
-python dictionaries
+ dictionaries
+ dictionaries
 access items
 change items
 add items
@@ -6274,46 +6274,46 @@ copy dictionaries
 nested dictionaries
 dictionary methods
 dictionary exercise
-python if...else
-python while loops
-python for loops
-python functions
-python lambda
-python arrays
-python classes/objects
-python inheritance
-python iterators
-python scope
-python modules
-python dates
-python math
-python json
-python regex
-python pip
-python try...except
-python user input
-python string formatting
-python file handling
-python read files
-python write/create files
-python delete files
-numpy tutorial
-pandas tutorial
-scipy tutorial
-django tutorial
-matplotlib intro
-matplotlib get started
-matplotlib pyplot
-matplotlib plotting
-matplotlib markers
-matplotlib line
-matplotlib labels
-matplotlib grid
-matplotlib subplot
-matplotlib scatter
-matplotlib bars
-matplotlib histograms
-matplotlib pie charts
+ if...else
+ while loops
+ for loops
+ functions
+ lambda
+ arrays
+ classes/objects
+ inheritance
+ iterators
+ scope
+ modules
+ dates
+ math
+ json
+ regex
+ pip
+ try...except
+ user input
+ string formatting
+ file handling
+ read files
+ write/create files
+ delete files
+ tutorial
+ tutorial
+ tutorial
+ tutorial
+ intro
+ get started
+ pyplot
+ plotting
+ markers
+ line
+ labels
+ grid
+ subplot
+ scatter
+ bars
+ histograms
+ pie charts
 getting started
 mean median mode
 standard deviation
@@ -6333,57 +6333,57 @@ logistic regression
 grid search
 categorical data
 k-means
-bootstrap aggregation
+ aggregation
 cross validation
 auc - roc curve
 k-nearest neighbors
-mysql get started
-mysql create database
-mysql create table
-mysql insert
-mysql select
-mysql where
-mysql order by
-mysql delete
-mysql drop table
-mysql update
-mysql limit
-mysql join
-mongodb get started
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb query
-mongodb sort
-mongodb delete
-mongodb drop collection
-mongodb update
-mongodb limit
-python overview
-python built-in functions
-python string methods
-python list methods
-python dictionary methods
-python tuple methods
-python set methods
-python file methods
-python keywords
-python exceptions
-python glossary
+ get started
+ create database
+ create table
+ insert
+ select
+ where
+ order by
+ delete
+ drop table
+ update
+ limit
+ join
+ get started
+ create database
+ create collection
+ insert
+ find
+ query
+ sort
+ delete
+ drop collection
+ update
+ limit
+ overview
+ built-in functions
+ string methods
+ list methods
+ dictionary methods
+ tuple methods
+ set methods
+ file methods
+ keywords
+ exceptions
+ glossary
 random module
 requests module
-statistics module
+ module
 math module
 cmath module
 remove list duplicates
 reverse a string
 add two numbers
-python examples
-python compiler
-python exercises
-python quiz
-python certificate
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
 ds home
 ds introduction
 ds what is data
@@ -6409,22 +6409,22 @@ ds regression coefficients
 ds regression p-value
 ds regression r-squared
 ds linear regression case
-numpy home
-numpy intro
-numpy getting started
-numpy creating arrays
-numpy array indexing
-numpy array slicing
-numpy data types
-numpy copy vs view
-numpy array shape
-numpy array reshape
-numpy array iterating
-numpy array join
-numpy array split
-numpy array search
-numpy array sort
-numpy array filter
+ home
+ intro
+ getting started
+ creating arrays
+ array indexing
+ array slicing
+ data types
+ copy vs view
+ array shape
+ array reshape
+ array iterating
+ array join
+ array split
+ array search
+ array sort
+ array filter
 random intro
 data distribution
 random permutation
@@ -6453,58 +6453,58 @@ ufunc finding gcd
 ufunc trigonometric
 ufunc hyperbolic
 ufunc set operations
-numpy quiz
-numpy exercises
-numpy certificate
-pandas home
-pandas intro
-pandas getting started
-pandas series
-pandas dataframes
-pandas read csv
-pandas read json
-pandas analyzing data
+ quiz
+ exercises
+ certificate
+ home
+ intro
+ getting started
+ series
+ dataframes
+ read csv
+ read json
+ analyzing data
 cleaning data
 cleaning empty cells
 cleaning wrong format
 cleaning wrong data
 removing duplicates
-pandas correlations
-pandas plotting
-pandas quiz
-pandas exercises
-pandas certificate
+ correlations
+ plotting
+ quiz
+ exercises
+ certificate
 dataframes reference
-scipy home
-scipy intro
-scipy getting started
-scipy constants
-scipy optimizers
-scipy sparse data
-scipy graphs
-scipy spatial data
-scipy matlab arrays
-scipy interpolation
-scipy significance tests
-scipy quiz
-scipy exercises
-python home
-python intro
-python get started
-python syntax
-python comments
-python variables
-python variables
+ home
+ intro
+ getting started
+ constants
+ optimizers
+ sparse data
+ graphs
+ spatial data
+ matlab arrays
+ interpolation
+ significance tests
+ quiz
+ exercises
+ home
+ intro
+ get started
+ syntax
+ comments
+ variables
+ variables
 variable names
 assign multiple values
 output variables
 global variables
 variable exercises
-python data types
-python numbers
-python casting
-python strings
-python strings
+ data types
+ numbers
+ casting
+ strings
+ strings
 slicing strings
 modify strings
 concatenate strings
@@ -6512,10 +6512,10 @@ format strings
 escape characters
 string methods
 string exercises
-python booleans
-python operators
-python lists
-python lists
+ booleans
+ operators
+ lists
+ lists
 access list items
 change list items
 add list items
@@ -6527,8 +6527,8 @@ copy lists
 join lists
 list methods
 list exercises
-python tuples
-python tuples
+ tuples
+ tuples
 access tuples
 update tuples
 unpack tuples
@@ -6536,8 +6536,8 @@ loop tuples
 join tuples
 tuple methods
 tuple exercises
-python sets
-python sets
+ sets
+ sets
 access set items
 add set items
 remove set items
@@ -6545,8 +6545,8 @@ loop sets
 join sets
 set methods
 set exercises
-python dictionaries
-python dictionaries
+ dictionaries
+ dictionaries
 access items
 change items
 add items
@@ -6556,46 +6556,46 @@ copy dictionaries
 nested dictionaries
 dictionary methods
 dictionary exercise
-python if...else
-python while loops
-python for loops
-python functions
-python lambda
-python arrays
-python classes/objects
-python inheritance
-python iterators
-python scope
-python modules
-python dates
-python math
-python json
-python regex
-python pip
-python try...except
-python user input
-python string formatting
-python file handling
-python read files
-python write/create files
-python delete files
-numpy tutorial
-pandas tutorial
-scipy tutorial
-django tutorial
-matplotlib intro
-matplotlib get started
-matplotlib pyplot
-matplotlib plotting
-matplotlib markers
-matplotlib line
-matplotlib labels
-matplotlib grid
-matplotlib subplot
-matplotlib scatter
-matplotlib bars
-matplotlib histograms
-matplotlib pie charts
+ if...else
+ while loops
+ for loops
+ functions
+ lambda
+ arrays
+ classes/objects
+ inheritance
+ iterators
+ scope
+ modules
+ dates
+ math
+ json
+ regex
+ pip
+ try...except
+ user input
+ string formatting
+ file handling
+ read files
+ write/create files
+ delete files
+ tutorial
+ tutorial
+ tutorial
+ tutorial
+ intro
+ get started
+ pyplot
+ plotting
+ markers
+ line
+ labels
+ grid
+ subplot
+ scatter
+ bars
+ histograms
+ pie charts
 getting started
 mean median mode
 standard deviation
@@ -6615,57 +6615,57 @@ logistic regression
 grid search
 categorical data
 k-means
-bootstrap aggregation
+ aggregation
 cross validation
 auc - roc curve
 k-nearest neighbors
-mysql get started
-mysql create database
-mysql create table
-mysql insert
-mysql select
-mysql where
-mysql order by
-mysql delete
-mysql drop table
-mysql update
-mysql limit
-mysql join
-mongodb get started
-mongodb create database
-mongodb create collection
-mongodb insert
-mongodb find
-mongodb query
-mongodb sort
-mongodb delete
-mongodb drop collection
-mongodb update
-mongodb limit
-python overview
-python built-in functions
-python string methods
-python list methods
-python dictionary methods
-python tuple methods
-python set methods
-python file methods
-python keywords
-python exceptions
-python glossary
+ get started
+ create database
+ create table
+ insert
+ select
+ where
+ order by
+ delete
+ drop table
+ update
+ limit
+ join
+ get started
+ create database
+ create collection
+ insert
+ find
+ query
+ sort
+ delete
+ drop collection
+ update
+ limit
+ overview
+ built-in functions
+ string methods
+ list methods
+ dictionary methods
+ tuple methods
+ set methods
+ file methods
+ keywords
+ exceptions
+ glossary
 random module
 requests module
-statistics module
+ module
 math module
 cmath module
 remove list duplicates
 reverse a string
 add two numbers
-python examples
-python compiler
-python exercises
-python quiz
-python certificate
+ examples
+ compiler
+ exercises
+ quiz
+ certificate
 stat home
 stat introduction
 stat gathering data
@@ -6709,48 +6709,48 @@ stat hypothesis testing proportion (left tailed)
 stat hypothesis testing proportion (two tailed)
 stat hypothesis testing mean (left tailed)
 stat hypothesis testing mean (two tailed)
-excel home
-excel introduction
-excel get started
-excel overview
-excel syntax
-excel ranges
-excel fill
+ home
+ introduction
+ get started
+ overview
+ syntax
+ ranges
+ fill
 filling
 double click to fill
-excel move cells
-excel add cells
-excel delete cells
-excel undo redo
-excel formulas
-excel relative reference
-excel absolute reference
-excel arithmetic operators
-excel addition
-excel subtraction
-excel multiplication
-excel division
-excel parentheses
-excel functions
-excel formatting
-excel format painter
-excel format colors
-excel format fonts
-excel format borders
-excel format numbers
-excel format grids
-excel format settings
-excel sort
-excel filter
-excel tables
+ move cells
+ add cells
+ delete cells
+ undo redo
+ formulas
+ relative reference
+ absolute reference
+ arithmetic operators
+ addition
+ subtraction
+ multiplication
+ division
+ parentheses
+ functions
+ formatting
+ format painter
+ format colors
+ format fonts
+ format borders
+ format numbers
+ format grids
+ format settings
+ sort
+ filter
+ tables
 tables
 table design
 table resizing
 remove duplicates
 convert table to range
 table style
-excel conditional format
-excel highlight cell rules
+ conditional format
+ highlight cell rules
 highlight cell rules
 hcr - greater than
 hcr - less than
@@ -6759,14 +6759,14 @@ hcr - equal to
 hcr - text that contains
 hcr - date occurring
 hcr - unique values
-excel top bottom rules
+ top bottom rules
 top bottom rules
 above below average
-excel data bars
-excel color scales
-excel icon sets
-excel manage rules (cf)
-excel charts
+ data bars
+ color scales
+ icon sets
+ manage rules (cf)
+ charts
 charts
 bar charts
 stacked bar charts
@@ -6777,7 +6777,7 @@ line charts
 stacked line charts
 100% stacked line charts
 radar charts
-excel charts customization
+ charts customization
 table pivot intro
 case: poke mart
 case: poke mart, styling
@@ -6821,9 +6821,9 @@ data visualization
 to create a budget
 to create a timeline
 to style in excel
-excel exercises
-excel certificate
-excel keyboard shortcuts
+ exercises
+ certificate
+ keyboard shortcuts
 gs home
 gs introduction
 gs get started
@@ -6890,39 +6890,39 @@ sumif
 sumifs
 vlookup
 xor
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -6938,35 +6938,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -6995,11 +6995,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7012,41 +7012,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -7062,35 +7062,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -7119,11 +7119,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7136,41 +7136,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -7186,35 +7186,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -7243,11 +7243,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7260,41 +7260,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -7310,35 +7310,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -7367,11 +7367,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7384,41 +7384,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -7434,35 +7434,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -7491,11 +7491,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7508,41 +7508,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -7558,35 +7558,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -7615,11 +7615,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7632,41 +7632,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -7682,35 +7682,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -7739,11 +7739,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7756,41 +7756,41 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
-xml home
-xml introduction
-xml how to use
-xml tree
-xml syntax
-xml elements
-xml attributes
-xml namespaces
-xml display
-xml httprequest
-xml parser
-xml dom
-xml xpath
-xml xslt
-xml xquery
-xml xlink
-xml validator
-xml dtd
-xml schema
-xml server
-xml examples
-xml quiz
-xml certificate
-ajax introduction
-ajax xmlhttp
-ajax request
-ajax response
-ajax xml file
-ajax php
-ajax asp
-ajax database
-ajax applications
-ajax examples
+ home
+ introduction
+ how to use
+ tree
+ syntax
+ elements
+ attributes
+ namespaces
+ display
+ httprequest
+ parser
+ dom
+ xpath
+ xslt
+ xquery
+ xlink
+ validator
+ dtd
+ schema
+ server
+ examples
+ quiz
+ certificate
+ introduction
+ xmlhttp
+ request
+ response
+ xml file
+ php
+ asp
+ database
+ applications
+ examples
 dom introduction
 dom nodes
 dom accessing
@@ -7806,35 +7806,35 @@ dom create nodes
 dom add nodes
 dom clone nodes
 dom examples
-xpath introduction
-xpath nodes
-xpath syntax
-xpath axes
-xpath operators
-xpath examples
-xslt introduction
+ introduction
+ nodes
+ syntax
+ axes
+ operators
+ examples
+ introduction
 xsl languages
-xslt transform
-xslt <template>
-xslt <value-of>
-xslt <for-each>
-xslt <sort>
-xslt <if>
-xslt <choose>
-xslt apply
-xslt on the client
-xslt on the server
-xslt edit xml
-xslt examples
-xquery introduction
-xquery example
-xquery flwor
-xquery html
-xquery terms
-xquery syntax
-xquery add
-xquery select
-xquery functions
+ transform
+ <template>
+ <value-of>
+ <for-each>
+ <sort>
+ <if>
+ <choose>
+ apply
+ on the client
+ on the server
+ edit xml
+ examples
+ introduction
+ example
+ flwor
+ html
+ terms
+ syntax
+ add
+ select
+ functions
 dtd introduction
 dtd building blocks
 dtd elements
@@ -7863,11 +7863,11 @@ xsd date/time
 xsd numeric
 xsd misc
 xsd reference
-xml services
-xml wsdl
-xml soap
-xml rdf
-xml rss
+ services
+ wsdl
+ soap
+ rdf
+ rss
 dom node types
 dom node
 dom nodelist
@@ -7880,5 +7880,5 @@ dom cdata
 dom comment
 dom xmlhttprequest
 dom parser
-xslt elements
+ elements
 xslt/xpath functions
