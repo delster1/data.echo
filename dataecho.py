@@ -52,25 +52,30 @@ def main():
     markup = cswiki.search_cswiki(sentence, qtype, args) # search wikipedia w/ result
 
     if markup is not None:
+        myfile = open("whathalfone.txt", "r")
+        outfile.writelines(myfile.readlines())
+        myfile.close()
         match qtype:
             case "WHAT":
                 cleanHTML = cswiki.clean_markup(markup, True, 'wiki').prettify()
                 
-                myfile = open("whathalfone.txt", "r")
-                outfile.writelines(myfile.readlines())
-                myfile.close()
+                
 
                 outfile.write(cleanHTML)
 
-                myfile = open("whathalftwo.txt", "r")
-                outfile.writelines(myfile.readlines())
-                myfile.close()
+                
 
                 soup = bs(cleanHTML, 'html.parser')
 
                 # print(soup.contents)
             case _:
                 print('default case')
+
+        myfile = open("whathalftwo.txt", "r")
+        outfile.writelines(myfile.readlines())
+        myfile.close()
+
+    outfile.close()
 
 if __name__ == '__main__':
     main() 
