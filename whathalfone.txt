@@ -8,6 +8,8 @@
         </h1>
 <body>
 
+    
     <h2>
-        Data.Echo takes speech input of a coding question and can output answers and resources using NLTK to sort questions
+        Data.Echo uses AI to parse a spoken coding question and output an answer file through Web Scraping and Natural Language Processing.
     </h2>
+
