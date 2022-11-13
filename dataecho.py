@@ -36,7 +36,7 @@ def main():
     # test sentence
     sentence = 'what is a boolean expression'
 
-    print(f'\n----------------\n\nTranscribed audio: {sentence}\n\n')
+    print(f'\n----------------\n\nTranscribed audio: {sentence}\n')
 
     #to create output file
     outfile = open('out.html', 'w')
@@ -53,17 +53,14 @@ def main():
     markup = cswiki.search_cswiki(sentence, qtype, args) # search wikipedia w/ result
 
     if markup is not None:
+        myfile = open("whathalfone.txt", "r")
+        outfile.writelines(myfile.readlines())
+        myfile.close()
         match qtype:
             case "WHAT":
                 cleanHTML = cswiki.clean_markup(markup, True, 'wiki').prettify()
                 
-                myfile = open("whathalfone.txt", "r")
-                outfile.writelines(myfile.readlines())
-                myfile.close()
-
                 outfile.write(cleanHTML)
-
-                outfile.write(w3.main())
 
                 myfile = open("whathalftwo.txt", "r")
                 outfile.writelines(myfile.readlines())
@@ -74,6 +71,12 @@ def main():
                 # print(soup.contents)
             case _:
                 print('default case')
+
+        myfile = open("whathalftwo.txt", "r")
+        outfile.writelines(myfile.readlines())
+        myfile.close()
+
+    outfile.close()
 
 if __name__ == '__main__':
     main() 

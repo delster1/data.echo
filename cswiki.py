@@ -17,8 +17,9 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
                             if source == 'wiki':
                                 markup.attrs['href'] = 'https://en.wikipedia.org' + markup.attrs['href']
                         else:
-                            print(markup.parent)
-                            print('Current Child: ', markup.name)
+                            pass
+                            # print(markup.parent)
+                            # print('Current Child: ', markup.name)
                     case _:
                         # do not modify links in other resources
                         pass
