@@ -2,6 +2,7 @@ import os, sys
 import warnings
 import whisper
 import recordaudio as ra
+from w3tools import main as w3main
 from bs4 import BeautifulSoup as bs
 
 # Local modules
@@ -21,24 +22,30 @@ def main():
             pass
 
     # ignore warnings caused by model.transcribe()
-    # warnings.filterwarnings(action='ignore', category=UserWarning)
+    warnings.filterwarnings(action='ignore', category=UserWarning)
 
-    # # record audio
-    # ra.record_audio(seconds=seconds)
+    # record audio
+    ra.record_audio(seconds=seconds)
 
-    # model = whisper.load_model('base.en')
+    model = whisper.load_model('base.en')
 
-    # # transcribe audio
-    # sentence = str(model.transcribe('input.wav')['text']).casefold()
-    # os.remove('input.wav')
+    # transcribe audio
+    sentence = str(model.transcribe('input.wav')['text']).casefold()
+    os.remove('input.wav')
 
     # test sentence
-    sentence = 'what is a boolean expression'
+    # sentence = ' what is a boolean expression?'
 
     print(f'\n----------------\n\nTranscribed audio: {sentence}\n')
 
     #to create output file
     outfile = open('out.html', 'w')
+
+    sentence = sentence.rstrip()
+    sentence = sentence.lstrip()
+
+    if sentence[-1] == '?' or sentence[-1] == '!':
+        sentence = sentence[:-1]
 
     sentence = sentence.casefold()
     tagged = tagWords(sentence)
@@ -55,15 +62,14 @@ def main():
         myfile = open("whathalfone.txt", "r")
         outfile.writelines(myfile.readlines())
         myfile.close()
+
         match qtype:
-            case "WHAT":
+            case 'WHAT':
                 cleanHTML = cswiki.clean_markup(markup, True, 'wiki').prettify()
                 
                 outfile.write(cleanHTML)
-
-                soup = bs(cleanHTML, 'html.parser')
-
-                # print(soup.contents)
+            case 'EXAMPLE':
+                outfile.write(w3main().prettify())
             case _:
                 print('default case')
 

@@ -73,7 +73,7 @@ def main():
 	topicLinks = getTopicsSoup(tutorialsDict,tutorial,topic)
 	out = getExamples(topicLinks)
 
-	print(out)
+	# print(out)
 	return out
 
 if __name__ == "__main__":
