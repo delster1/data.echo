@@ -17,7 +17,8 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
                             if source == 'wiki':
                                 markup.attrs['href'] = 'https://en.wikipedia.org' + markup.attrs['href']
                         else:
-                            markup.attrs['href'] = ''
+                            print(markup.parent)
+                            print('Current Child: ', markup.name)
                     case _:
                         # do not modify links in other resources
                         pass
@@ -56,7 +57,7 @@ def search_cswiki(sentence: str, args: list) -> str:
         case 'EXAMPLE': # w3
             pass
 
-        case 'WHAT': # wiki
+        case 'WHAT':
             only_glossary = strainer(attrs={'class': 'glossary'})
             soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
 
@@ -69,6 +70,8 @@ def search_cswiki(sentence: str, args: list) -> str:
                     # finding glossary entry from url for topic
                     for tag in soup.find_all(id=args[0]):
                         return tag.find_next('dd')
+
+            # TODO: search w3schools
 
         case _:
             print('More question types haven\'t been implemented yet!')
