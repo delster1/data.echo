@@ -152,8 +152,7 @@ def findArgs(arr,qType,ct):
 
 # https://www.englishclub.com/vocabulary/wh-question-words.htm USE THIS FOR AUX VERBS
 def main():
-    sentence = "what is a web crawler"  #	sentence to be processed
-    
+    sentence = "What is a boolean expression"  #	sentence to be processed
 
     tutorials = tutorialGlossary()
     # print(tutorialsArr,"\n\n")
