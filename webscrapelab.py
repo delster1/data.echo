@@ -3,21 +3,35 @@ from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 import requests  # this is so i can use a link to get html output
 import re  # python regex library (used ln 11)
 
-query = input("enter a search term\n")
-
-url = "https://www.geeksforgeeks.org/python-programming-language/?ref=shm"  # url to search
+url = "https://www.w3schools.com/"  # url to search
 
 response = requests.get(url) # turn url into html
-
-
 soup = bs(response.content, 'html.parser')  # turn html into soup
-
 # print(soup.prettify())
-ptags = soup.find_all(
- re.compile('^p|^h|^d|^s|^a'))  # array of tags that start with 'h' or 'p'
+ptags = soup.find_all("nav",id="nav_tutorials")  # array of tags that start with 'h' or 'p'
 
-text = query  # text to search
+tutorialsBS = bs(str(ptags[0]), "html.parser")
+tutorials = tutorialsBS.find_all('a')
 
-for i in ptags:  #iterate through array of tags
-	if text in str(i.string):  #if text is in tag's NavigableString
-		print(i.prettify())	
+tutorialLinks = []
+for ind,obj in enumerate(tutorials):
+	print(obj)
+	if ".asp\">Learn" not in obj or ".php\">Learn" not in obj or "https://" in obj: 
+		# print(obj)
+		tutorials.remove(obj)
+
+for ind,obj in enumerate(tutorials):
+	thing = str(obj)
+	startInd = thing.find("href=") +6
+	endInd = thing.find("\">Learn")
+	toAppend = thing[startInd:endInd]
+	
+	tutorialLinks.append(toAppend)
+	# print(toAppend)
+
+for ind,obj in enumerate(tutorialLinks):
+	print(obj[len(obj)-1] != "p")
+	if obj[len(obj)-1] != "p":
+		tutorialLinks.pop(ind)
+
+print(tutorialLinks)
