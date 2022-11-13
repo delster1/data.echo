@@ -1,13 +1,13 @@
 <!DOCTYPE html>
     <html lang = eng >
     <link rel="stylesheet" href="cssformat.css">
-        <h>
+        <h1>
             <t>
                 Data.Echo
             </t>
-        </h>
+        </h1>
 <body>
 
-    <h1>
-        possible explanation of how the database works
-    </h1>
+    <h2>
+        
+    </h2>
