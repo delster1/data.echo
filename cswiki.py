@@ -1,4 +1,4 @@
-import nltktools as nql
+from nltktools import *
 from bs4 import BeautifulSoup as bs  # import for beautifulsoup\
 from bs4 import SoupStrainer as strainer
 import bs4
@@ -45,9 +45,16 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
     return markup
 
 # search website for info to answer question
-def search_cswiki(sentence: str, args: list) -> str:
-    # hopefully returns tuple of (qtype: str, args: num)
-    qtype = nql.findType(nql.tagWords(sentence))
+def search_cswiki(sentence: str) -> str:
+    tagged = tagWords(sentence.casefold())
+    taggedQuestion = tagged[0]
+    count = tagged[1]
+    
+    qtype = findType(taggedQuestion)
+    args = findArgs(taggedQuestion, qtype, count)
+    print(args)
+
+    qtype = findType(tagWords(sentence))
 
     if qtype == 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
     

@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup as bs
 
 # Local modules
 import cswiki
-import nltktools as nql
+from nltktools import *
 
 def main():
     seconds = 4
@@ -29,23 +29,25 @@ def main():
     # model = whisper.load_model('base.en')
 
     # # transcribe audio
-    # sentence = str(model.transcribe('input.wav')['text'])
+    # sentence = str(model.transcribe('input.wav')['text']).casefold()
     # os.remove('input.wav')
 
-    sentence = 'what is a boolean expression'
+    sentence = 'What is a boolean expression?'.casefold()
 
-    print(f'\n----------------\nTranscribed audio: {sentence}')
-
-    qtype, args = nql.findType(nql.tagWords(sentence))
-    print(qtype, args)
+    print(f'\n----------------\n\nTranscribed audio: {sentence}')
 
     #to create output file
     outfile = open('out.html', 'w')
 
     # (sentence: str, args: list)
-    markup = cswiki.search_cswiki(sentence, args) # search wikipedia w/ result
+    markup = cswiki.search_cswiki(sentence) # search wikipedia w/ result
 
     if markup is not None:
+        tagged = tagWords(sentence)
+        taggedQuestion = tagged[0]
+        count = tagged[1]
+        
+        qtype = findType(taggedQuestion)
         match qtype:
             case "WHAT":
                 cleanHTML = cswiki.clean_markup(markup, True, 'wiki').prettify()
