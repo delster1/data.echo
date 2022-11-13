@@ -32,9 +32,10 @@ def main():
     # sentence = str(model.transcribe('input.wav')['text']).casefold()
     # os.remove('input.wav')
 
+    # test sentence
     sentence = 'what is a boolean expression'
 
-    print(f'\n----------------\n\nTranscribed audio: {sentence}')
+    print(f'\n----------------\n\nTranscribed audio: {sentence}\n\n')
 
     #to create output file
     outfile = open('out.html', 'w')
@@ -49,8 +50,6 @@ def main():
     args = findArgs(taggedQuestion, qtype, count)
     # (sentence: str, args: list)
     markup = cswiki.search_cswiki(sentence, qtype, args) # search wikipedia w/ result
-
-    print('markup: ', markup)
 
     if markup is not None:
         match qtype:
@@ -69,7 +68,7 @@ def main():
 
                 soup = bs(cleanHTML, 'html.parser')
 
-                print(soup.contents)
+                # print(soup.contents)
             case _:
                 print('default case')
 

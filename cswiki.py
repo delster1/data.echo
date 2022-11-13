@@ -62,7 +62,6 @@ def search_cswiki(sentence: str, qtype: str, args: list) -> str:
 
         case 'WHAT':
             sentence = strToLemmatized(sentence.casefold())
-            print(sentence)
             only_glossary = strainer(attrs={'class': 'glossary'})
             soup = bs(response.content, 'html.parser', parse_only=only_glossary)  # turn html into soup
 
