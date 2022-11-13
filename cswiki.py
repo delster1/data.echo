@@ -45,11 +45,8 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
 
 # search website for info to answer question
 def search_cswiki(sentence: str, args: list) -> str:
-    taggedQuestion = nql.tagWords(sentence)
-    print(taggedQuestion)
-
     # hopefully returns tuple of (qtype: str, args: num)
-    qtype = nql.findType(taggedQuestion)
+    qtype = nql.findType(nql.tagWords(sentence))
 
     if qtype == 'WHAT': url = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
     
