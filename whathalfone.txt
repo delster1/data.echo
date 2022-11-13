@@ -2,9 +2,7 @@
     <html lang = eng >
     <link rel="stylesheet" href="cssformat.css">
         <h1>
-            <t>
-                Data.Echo
-            </t>
+
         </h1>
         <img src="datadotecho.jpg" alt="DataEcho">
 <body>
