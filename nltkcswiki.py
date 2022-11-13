@@ -46,8 +46,6 @@ def clean_markup(markup, clean_style=True, source='wiki') -> str:
 def search_cswiki(sentence: str) -> str:
     filteredSentence = nql.strToLemmatized(sentence)
 
-    # print(f'Filtered Sentence:\n {filteredSentence}\n')
-
     glossaryURL = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science'
 
     response = requests.get(glossaryURL) # turn url into html
@@ -76,5 +74,3 @@ def search_cswiki(sentence: str) -> str:
                             return tag.find_next('dd')
 
     return None
-
-print(clean_markup(search_cswiki('what is a web crawler')).prettify())
