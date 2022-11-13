@@ -1,15 +1,36 @@
-import cswiki
-import nltktools as nql
+import os
+import warnings
+import whisper
+import recordaudio as ra
 from bs4 import BeautifulSoup as bs
 
-sentence = 'what is a web crawler'
-args = ['web crawler']
-qtype = nql.findType(nql.tagWords(sentence))
+# Local modules
+import cswiki
+import nltktools as nql
+
+# Transcribing Audio
+
+# ignore warnings caused by model.transcribe()
+warnings.filterwarnings(action='ignore', category=UserWarning)
+
+ra.record_audio()
+
+model = whisper.load_model('base.en')
+
+result = str(model.transcribe('input.wav')['text'])
+
+os.remove('input.wav')
+
+# args = ['web crawler']
+
+qtype, args = nql.findType(nql.tagWords(result))
+print(qtype, args)
+
 #to create output file
 outfile = open('out.html', 'w')
 
 # (sentence: str, args: list)
-markup = cswiki.search_cswiki(sentence, args) # search wikipedia w/ result
+markup = cswiki.search_cswiki(result, args) # search wikipedia w/ result
 
 if markup is not None:
     match qtype:

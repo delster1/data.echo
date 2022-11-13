@@ -1,13 +1,13 @@
 import pyaudio
 import wave
 
-def record_audio():
+def record_audio(outfile='input.wav', seconds=4):
     CHUNK = 1024
     FORMAT = pyaudio.paInt16
     CHANNELS = 2
     RATE = 44100
-    RECORD_SECONDS = 4
-    WAVE_OUTPUT_FILENAME = "input.wav"
+    RECORD_SECONDS = seconds
+    WAVE_OUTPUT_FILENAME = outfile
 
     p = pyaudio.PyAudio()
 
