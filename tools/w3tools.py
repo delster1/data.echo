@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup as bs  # import for beautifulsoup
 import requests  # this is so i can use a link to get html output
 import random
 
+from htmlinsert import insertHTML
+
 tutUpperNodes = {}
 def getW3HomepageSoup():
 	url = "https://www.w3schools.com"  # url to search
@@ -15,7 +17,7 @@ def getTutorialsDict():
 	url = "https://www.w3schools.com"  # url to search
 	tutorialsDict = {}
 
-	w3treeHtml = open("w3tree.html","r")
+	w3treeHtml = open("resources/w3tree.html","r")
 	tutorialsBS = bs(w3treeHtml,'html.parser') # code with tutorials list
 	for a in tutorialsBS.find_all('a', href=True): # get links from tutorials to dictionary
 		link = url+a['href'].replace(" ","")
@@ -75,6 +77,7 @@ def main():
 	out = getExamples(topicLinks)
 
 	# print(out)
+	# insertHTML(out, 'EXAMPLE')
 	return out
 
 if __name__ == "__main__":
