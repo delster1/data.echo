@@ -25,6 +25,8 @@ a:visited {
     text-decoration: none;
 }
 
-img {
+.logo {
     align-items: center;
+    max-width: 5%;
+    height: auto;
 }

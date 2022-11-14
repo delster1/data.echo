@@ -1,10 +1,14 @@
 <!DOCTYPE html>
     <html lang = eng >
-    <link rel="stylesheet" href="cssformat.css">
-        <h1>
+    <head>
+        <title>Data.Echo</title>
+        <link rel="stylesheet" href="resources/styles.css">
+    </head>
+    
+    <h1>
 
-        </h1>
-        <img src="datadotecho.jpg" alt="DataEcho">
+    </h1>
+    <img src="resources/datadotecho.jpg" alt="DataEcho" class="logo">
 <body>
 
     

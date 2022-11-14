@@ -12,3 +12,8 @@ py dataecho.py  <recording_seconds>
 - Whisper
 - NLTK
 - BeautifulSoup
+
+#### Stretch Goals
+- Redundancy checks
+- Finish adding W3Schools
+- Add more sources

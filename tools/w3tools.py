@@ -63,6 +63,7 @@ def getExamples(topicLinks):
 	choice = random.choice(examples)
 
 	return choice
+	
 def main():
 	tutorial = "javascript"
 	topic = "loop"
@@ -70,20 +71,9 @@ def main():
 	getW3HomepageSoup()
 
 	tutorialsDict = getTutorialsDict()
-	topicLinks = getTopicsSoup(tutorialsDict,tutorial,topic)
+	topicLinks = getTopicsSoup(tutorialsDict, tutorial, topic)
 	out = getExamples(topicLinks)
 
-	outfile = open('out.html', 'w')
-	myfile = open("whathalfone.txt", "r")
-	outfile.writelines(myfile.readlines())
-	myfile.close()
-
-	outfile.write(str(out.prettify()))
-
-	myfile = open("whathalftwo.txt", "r")
-	outfile.writelines(myfile.readlines())
-	myfile.close()
-	outfile.close()
 	# print(out)
 	return out
 

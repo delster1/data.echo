@@ -1,3 +1,4 @@
-input.wav
 __pycache__/
+.vscode/
+input.wav
 out.html

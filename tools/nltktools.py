@@ -21,7 +21,7 @@ tutorialsArr = []
 tutorialsLinksArr = []
 def tutorialGlossary():
 
-    w3treeHtml = open("w3tree.html","r")
+    w3treeHtml = open("resources/w3tree.html","r")
     soup = bs(w3treeHtml,'html.parser') 
 
     for a in soup.find_all("a"):
@@ -70,14 +70,15 @@ def strToLemmatized(inp): # IGNORE
             out.append(word)
     return out
 
-def tagWords(inp: str): #tag words according to aux verb or part of speech for parse
+# tag words according to aux verb or part of speech for parse
+def tagWords(inp: str):
     ct = 0
 
-    inp = inp.split(" ")
+    arr = inp.split(" ")
     out = []
-    with open("topics.txt", "r") as f:
+    with open("resources/topics.txt", "r") as f:
         contents = f.read()
-        for index, word in enumerate(inp):
+        for index, word in enumerate(arr):
             # if word in auxVerbs:
             #     out.append([word,"VAX"]) # Word is an auxillary verb
             if word in questionWords:
@@ -85,7 +86,7 @@ def tagWords(inp: str): #tag words according to aux verb or part of speech for p
             elif word in contents and word not in qw and word not in stoplist and word not in tutorialsArr: 
                 # print(word)
                 ct +=1
-                out.append([(word,"TPC")])
+                out.append([(word,"TPC")]) # TPC = topic
             elif word in tutorialsArr:
                 ct+=1
                 out.append([(word,"TUT")])
@@ -123,7 +124,7 @@ def findType(inp: list): #function to sort tagged input by question type (yes or
 
     return out        
 
-def findArgs(arr,qType,ct):
+def findArgs(arr, qType, ct):
     args = []
     tagsArr = [i[0][1] for i in arr]
     # print(arr)
