@@ -25,7 +25,13 @@ a:visited {
     text-decoration: none;
 }
 
-img {
+.logo {
     align-items: center;
+<<<<<<< HEAD:cssformat.css
 }
 
+=======
+    max-width: 5%;
+    height: auto;
+}
+>>>>>>> 8b1c1a084090a0e4d5432edbbff9ee83249e3b30:resources/styles.css
